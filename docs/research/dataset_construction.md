@@ -3,7 +3,8 @@
 The _triplet dataset_ needs to have the following structure:
 - A contractual clause
 - Vague term(s)
-- Judicial interpretation and reasoning
+- Judicial interpretation and reasoning 
+
 
 Things that need to be answered first:
 
@@ -32,3 +33,15 @@ The base dataset for this is [LegalSeg](https://arxiv.org/pdf/2502.05836) (find 
 ## Triplet Dataset Construction Workflow:
 
 ![Triplet dataset construction workflow](assets/triplet_dataset_construction_workflow.png)
+
+**Step-by-Step walkthrough**
+
+1. Ingest the data. The legal documents/opinions
+2. Detect if the input has an obligation (not vague legal obligation). Flag if it contains one or not.
+    * If it does, apply ***Relevance Filtering*** to identify if they contain vague legal obligations
+    * Compute the probability of vagueness scoring
+    * Apply **coreference resolution** to identify and pickup the vague obligations leaked over to multiple sentences
+    * Use the linked sentences and apply **dependency parsing** to reconstruct the clause
+3. Use the reconstructed clause, and apply substring matching with a vagueness seed set to extract the vague terms
+4. Perform ***Rhetorical Role Labelling*** using a pretrained model. Extract the _decision_ and _reasoning_ chunks.
+5. Use the outputs from step 2 (reconstructed contractual clause), step 3 (vague terms), and step 4 (judicial reasoning segment) to contruct the triplet form.

@@ -1,48 +1,73 @@
 # Dataset Contruction
 
-The _triplet dataset_ needs to have the following structure:
+The idea behind this dataset is to have the model learn from past judicial reasonings. If it were given a contractual clause, will it base its reasoning on the corpora that it has already learned from and base its grounding on it? Even if it does, judicial interpretations are not grounded in such a manner. Courts have an historically significant manner of interpreting such clauses. 
+
+Having the contractual clause, and its accompanying reasoning will enable the model to compare its own reasoning with court interpretations, enabling meaningful alignment tuning to judicial discourse.
+
+The _triplet dataset_ needs to have the following elements:
 - A contractual clause
 - Vague term(s)
 - Judicial interpretation and reasoning 
 
 
-Things that need to be answered first:
+## Leveraing CUAD + COLD Cases
 
-1. First, I understand that the triplet structure will include a contractual clause, the vague term(s) in that clause, and the judicial reasoning. But the pipeline: extract judgments, apply rhetorical role labelling to isolate reasoning segments, link them to cited clauses -- I am not sure as to how to do this; i am clueless. And where do I source the raw judgements from? I mentioned  the US Caselaw Access Project, ECHR-OD, and the Pile-of-Law. But I have not investigated them throughly yet.
+CUAD contains contracts that have neatly been split into paragraphs and accompanied by question and answers that is used for training similar models that can answer questions. Using this, we can extract the contractual clauses from the individual data points, compare the anchor with the vagueness seed set, and extract the vague terms it contains. 
 
-2. Second, I don't know how I am going to filter for relevance. Not every judgement will include a disputed vague obligation term. So I need to identify which cases are actually useful before spending time in processing them. 
+The first phase of extracting the two of the three elements of the JDAR triplet is detailed below:
 
-3. Third, and this is a question: who or what produces the rhetorical labels? I need to isolate the Reasoning and Decision segments from raw judicial texts. How is this going to happen?
+1. Each clause is unique and CUAD contains a number of them. We need the clauses that are either of the following:
+    * Subject to intense pragmatic inference and litigation in courts
+    * Are strict prohibitions but can also litigated in courts based on the contract and case law
 
-### 2. Relevance Filtering Pipeline:
+    These clauses are separated into 3 tiers, with the first two adhering to the above mentioned conditions. The contracts from CUAD are then filtered, and only the top 2 tiered clauses are stored for further computation.
 
-Given a particular judgement, we need to identify whether it contains a disputed vague obligation term or not. For this, the following pipeline will be leveraged:
+2. Using the above mentioned criteria, the following items are extracted from each data point:
+    * Document ID (for cross referencing later if needed)
+    * Clause category/ID
+    * Text from the clause that describes the contract
+    * The tier it belongs to
+    * The set of vague terms contained in it
 
-1. Obligation detection: Leverage SparkNLP to flag whether a document/opinion contains a vague obligation term or not. Identify the _Party_ + _Modal verb_ + _Action_
+    Furthermore, we also need to check whether the clause is:
 
-2. Vagueness scoring: Use vector embeddings to compare against a _Vagueness Seed Set_ (contains the different vague terms used in formal legal language), and identify high-probability vague obligations
+    * Lethal - belongs to tier 1
+    * Has context risk - belongs to tier 2
 
-3. Coreference resolution: Track entities across sentences where the vague obligations might have leaked across sentences, or are burried under formal legal language. Track entities across sentence boundaries, and identify which sentences belong to the same obligation
+3. **Semantic Mapping with Harvard LIL COLD Cases:**
 
-4. Dependency parsing within the linked sentences to reconstruct the fill scattered clause as a unified proposition
+    Harvard LIL COLD Cases contains ~ 8 million case summaries; opinion texts that are the interpretations and reasonings of judges on particular matters. 
 
-### 3. Rhetorical role labelling
+    Using the _clause text_ that was extracted from CUAD, we will semantically compare it with the case summaries in COLD Cases to find the judicial reasoning sentences that are required for our third part of the triplet. 
 
-The base dataset for this is [LegalSeg](https://arxiv.org/pdf/2502.05836) (find the datasets on [HuggingFace](https://huggingface.co/L-NLProc/datasets) or the [github repository](huggingface.co/L-NLProc/datasets)). There are existing pretrained models for this task.
+    **A coarse filter on COLD Cases**
 
-## Triplet Dataset Construction Workflow:
+    The dataset contains a lot of noise that can harm the RL model if fed into it. Therefore, a simple coarse filter will be used to filter out all the opinion text sentences that are not needed for our use case.
 
-![Triplet dataset construction workflow](assets/triplet_dataset_construction_workflow.png)
+    In essence, the filter performs the following:
 
-**Step-by-Step walkthrough**
+    * Checks if the opinion texts belong to contract, commercial law, corporate law, or other such similar cases. No statutory, administrative, or tort law cases will be considered.
+    * Segments each opinion text into individual sentences. Use sentences that have $> 10$ and $\le 100$ words in a sentence. This can be tuned depending on the quality of the filter's output.
+    * Ensures **no statutory sentences** are present. *This is important.*
+    * No checking for modals or seed words (vague terms) in this step.
 
-1. Ingest the data. The legal documents/opinions
-2. Detect if the input has an obligation (not vague legal obligation). Flag if it contains one or not.
-    * If it does, apply ***Relevance Filtering*** to identify if they contain vague legal obligations (`relevance_filter()`)
-    * Compute the probability of vagueness scoring (`score_vagueness()`)
-    * Identify and isolate sentences that contain quoted contractual clauses (`detect_quoted_clauses()`)
-    * Apply **coreference resolution** to identify and pickup the vague obligations leaked over to multiple sentences (`coreference_resolution()`)
-    * Use the linked sentences and apply **dependency parsing** to reconstruct the clause (`dependency_parser()`)
-3. Use the reconstructed clause, and apply substring matching with a vagueness seed set to extract the vague terms
-4. Perform ***Rhetorical Role Labelling*** using a pretrained model. Extract the _decision_ and _reasoning_ chunks.
-5. Use the outputs from step 2 (reconstructed contractual clause), step 3 (vague terms), and step 4 (judicial reasoning segment) to contruct the triplet form.
+    Only a set of case natures will be used, namely:
+    - 'Tort, Contract, and Real Property',
+    - 'Private Civil Diversity',
+    - 'Private Civil Federal',
+    - 'OIL, GAS AND MINERALS',
+
+    **Reverse Constructing the JDAR Triplet**
+
+    Given that we already have the anchor clauses, i.e., the anchor clause, clause text, and the vague terms that were extracted from CUAD. Using these clause texts and the judical reasoning candidates that we have, we can use vector spaces to pair the clause texts with their judicial interpretation counterparts.
+
+    In essence, the triplet has the following structure:
+
+    $
+    \text{JDAR Triplet Data Point} = \begin{cases}
+    \textbf{Clause} : & \text{Clean CUAD Text Snippet} \\
+    \textbf{Terms} : & \text{Extracted Seed Words from the CUAD snippet and the judicial interpretation} \\
+    \textbf{Reasoning} : & \text{Aligned Harvard-LIL COLD Cases Opinion Sentence (i.e., the extracted reasoning sentences}
+    \end{cases}
+    $
+

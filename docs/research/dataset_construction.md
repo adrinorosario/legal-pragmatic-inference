@@ -71,3 +71,21 @@ The first phase of extracting the two of the three elements of the JDAR triplet 
     \end{cases}
     $
 
+## Creating the dataset
+
+1. The corpora with all the opinion texts is preprocessed to retrieve the valid cases adhering to the list of natures that are approved
+    * These are split into windows of fixed sizes, ensuring that a mega batch processing can be later performed instead of a case-by-case basis
+    * The windows are distinct. Along with it, a list of all the filtered words is also extracted into a list
+2. Embeddings are computed for the entire batch, passing it through the bi-encoder model with a larger batch size to accomodate all the text blocks
+3. The similarities between the anchor clauses and the text embeddings from cold cases is computed, producing one giant matrix instead of multiple smaller matrices for each case or batch of cases
+4. The cases that meet the threshold are extracted to form the final set of data points
+
+The final computed dataset has the following structure for each data point:
+
+        {
+            "cuad_category": matching_cuad_metadata["clause_category"],
+            "cuad_anchor": matching_cuad_metadata["clause_text"],
+            "raw_sentence": matching_raw_window,
+            "bi_encoder_score": score,
+            "contract_id": meta["case"].get("title", "Unknown_Contract"),
+        }

@@ -1,0 +1,1154 @@
+[
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "No action,                   case, suit or proceeding, regardless of form, arising out of                   or related to this Agreement, may be brought by either party                   more than one (1) year after the cause of action has arisen,                   or in the case of nonpayment, more than two (2) years from the                   date of the last payment.",
+    "raw_sentence": "1\n       There were actually two civil actions, case numbers 10-C-162-1 and 10-C-167-1 that\nwere consolidated by the circuit court. 1\n\n\f        Thereafter, in July of 2012, after respondent established that he fulfilled his end of the\nagreement with Weaver, the circuit court ordered that a deed be executed conveying the property\nfrom Weaver to respondent. Respondent’s counsel was appointed special commissioner and was\ndirected to prepare the deed from Weaver to respondent pursuant to the 2004 agreement.",
+    "bi_encoder_score": 0.41903507709503174,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Insurance",
+    "cuad_anchor": "The policy or policies shall be written by an insurance company satisfactory to us in accordance with standards and specifications set forth in the Manuals or otherwise in writing, and shall include, at a minimum (except as different coverages and policy limits may reasonably be specified for all franchisees from time to time by us in the Manuals or otherwise in writing) the following:\n\n            1.    All risks coverage insurance on the Franchised Restaurant and all fixtures, equipment, supplies and other property used in the operation of the Franchised Restaurant, for full repair and replacement value of the machinery, equipment, improvements and betterments, without any applicable co-insurance clause, except that an appropriate deductible clause shall be permitted.\n\n            2.    Worker's compensation and employer's liability insurance as well as such other insurance as may be required by statute or rule of the state in which the Franchised Restaurant is located and operated.\n\n            3.    Comprehensive general liability insurance and product liability insurance with minimum limits of ONE MILLION Dollars ($1,000,000) combined single limit including the following coverages: contractual liability; personal injury; products/completed operation; and tenant's fire legal liability; insuring against all claims, suits, obligations, liabilities and damages, including attorneys' fees, based upon or arising out of actual or alleged personal injuries or property damage resulting from, or occurring in the course of, or on or about or otherwise relating to the Franchised Restaurant, provided that the required amounts herein may be modified from time to time by us to reflect inflation or future experience with claims.\n\n            4.    If you offer delivery service or utilize motor vehicles for any other purpose in the operation of the Franchised Restaurant, automobile liability insurance, including owned, hired and non-owned vehicle coverage, with a combined single limit of at least ONE MILLION Dollars ($1,000,000).\n\n            5.    Such insurance and types of coverage as may be required by the terms of any lease for the Franchised Restaurant, or as may be required from time to time by us.\n\n            6.    Liquor liability coverage in a minimum amount of ONE MILLION Dollars ($1,000,000) or such other amount as may be specified by us.",
+    "raw_sentence": "Berkhouse contends that the Charleston Moose Lodge is a named insured under the\npolicy, thus under National Mutual Insurance Company, Great American Assurance was\nrequired to bring the liquor liability exclusion to the Charleston Moose Lodge’s attention. Berkhouse argues that Great American Assurance failed in this obligation. He asserts that the\npolicy was bound and effective by May 1, 2008, but the written policy document was not\ncompiled and delivered to Moose International’s representative until June 26, 2008, at the\nearliest—nineteen days after Ms.",
+    "bi_encoder_score": 0.41204220056533813,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "appropriate",
+      "satisfactory",
+      "applicable",
+      "from time to time"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bobligation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "time",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "This Agreement does not provide, and is not intended to be        construed or deemed to provide, any policyholder of the Company with        recourse to or against any of the assets of AIG.",
+    "raw_sentence": "ACE paid its policy limit of $2 million, and AGLIC furnished the\n   excess amount of nearly $8 million. AGLIC then sued ACE in federal court for equitable subrogation, 7\n   urging ACE had violated its Stowers duty to Brickman by rejecting the\n   Braswells’ settlement offers. “We review grants of summary judgment de novo,” affirming “if the\n   movant shows that there is no genuine dispute as to any material fact and the\n   movant is entitled to judgment as a matter of law.” 8 When reviewing a bench\n   trial judgment, we inspect findings of fact for clear error and review legal\n   conclusion de novo.",
+    "bi_encoder_score": 0.4407009780406952,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bsummary judgment\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Post-Termination Services",
+    "cuad_anchor": "Upon the termination of this Agreement by either party:",
+    "raw_sentence": "2015)\n(acknowledging that Jespersen requires “close parsing of the contract language” and\ndetermining that contract language was sufficient to supplant the at-will termination rule\nbecause contract “said [one party] could terminate the contract only if [other party] violated\nit.”); Baldwin Piano, Inc. 2004)\n(holding that specific language of the contract placed “substantive restrictions” on the\n“reasons for termination” of the agreement between the parties). 42 See Burford, 786 F.3d at 587–88 (discussing economics of a sales representative’s\n\ncontract); Baldwin Piano, Inc., 392 F.3d at 885 (discussing economics of a “trademark license”\nversus a “distribution contract”).",
+    "bi_encoder_score": 0.41544920206069946,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "termination of this Agreement"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 3,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe contract\\b",
+      "\\bthe agreement\\b",
+      "\\bcontract language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "time",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "Agreement  may  be  terminated prior to the conclusion of the  Term  by  giving  written  notice  of  termination: A.     By  either  party  as  a  result of default by the other party under this Agreement  and failure to cure said default within thirty (30) days after notice of  said  default  is  given. B.     By  either  party  in the event of insolvency, receivership, voluntary or involuntary  bankruptcy  or  an assignment for the benefit of creditors of or by the Affiliate other than in the ordinary course of business.  However, Affiliate may  pledge  or  otherwise  collateralize  assets  for  the  purpose of securing commercial  loans or lines of credit in the ordinary course of business provided that  such  pledge  is  subordinate  to an security interest associated with the Merchant  accounts  and/or  losses  from  such  accounts. C.     By  Affiliate  in  the event of any changes in the Affiliate's Fee (other than  direct  pass through increases related to Visa and MasterCard interchange, fees,  assessments  and  dues,  processor  communication costs, and other direct increases  including  terminal  hardware). D.     By Network 1, for cause. For purpose hereof; \"cause\" shall consist of (i) fraud,  intentional  misrepresentation  or  negligence  by  Affiliate  or  any Contractor  located  by  Affiliate  in  compiling  or  providing any information submitted  to  or relied on by Network 1 to Network 1, whether or not such fraud or  misrepresentation  is based on a misstatement, omission, a substantive fact, or  data;  (ii)  intentional  violations  by  the Affiliate or any Contractor(s) located by Affiliate of any of the rules or regulations of VISA, MasterCard, the Member Bank or Network 1; and (iii) the providing of vendor services or merchant services  by  Affiliate  or  Contractor(s)  located  by  Affiliate  which  are competitive  with  Network  1 or without the prior written consent of Network 1, contrary  to Section 1.01  [CONTRACTORS] and IV, violation of any clause of Network 1 Affiliate Office  Agreement  and  failure  to  cure  such  violation  within  30  days  of notification",
+    "raw_sentence": "For instance, Visa’s letter to Chase announcing the\n   assessments documented its investigation into intrusions at 14 different\n\n\n          11\n             The Merchant Agreement defines ‘Payment Brand Rules’ as “the bylaws, rules,\n   and regulations, as they exist from time to time, of the Payment Brands.”\n          12\n             As relevant here, the Merchant Agreement defines ‘Security Guidelines’ to\n   include the PCI DSS. 14\n\fCase: 21-20447      Document: 00516653713             Page: 15      Date Filed: 02/23/2023\n\n\n\n\n                                       No. Landry’s may dispute Chase’s ability to independently prove the Payment\n   Brands’ conclusions on this record, but it is within the text of the clause that\n   the assessments were imposed “by the Payment Brands” as a “result” of\n   Landry’s “failure to comply with the Payment Brand Rules.”\n          Furthermore, the Merchant Agreement incorporates the Payment\n   Brand Rules, which give the Payment Brands the right to determine whether\n   someone violated them.",
+    "bi_encoder_score": 0.43045181035995483,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "ordinary course of business",
+      "and/or",
+      "related"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe clause\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "relevant"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Anti-Assignment",
+    "cuad_anchor": "Notwithstanding the aforesaid, either Party shall be entitled to assign, delegate, and/or subcontract its rights and obligation under this Agreement, in whole or in part, to one or more of its Affiliates on prior written notice to the other Party.",
+    "raw_sentence": "Unless the plaintiffs challenged the\n\ndelegation language specifically, we must treat it as valid under the FAA and must\n\nenforce it, leaving any challenge to the validity of the arbitration agreement as a whole\n\nfor the arbitrator.48    The plaintiffs’ arguments addressed the validity of the arbitration\n\nagreement as a whole, but failed to even mention the delegation language in their\n\narguments to the circuit court and this Court. On these procedural facts, we find that the\n\ndelegation language within the parties’ arbitration agreement is enforceable, and that the\n\n              48\n                   Rent-A-Center, 561 U.S. CONCLUSION\n\n\n              We reverse the circuit court’s March 6, 2014, order, and remand the case to\n\nthe circuit court with directions to refer the plaintiffs’ challenge to the enforceability of\n\nthe arbitration clause to an arbitrator, in accordance with the parties’ contract.",
+    "bi_encoder_score": 0.41013258695602417,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "and/or"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 2,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bwe reverse\\b",
+      "\\bprocedural\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "SHBV agrees not to engage in business dealings, discussions, or otherwise work directly with any third parties introduced to SHBV  through W2E, or to exploit any pre-existing relationship of W2E with any third party that has been represented to SHBV by W2E,  without the prior consent and/or direct participation of W2E.",
+    "raw_sentence": "660, 827 S.E.2d 605 (2019); SWN Production Co., LLC v. And do the claims at issue in the case fall within the scope of the arbitration agreement?”\nGolden Eagle Res., II, L.L.C. 1\n\ffrom this inspection and report, except for inspection fee payment, shall be resolved\n\ninformally between the parties.”\n\n\n\n\n             It is a fundamental principle in West Virginia law that “[a] meeting of the\n\nminds of the parties is a sine qua non of all contracts.” Syl.",
+    "bi_encoder_score": 0.4016179144382477,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "and/or"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In any action or proceeding between the Parties (including any arbitration proceeding) arising under or with respect to this Agreement or in any manner pertaining to the Hyatt All-Inclusive Resorts or to the relationship of the Parties under this Agreement, each Party hereby unconditionally and irrevocably waives and releases any right, power or privilege either may have to claim or receive from the other Party any punitive or exemplary damages, each Party acknowledging and agreeing that the remedies herein provided and other remedies at law or in equity will in all circumstances be adequate.",
+    "raw_sentence": "We agree\nwith the parties that the claims arising under the 1977 Agreement are not subject to\narbitration because there is no applicable arbitration provision in that agreement, nor does\nit incorporate the 1929 Lease by reference. While it may seem counterintuitive to split\nclaims for resolution, as we previously explained, “[t]he Federal Arbitration Act, 9 U.S.C. § 2, requires that if a lawsuit presents multiple claims, some subject to an arbitration\nagreement and some not, the former claims must be sent to arbitration—even if this will lead\nto piecemeal litigation.” Syl.",
+    "bi_encoder_score": 0.4181910753250122,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "adequate"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\brequires that\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "necessity",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "2\n\fsua sponte struck punitive damages claimed by petitioner in his complaint. “‘Ordinarily, in the absence of a written motion for summary judgment by one of the\nparties, the court is not authorized sua sponte to grant a summary judgment.’ Syllabus Point 2,\nGavitt v. We have recognized an exception to this\ngeneral rule\n\n       [w]here a court acts with great caution, assuring itself that the parties to be bound\n       by its judgment have had an adequate opportunity to develop all of the probative\n       facts which relate to their respective claims, the court may grant summary judgment\n       under Rule 56, W.Va.",
+    "bi_encoder_score": 0.42360758781433105,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bsummary judgment\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Insurance",
+    "cuad_anchor": "Company will carry a reasonable                   amount of product  liability  insurance  through a  reasonably                   acceptable  products liability insurance company and will name                   the  Distributor  as an additional  insured under that policy.                   Company  will make  reasonable  efforts  to  procure a policy,                   which is non-cancelable, except upon thirty (30) days, advance                   notice to the Distributor.",
+    "raw_sentence": "14\n\f   Case: 13-31281     Document: 00513128507     Page: 15   Date Filed: 07/24/2015\n\n\n                                 No. 13-31281\n\n\nlosses for the company and “any subsidiary corporation now existing or\nhereafter created or acquired.” Id. Before the district court, the plaintiff\nsought to introduce affidavits from the original parties to the agreement\nevincing that they intended to include LLCs in the coverage.",
+    "bi_encoder_score": 0.42788299918174744,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "acceptable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "industry_norms",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "This Agreement does not provide, and is not intended to be        construed or deemed to provide, any policyholder of the Company with        recourse to or against any of the assets of AIG.",
+    "raw_sentence": "Cameron responds that its disputed indemnity claim\nagainst Transocean does not “appl[y]” to its loss because Transocean refused\nCameron’s demands for indemnification. Cameron also argues that its\ndisputed indemnity claim against Transocean does not constitute “other\ninsurance” at all. To refresh, the Other Insurance Clause provides that “[i]f other\ninsurance applies to a ‘loss’ that is also covered by this policy, this policy will\napply excess of such other insurance.” In turn, the policy defines “other\ninsurance” as “any type of self-insurance, indemnification or other mechanism\nby which an Insured arranges for funding of legal liabilities.” “‘Other\ninsurance’ clauses are generally designed by insurers to ‘avoid an insured’s\ntemptation or fraud of over-insuring .",
+    "bi_encoder_score": 0.4055567979812622,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bprovides that\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "The foregoing indemnities shall expressly exclude any liability for consequential, punitive, special or similar damages, including, without limitation, lost profits.",
+    "raw_sentence": "Following an explosion that\n\nkilled two workers, a judgment was obtained against Eastern for the damages. Eastern then\n\nsought indemnification in accordance with its agreement with Midwest. Likewise, we find the broad language used in the H & D Agreement, which includes losses\n\nrelating to or in connection with Medford’s work, either directly or indirectly, is sufficiently\n\nclear and definite to express that Medford agreed to indemnify Elk Run for Elk Run’s sole\n\nnegligence so long as that negligence bore some relation, either directly or indirectly, to\n\nMedford’s work.",
+    "bi_encoder_score": 0.42771756649017334,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "similar",
+      "without limitation"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "Gulf Oil and Gulf India each agree during the Non-Compete Period not to acquire, directly or indirectly, control of any businesses involved in, or otherwise competing with, the business of the Combined Business from any entity on Schedule 1 hereto.",
+    "raw_sentence": "Distinguishing\nbetween maritime and non-maritime contracts “turns on a minute parsing of\nthe facts,” but we are bound by the Davis approach — however inexact it may\nbe. In Davis, the parties entered a Master Service\nAgreement under which Gulf Oil would issue work orders directing Davis to\nperform specific tasks related to its natural-gas and crude-oil wells. The agreement contained an indemnity clause requiring Davis to\nindemnify Gulf Oil against any claims that may arise out of their relationship.",
+    "bi_encoder_score": 0.4277206063270569,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "directly or indirectly"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "This Agreement does not provide, and is not intended to be        construed or deemed to provide, any policyholder of the Company with        recourse to or against any of the assets of AIG.",
+    "raw_sentence": ",We reject Old Republic’s arguments that the circuit court \"applied principles of equitable sub-rogation to extinguish” or modify its statutory right of subrogation. In these instances, the terms of the insurance policy will more than likely govern the manner in which either the insured reimburses the insurer or the insurer reimburses its insured. Arguably, under the foregoing contractual language, Old Republic may have a basis for asserting that Speed Mining breached the terms of the insurance policy; however, it is uncertain as to how it can be established that Speed Mining failed to protect Old Republic's contractual rights given Old Republic had not expended any money pursuant to the insurance policy at the time of the settlement.",
+    "bi_encoder_score": 0.40970146656036377,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bcontractual\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Insurance",
+    "cuad_anchor": "Company will carry a reasonable                   amount of product  liability  insurance  through a  reasonably                   acceptable  products liability insurance company and will name                   the  Distributor  as an additional  insured under that policy.                   Company  will make  reasonable  efforts  to  procure a policy,                   which is non-cancelable, except upon thirty (30) days, advance                   notice to the Distributor.",
+    "raw_sentence": "By doing so, we do not intend to disturb any of this court’s prior precedents on what\n   separates “plain legal prejudice” from factual injuries. 8\n\fCase: 20-30208      Document: 00515761805           Page: 9    Date Filed: 03/01/2021\n\n\n\n\n                                     No. 20-30208\n\n\n          Under Louisiana law, an insurance policy is a contract for which the\n   extent of coverage is governed by the intent of the parties “as reflected by the\n   words of the policy.” Reynolds v.",
+    "bi_encoder_score": 0.430840402841568,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "acceptable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "industry_norms",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Non-Disparagement",
+    "cuad_anchor": "Either Party shall have the right to immediately terminate this Agreement in the event the other Party, in such Party's reasonable discretion, engages in illegal, indecent, immoral, harmful or scandalous behavior or activities that may directly or indirectly damage such Party's reputation or goodwill or violates any rules or regulations of Team or the National Football League or if this would otherwise violate League policy or directive.",
+    "raw_sentence": "17-40936\nNFL-National Football League Players Association (NFLPA) Collective\nBargaining Agreement (CBA), for punishing NFL players. We now know that\nRoberts’ recommendation was that there should be no punishment. On August 11, 2017, the NFL sent Elliott a letter informing him of\nGoodell’s decision to suspend him for six games.",
+    "bi_encoder_score": 0.4287792146205902,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "directly or indirectly"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Covenant Not To Sue",
+    "cuad_anchor": "Notwithstanding any prior termination of the Owner or this Agreement, the Servicer shall not at any time with respect to the Owner, acquiesce, petition or otherwise invoke or cause the Owner to invoke the process of any court or governmental authority for the purpose of commencing or sustaining a case against the Owner under any federal or state bankruptcy, insolvency or similar law or appointing a receiver, conservator, liquidator, assignee, trustee, custodian, sequestrator or other similar official of the Owner or any substantial part of its property, or ordering the winding up or liquidation of the affairs of the Owner.",
+    "raw_sentence": "is binding only upon the parties to the action, their\n\nofficers, agents, servants, employees, and attorneys, and upon those persons in active\n\nconcert or participation with them who receive actual notice of the order by personal\n\nservice or otherwise.”); Kurtis A. Kemper, Propriety Under Circumstances of State Court\n\nInjunction Against Nonmatrimonial Action in Court of Sister State, 20 A.L.R.6th 211\n\n(2006) (“It is clearly within the equitable powers of a state court to restrain a person over\n\nwhom it has jurisdiction from instituting or proceeding with an action in a sister state’s\n\ncourt. The exercise of such power does not direct or control a sister state’s court but\n\noperates in personam upon a party over whom the court has jurisdiction.”).",
+    "bi_encoder_score": 0.40153342485427856,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "similar",
+      "substantial"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bjurisdiction\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Neither Party shall be liable to the other Party in contract, tort or otherwise, whatever the cause, for any loss of profit, business or goodwill or any indirect, incidental or consequential costs, damages or expenses of any kind, except for such loss attributable to breach of confidentiality.",
+    "raw_sentence": "2001) (concluding non-signatory to contract was “closely related to the disputes arising out of\nthe agreements and properly bound by the forum-selection provisions”); and Deloitte & Touche\nv. 2006) (observing that “where the\ninterests of a non-party are directly related to or completely derivative of those of the contracting\nparty, the non-signatory is bound by the contract’s forum selection clause.”). Petitioners’ final assignment of error is that the circuit court abused its discretion by\ndenying their request for discovery of parol evidence regarding the contract’s interpretation.",
+    "bi_encoder_score": 0.4115994870662689,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\binterpretation\\b",
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "related"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Covenant Not To Sue",
+    "cuad_anchor": "Notwithstanding any prior termination of the Owner or this Agreement, the Servicer shall not at any time with respect to the Owner, acquiesce, petition or otherwise invoke or cause the Owner to invoke the process of any court or governmental authority for the purpose of commencing or sustaining a case against the Owner under any federal or state bankruptcy, insolvency or similar law or appointing a receiver, conservator, liquidator, assignee, trustee, custodian, sequestrator or other similar official of the Owner or any substantial part of its property, or ordering the winding up or liquidation of the affairs of the Owner.",
+    "raw_sentence": "When the association became controlled by the unit owners, it moved to terminate the note. The court reviewed the purpose of Nevada’s provision\n\nallowing termination, comparing it to the Restatement (Third) of Property’s similar\n\nprovision that assists members who “have little opportunity to protect themselves while the\n\nassociation is under the control of the developer.” Id. at *26 (quoting Restatement (Third)\n\nof Property: Servitudes § 6.19 cmt.",
+    "bi_encoder_score": 0.43324682116508484,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "similar",
+      "substantial"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "similar"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In any action or proceeding between the Parties (including any arbitration proceeding) arising under or with respect to this Agreement or in any manner pertaining to the Hyatt All-Inclusive Resorts or to the relationship of the Parties under this Agreement, each Party hereby unconditionally and irrevocably waives and releases any right, power or privilege either may have to claim or receive from the other Party any punitive or exemplary damages, each Party acknowledging and agreeing that the remedies herein provided and other remedies at law or in equity will in all circumstances be adequate.",
+    "raw_sentence": "3 But it does\nnot focus its arbitration request on the spoliation claims. Instead it wants to\narbitrate Danna’s pursuit (and receipt) of lost wages from the Ritz as part of\nhis whistleblower and breach of contract claims. Marriott and Sheraton try to connect those damages awarded against\nthe Ritz to them, and thus the arbitration agreement signed three years after\nthe Ritz employment ended, by pointing out that the later Sheraton\n\n\n\n       2  It is far from clear that the spoliation claim is subject to arbitration.",
+    "bi_encoder_score": 0.40822115540504456,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "adequate"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "necessity",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Insurance",
+    "cuad_anchor": "The policy or policies shall be written by an insurance company satisfactory to us in accordance with standards and specifications set forth in the Manuals or otherwise in writing, and shall include, at a minimum (except as different coverages and policy limits may reasonably be specified for all franchisees from time to time by us in the Manuals or otherwise in writing) the following:\n\n            1.    All risks coverage insurance on the Franchised Restaurant and all fixtures, equipment, supplies and other property used in the operation of the Franchised Restaurant, for full repair and replacement value of the machinery, equipment, improvements and betterments, without any applicable co-insurance clause, except that an appropriate deductible clause shall be permitted.\n\n            2.    Worker's compensation and employer's liability insurance as well as such other insurance as may be required by statute or rule of the state in which the Franchised Restaurant is located and operated.\n\n            3.    Comprehensive general liability insurance and product liability insurance with minimum limits of ONE MILLION Dollars ($1,000,000) combined single limit including the following coverages: contractual liability; personal injury; products/completed operation; and tenant's fire legal liability; insuring against all claims, suits, obligations, liabilities and damages, including attorneys' fees, based upon or arising out of actual or alleged personal injuries or property damage resulting from, or occurring in the course of, or on or about or otherwise relating to the Franchised Restaurant, provided that the required amounts herein may be modified from time to time by us to reflect inflation or future experience with claims.\n\n            4.    If you offer delivery service or utilize motor vehicles for any other purpose in the operation of the Franchised Restaurant, automobile liability insurance, including owned, hired and non-owned vehicle coverage, with a combined single limit of at least ONE MILLION Dollars ($1,000,000).\n\n            5.    Such insurance and types of coverage as may be required by the terms of any lease for the Franchised Restaurant, or as may be required from time to time by us.\n\n            6.    Liquor liability coverage in a minimum amount of ONE MILLION Dollars ($1,000,000) or such other amount as may be specified by us.",
+    "raw_sentence": "18-10721\nState Farm Lloyds pursuant to their homeowner’s insurance policy. That policy\nrequired State Farm to provide a defense against a suit for bodily injury. Specifically, the insurance policy requires State Farm to provide a\ndefense “[i]f a claim is made or a suit is brought against an insured for damages\nbecause of bodily injury .",
+    "bi_encoder_score": 0.4194309413433075,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "appropriate",
+      "satisfactory",
+      "applicable",
+      "from time to time"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "time",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Insurance",
+    "cuad_anchor": "The policy or policies shall be written by an insurance company satisfactory to us in accordance with standards and specifications set forth in the Manuals or otherwise in writing, and shall include, at a minimum (except as different coverages and policy limits may reasonably be specified for all franchisees from time to time by us in the Manuals or otherwise in writing) the following:\n\n            1.    All risks coverage insurance on the Franchised Restaurant and all fixtures, equipment, supplies and other property used in the operation of the Franchised Restaurant, for full repair and replacement value of the machinery, equipment, improvements and betterments, without any applicable co-insurance clause, except that an appropriate deductible clause shall be permitted.\n\n            2.    Worker's compensation and employer's liability insurance as well as such other insurance as may be required by statute or rule of the state in which the Franchised Restaurant is located and operated.\n\n            3.    Comprehensive general liability insurance and product liability insurance with minimum limits of ONE MILLION Dollars ($1,000,000) combined single limit including the following coverages: contractual liability; personal injury; products/completed operation; and tenant's fire legal liability; insuring against all claims, suits, obligations, liabilities and damages, including attorneys' fees, based upon or arising out of actual or alleged personal injuries or property damage resulting from, or occurring in the course of, or on or about or otherwise relating to the Franchised Restaurant, provided that the required amounts herein may be modified from time to time by us to reflect inflation or future experience with claims.\n\n            4.    If you offer delivery service or utilize motor vehicles for any other purpose in the operation of the Franchised Restaurant, automobile liability insurance, including owned, hired and non-owned vehicle coverage, with a combined single limit of at least ONE MILLION Dollars ($1,000,000).\n\n            5.    Such insurance and types of coverage as may be required by the terms of any lease for the Franchised Restaurant, or as may be required from time to time by us.\n\n            6.    Liquor liability coverage in a minimum amount of ONE MILLION Dollars ($1,000,000) or such other amount as may be specified by us.",
+    "raw_sentence": "And the Policy here does exactly that; it starts with the\ncoverage grants and then establishes exclusions in a separate subsection titled “Exclusions.”\nThis sequence—from affirmative coverage to negative carve-outs—makes more sense than\nthe structure of the Verified Replacement Cost Endorsement proposed by Chubb. 9\n\f    Case: 14-51301      Document: 00513359490        Page: 10    Date Filed: 01/28/2016\n\n\n\n                                    No. 14-51301\nof liability on which Chubb bore the burden of proof.",
+    "bi_encoder_score": 0.4246242344379425,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "appropriate",
+      "satisfactory",
+      "applicable",
+      "from time to time"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "time",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Anti-Assignment",
+    "cuad_anchor": "Without the prior written consent of the other party, neither party shall assign or transfer any of its rights or obligations hereunder, in whole or in part, to any third party, and any purported assignment without such prior written consent shall be null and void and of no force and effect; except that notice, but no consent shall be required for such assignment or transfer in connection with an internal reorganization or sale of the transferring party, including by merger or other business combination, or a sale of substantially all of the assets of the transferring party.",
+    "raw_sentence": "However, a different presumption arises when the servitude in question\n\ninvolves a right of first refusal. 14 “Rights of first refusal are presumed to be personal, and\n\nare thus not assignable unless either the clause granting the right refers to successors or\n\nassigns or the instrument clearly shows that the right was intended to be assignable.” 6A\n\nC.J.S. Burns Concrete, Inc., 164 Idaho 729, 732,\n\n435 P.3d 509, 512 (2019) (noting that “the majority of case law .",
+    "bi_encoder_score": 0.40184086561203003,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 0,
+    "d1_matched_terms": [],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe clause\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": null,
+    "d3_matched_category_terms": [],
+    "total_score": 0,
+    "passes": false
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "; provided, however that nothing in this Agreement shall: (i) prohibit or restrict any Seller, directly or indirectly, from owning, as a passive investor, not more than five (5%) percent collectively and in the aggregate of any class of outstanding publicly traded securities of any Person so engaged; (ii) prohibit or restrict any Seller, directly or indirectly, from engaging in such Seller's business as conducted on the Effective Date and reasonable extensions thereof, which may include routine, day-to-day transactions with any entity, and (iii) apply to or restrict any business of which a Seller acquires control after the Effective Date provided that the acquired business did not receive more than $25,000,000 of its aggregate net sales (as measured during the 12 full calendar months prior to such acquisition) from product lines included within the definition of Company Business.",
+    "raw_sentence": "the representations and warranties of the Buyer\nor the Seller, respectively, in this Agreement are true and correct as of such\nClosing Date” (emphasis added). 8\n\f     Case: 17-40148        Document: 00514634408           Page: 9     Date Filed: 09/10/2018\n\n\n                                        No. Wal-\nMart Stores, Inc., 780 F.3d 272, 277 (5th Cir.",
+    "bi_encoder_score": 0.4184476137161255,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "directly or indirectly"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Post-Termination Services",
+    "cuad_anchor": "In addition, subject to (i) your (or your authorised representative or estate signing, if the termination is due to your death) signing a settlement agreement and a separation agreement and release (together the \"Settlement Agreements\") in a form and manner satisfactory to the Company, which shall include, without limitation, a general release of claims against the Company and all related persons and entities, a reaffirmation of all of your continuing obligations to the Company, including those set forth in paragraphs 13 - 15, and (in the case of the separation agreement and release) and a seven (7) business day revocation period; and (ii) the separation agreement and release becoming irrevocable, all within 60 days after the Termination Date (or such shorter period as set forth in the Settlement Agreements), the Company shall: (A) pay you (or your authorised representative or estate if the termination is due to your death) an amount equal to nine (9) months of your salary as of the Termination Date (which payment shall not be reduced by either the value of any salary paid to you during your notice period or by any payment in lieu of notice made pursuant to paragraph 11.2); and (B) pay you (or your authorised representative or estate if the termination is due to your death) an amount equal to the cost to the Company of providing you with the contractual benefits under paragraph 5 for nine (9) months or, at the Company's option, continue to provide you with such benefits for nine (9) months.",
+    "raw_sentence": "The\n\nmajority has not cited one case that allows a party to retain the fruits of a settlement\n\nagreement while breaching the terms of the deal. Before examining the language of the Severance Agreement and General\n\nRelease (hereinafter “Agreement”), it is important to summarize the facts leading up to its\n\nexecution. Henzler was employed by CrossAmerica Partners, LP (hereinafter\n\n“CrossAmerica”) as an area supervisor at a convenience store.",
+    "bi_encoder_score": 0.4078916013240814,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "satisfactory",
+      "related",
+      "without limitation"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "2001) (“Where\nthe complaint asserts claims on theories of both contract and quantum meruit and there is\na genuine dispute as to the existence of a contract, the plaintiff need not make a pretrial\nelection between these theories; he is entitled to have the case submitted on both theories.”)\nBut a plaintiff cannot recover damages under both theories. 10\n\f              Returning to the facts of this case, we find that the substance of CES’s unjust\n\nenrichment claim falls squarely within the subject matter of the MSA. 9           Under these\n\ncircumstances, the MSA established the parties’ rights and duties and provides an adequate\n\nremedy at law for breach of contract.",
+    "bi_encoder_score": 0.41847968101501465,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Neither Party shall be liable to the other Party in contract, tort or otherwise, whatever the cause, for any loss of profit, business or goodwill or any indirect, incidental or consequential costs, damages or expenses of any kind, except for such loss attributable to breach of confidentiality.",
+    "raw_sentence": "2020) (a “liquidated damages contract provision establishes an\n   ‘acceptable measure of damages that parties stipulate in advance will be\n   assessed in the event of a contract breach.’” (quoting Flores v. Although the freedom to\n   contract is a policy “deeply embedded” in Texas’s jurisprudence, equally\n   established is the “universal rule” that damages for a breach of contract—\n   like a failure to pay rent by an agreed-upon date—“are limited to just\n   compensation for the loss or damage actually sustained.” Id. (quoting\n\n\n\n                                         18\n\fCase: 18-50846      Document: 00516124697          Page: 19      Date Filed: 12/09/2021\n\n\n\n\n                                      No.",
+    "bi_encoder_score": 0.4077598452568054,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "limited"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Audit Rights",
+    "cuad_anchor": "Upon the request of the Trust or its designee, Administrator shall provide copies of all the historical records relating to transactions between the Funds and the Plans, written communications regarding the Funds to or from such Plans and other materials, in each case (i) as are maintained by Administrator in the ordinary course of its business and in compliance with laws and regulations governing transfer agents, and (ii) as may reasonably be requested to enable the Trust or its representatives, including without limitation its auditors or legal counsel, to (a) monitor and review the Services, (b) comply with any request of a governmental body or self-regulatory organization or a Plan, (c) verify compliance by Administrator with the terms of this Agreement, (d) make required regulatory reports, or (e) perform general customer supervision. Administrator agrees that it will permit the Trust or such representatives to have reasonable access to its personnel and records in order to facilitate the monitoring of the quality of the Services.",
+    "raw_sentence": "9\n           For example, each plaintiff would certainly produce that plaintiff’s\n   own contract, which expressly makes FBG a fiduciary by incorporating the\n   Master Trust Agreement. The predominant question from the production of\n   the Master Trust Agreements is whether it operates as Plaintiffs assert. That\n   question’s      commonality         unequivocally         dominates       any     potential\n   individualized inquiries that could arise thereafter.",
+    "bi_encoder_score": 0.406806081533432,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "without limitation"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Post-Termination Services",
+    "cuad_anchor": "by applicable Laws and regulations.",
+    "raw_sentence": "shall enact or enforce any law, rule, regulation,\n       standard, or other provision having the force and effect of law\n       relating to— . (C) the authority to provide intrastate or interstate charter\n              bus transportation. (2) MATTERS NOT COVERED.—Paragraph (1) shall not restrict the\n       safety regulatory authority of a State with respect to motor\n       vehicles, [among other things] .",
+    "bi_encoder_score": 0.42761051654815674,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Insurance",
+    "cuad_anchor": "Power2Ship is advised to obtain and maintain property and casualty insurance for the Equipment against all risks of loss or damage.",
+    "raw_sentence": "The\n   Vessel sustained damage during the storm and sank at its mooring. The\n   Vessel was insured under an insurance policy issued by Great Lakes. Great\n   Lakes also insured several other watercraft within Gray Group’s fleet under\n   similar policies.",
+    "bi_encoder_score": 0.4042169451713562,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 0,
+    "d1_matched_terms": [],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": null,
+    "d3_matched_category_terms": [],
+    "total_score": 0,
+    "passes": false
+  },
+  {
+    "cuad_category": "Insurance",
+    "cuad_anchor": "Each Party shall maintain, at its own cost, comprehensive product liability insurance, general commercial liability insurance and business interruption insurance at a level which is reasonable and customary taking into account the nature of the Product but which shall  have combined limits of not less than $[**] per occurrence.",
+    "raw_sentence": "385, 508 S.E.2d\n\n102 (“In a policy for commercial general liability insurance . when a party has an ‘insured\n\ncontract,’ that party stands in the same shoes as the insured for coverage purposes.”). Thus,\n\nElk Run is an additional insured under the RSUI policy, just as it is under the Canopius\n\npolicy.",
+    "bi_encoder_score": 0.4395228624343872,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "customary"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "industry_norms",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "1  The Settlement Agreement defines “Claim” as “any demand or request for\ncompensation . together with any properly completed form and accompanying required\ndocumentation, submitted by a Claimant to the Settlement Program.” The terms “Claim File”\nand “Claims-related data” are not defined in the Settlement Agreement. 3\n\f     Case: 14-30823      Document: 00513118071        Page: 4     Date Filed: 07/16/2015\n\n\n\n                                     No.",
+    "bi_encoder_score": 0.40590792894363403,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "related"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "14-30269\nare under no obligation to accept the final payment offered to you by the\n[GCCF]. You are free to reject the final payment offered by the GCCF and to\npursue other means of compensation. If you want to file a lawsuit regarding\nthe incident do not sign the Release.”            If the Form containing the Final\nPayment Offer constituted a binding settlement agreement, then the GCCF\nwould not advise a claimant in the Release of his right to decline to sign the\nRelease and to pursue a lawsuit.",
+    "bi_encoder_score": 0.4186539649963379,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bobligation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "This Agreement does not provide, and is not intended to be        construed or deemed to provide, any policyholder of the Company with        recourse to or against any of the assets of AIG.",
+    "raw_sentence": "That’s so even though “the insurer may become obligated to\n   defend against causes of action and theories of recovery that the policy does\n   not actually cover.” Stoneridge Dev. As one Illinois\n   state court put it, the contention that the relevant documents “must\n   explicitly identify the claim that is within the ‘additional insured’ coverage\n   represents an unduly narrow reading of the applicable test.” Pekin Ins. And as\n   another explained, the relevant documents “need not allege or use language\n   affirmatively bringing the claims within the scope of the policy.” W.",
+    "bi_encoder_score": 0.41286423802375793,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "applicable"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "This Agreement does not provide, and is not intended to be        construed or deemed to provide, any policyholder of the Company with        recourse to or against any of the assets of AIG.",
+    "raw_sentence": "18-20239\n\nplural “insurers.” Finally, Ironshore’s timing argument is undercut by the\nMSA, which did not require Statoil to acquire its insurance policies before\nentering the contract. Ironshore has not provided any additional proof that it\nis not an “insurer” under the MSA. Without a convincing argument or\nsupporting caselaw that it is not an insurer under the MSA, Ironshore has not\ncarried its burden of proving a valid arbitration agreement on this ground.",
+    "bi_encoder_score": 0.40178775787353516,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "The December 7, 2017, e-mail stated that, as\nbetween Emmaus and respondents, (1) Emmaus would forego all of its lease rights to seams\nlocated above the Gilbert Seam; (2) respondents would forego all of their lease rights to the Gilbert\nSeam and below; and (3) in order to effectuate the foregoing, Emmaus would partially assign to\nrespondents its rights as lessee under the September 26, 2012, and November 21, 2012, leases, by\nexecuting an assignment to be drafted by respondents’ counsel. Emmaus also agreed, with regard\nto a certain tract (Tract 18), to pay an overriding royalty to respondents in the amount of $1.00 per\nton, up to $350,000, with a $15,000 annual minimum. On December 18, 2017, having received no objection to the terms outlined in the December\n7th e-mail, respondents’ counsel forwarded settlement documents to counsel for petitioners and\nEmmaus that included (1) a draft settlement agreement and general release, (2) a draft partial\nassignment, assumption and restatement of leases, lease amendment, consent to assign, release and\noverriding royalty agreement, and (3) a draft quitclaim deed, fully effecting the terms outlined in\nthe December 7th e-mail.",
+    "bi_encoder_score": 0.4160137474536896,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages including but not limited to lost profits, lost revenues, failure to realize expected savings, loss of data and loss of use.",
+    "raw_sentence": "Thus, in this case and on these facts,\nthey bear the risk of their fault or negligence. “A party cannot avoid the legal consequences of\nhis actions on the ground of mistake, even a mistake of fact, where such mistake is the result of\nnegligence on the part of a complaining party.” Syl. Petitioner last argues that the circuit court’s award of summary judgment in favor of the\nrepresented respondents was improper given the existence of genuine issues of material fact\nregarding the land being conveyed in the parties’ contract of sale.",
+    "bi_encoder_score": 0.41386687755584717,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "including but not limited to"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bsummary judgment\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "material"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "(“BP”) and related\nentities reached a settlement with a class of individuals who suffered economic\n\f     Case: 14-30823    Document: 00513118071      Page: 2   Date Filed: 07/16/2015\n\n\n\n                                  No. That settlement\nagreement established a fund and an elaborate multi-tiered claims process. A\nprovision in the agreement governs the scope and timing of the parties’ access\nto information about these claims as they advance through that process.",
+    "bi_encoder_score": 0.4236358106136322,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "related"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages including but not limited to lost profits, lost revenues, failure to realize expected savings, loss of data and loss of use.",
+    "raw_sentence": "16\n\f   Case: 15-10539     Document: 00513466840      Page: 17   Date Filed: 04/15/2016\n\n\n\n                                  No. “[A] disclaimer of reliance or merger clause will\nnot always bar a fraudulent inducement claim,” but “a release that clearly\nexpresses the parties’ intent to waive fraudulent inducement claims, or one\nthat disclaims reliance on representations about specific matters in dispute,\ncan preclude a claim of fraudulent inducement.” Schlumberger Tech. Italian Cowboy Partners, 332\nS.W.3d at 334 (distinguishing pure merger clauses from those with “an\nexpressed clear and unequivocal intent to disclaim reliance or waive claims for\nfraudulent inducement”).",
+    "bi_encoder_score": 0.4104543924331665,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "including but not limited to"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Unlimited/All-You-Can-Eat-License",
+    "cuad_anchor": "Table 1\n\n  Business Partner Pricing\n\nVoIP Services One-Time Fee Monthly Service Fee\n\nVoIP Connectivity (per port charge)\n\nIncludes: Unlimited VoIP calls, VoIP Caller ID, Call waiting, Basic voicemail\n\n$9.95 $5.95\n\nVoIP Connectivity - Commpanion Galaxy Telecom Brand\n\nWith i-box subscription\n\nIncludes: Unlimited VoIP calls, VoIP Caller ID, Call waiting, Basic voicemail, 3-way Calling, Call forwarding, Do not disturb, Call hold, Auto answer, Call ignore, Call \"go to voicemail\", Redial, Mute\n\n$19.95 $1.95\n\nVoIP Connectivity - i-box Commpanion Galaxy Telecom Brand\n\nStand alone subscription\n\nIncludes: Unlimited VoIP calls, VoIP Caller ID, Call waiting, Basic voicemail, 3-way Calling, Call forwarding, Do not disturb, Call hold, Auto answer, Call ignore, Call \"go to voicemail\", Redial, Mute\n\n$19.95 $5.95\n\nVoIP",
+    "raw_sentence": "See In re Policy & Rules Concerning the Interstate\nInterexchange Marketplace (254(g) Implementation Order), 14 F.C.C. 6994, 6995 ¶ 2\n(1999) (noting that “CMRS customers generally pay a flat monthly fee” for “local” service but\noften pay “long-distance charge[s]” or “roaming charge[s]” when originating calls outside the\nlocal area). That’s enough to satisfy the “separate charge” requirement: Neither Caller B nor\nhis CMRS provider is being assessed a charge for “exchange service.”\n                                             23\n\f    Case: 18-10768        Document: 00515430892           Page: 24     Date Filed: 05/27/2020\n\n\n\n                                        No.",
+    "bi_encoder_score": 0.40108269453048706,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 0,
+    "d1_matched_terms": [],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": null,
+    "d3_matched_category_terms": [],
+    "total_score": 0,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Under no circumstances shall any Party be liable to any other Party in contract, tort, (including negligence or breach of statutory duty) or otherwise for loss (whether direct or indirect) of profits, property, traffic, business or anticipated savings, or for any indirect or consequential loss or damage in connection with the operation of this Agreement howsoever caused.",
+    "raw_sentence": "The tort suit also has no bearing on the application of the indemnity\nprovision, which is the direct subject of this appeal. In fact, the tort suit only\nbears passing relevance because LDI and Jackson would not be seeking\nindemnification otherwise. We recognize the basic distinction between tort\nand contract claims, but that distinction is immaterial here because our\noutcome holds regardless of the doctrinal lens through which the facts are\nviewed.",
+    "bi_encoder_score": 0.4109485149383545,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "anticipated"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "While\n              appellants technically seek liquidated damages under the\n              settlement agreement, any damages they suffered were caused\n              solely by the fact that the statements were (allegedly)\n              tortious.”). Noerr-Pennington Doctrine\n\n              Petitioners also assert that they are immune from Chestnut Ridge’s\n\ncounterclaim pursuant to the Noerr-Pennington doctrine. They allege that they had a right\n\nto participate in the FERC proceeding, and that this right would be “materially and unfairly\n\ncompromised if Chestnut Ridge were now allowed to maintain state law claims against\n\n[Petitioners] for what they said [during the FERC proceeding].” Conversely, Chestnut\n\nRidge asserts that Petitioners’ participation in the FERC proceeding is “not the type of\n\npetitioning activity for which immunity under this doctrine is contemplated.” According\n\nto Chestnut Ridge, the Noerr-Pennington doctrine applies mainly to antitrust claims or\n\nbusiness torts flowing from petitioning activity, not breach of contract or slander of title\n\nclaims.",
+    "bi_encoder_score": 0.43541669845581055,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Covenant Not To Sue",
+    "cuad_anchor": "Notwithstanding any prior termination of the Owner or this Agreement, the Servicer shall not at any time with respect to the Owner, acquiesce, petition or otherwise invoke or cause the Owner to invoke the process of any court or governmental authority for the purpose of commencing or sustaining a case against the Owner under any federal or state bankruptcy, insolvency or similar law or appointing a receiver, conservator, liquidator, assignee, trustee, custodian, sequestrator or other similar official of the Owner or any substantial part of its property, or ordering the winding up or liquidation of the affairs of the Owner.",
+    "raw_sentence": "23 We have\nalso refused to find jurisdiction over other orders issued in the course of a\nreceivership, such as authorizing the execution of a lease by a receiver. 25\n       Third, as a matter of policy, this interpretation makes good sense. Bergeron, 26 the imposition of a receivership visits\nsignificant consequences: “To put a corporation or other entity into\nreceivership is to wrest management and control from those entrusted by the\nowners, replacing them with a court-appointed trustee under court\nsupervision.",
+    "bi_encoder_score": 0.4219611585140228,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "similar",
+      "substantial"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\binterpretation\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bjurisdiction\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "significant"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "During the term of this agreement, Distributor shall not market, sell advertise or promote the sale or use of any product or device which is competitive with or substantially similar to the Products, without the prior express written consent of Erchonia, nor shall they assist any third party in doing so.",
+    "raw_sentence": "and Danaher Corporation, allegedly the largest distributor and\nmanufacturer of dental equipment in the United States, and certain wholly-\nowned subsidiaries of Danaher. 1 The district court referred the case to a\nUnited States Magistrate Judge. Defendants moved to compel arbitration pursuant to a clause in a\ncontract between Archer and Pelton & Crane, allegedly a Defendant’s\npredecessor-in-interest (the “Dealer Agreement”).",
+    "bi_encoder_score": 0.40534302592277527,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "similar",
+      "substantially similar"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Non-Disparagement",
+    "cuad_anchor": "However, conduct which Company, in its discretion, deems detrimental to Company's image or reputation, shall be grounds for termination of this Agreement, upon reasonable notice and the failure to cure such behavior by Distributor.",
+    "raw_sentence": "Background\n          Diverse Enterprises, Ltd., Co., LLC, Quick-Sol Global, LLC\n   (“QSG”), and Lawrence P. Lancaster (collectively, the “Plaintiffs”) entered\n   into a distribution agreement (“Agreement”) with Beyond. It contained a\n   clause requiring arbitration for “any claim or controversy arising out of or\n   relating to [the] Agreement.” The Plaintiffs terminated the Agreement after\n   Beyond breached it by failing to meet minimum sales requirements, and the\n   parties entered arbitration to resolve their various business conflicts.",
+    "bi_encoder_score": 0.4013945162296295,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "upon reasonable notice",
+      "termination of this Agreement"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "time",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Insurance",
+    "cuad_anchor": "The Contractor maintains insurance, which is in full force and effect, with insurers of recognized financial responsibility of  the types and in the amounts generally deemed adequate for its business and, to the best of the Contractor's knowledge, in line with  the insurance maintained by similar companies and businesses; and the Contractor has no reason to believe that it will not be able to  renew its existing insurance coverage as and when such coverage expires or obtain similar coverage from similar insurers as may be  necessary to continue its business at a cost that would not materially and adversely affect the financial condition or business  operations of the Contractor.",
+    "raw_sentence": "These\naffidavits do not undercut the basic premise that, without the insurance policy,\nthe attorneys’ fees incurred in defending a case would be borne by the client\n                                      9\n\f   Case: 15-60876     Document: 00513893463     Page: 10   Date Filed: 03/01/2017\n\n\n\n                                No. 15-60876\n\neither under contract law, a theory of unjust enrichment, or otherwise. 1989) (where the insurer\nagreed to pay defense costs that the insured is “legally obligated to pay,” the\ninsurer “must pay legal expenses as they are incurred, because an insured\nbecomes legally obligated to pay legal expenses as soon as the services are\nrendered”).",
+    "bi_encoder_score": 0.4078492820262909,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "knowledge",
+      "adequate",
+      "similar",
+      "materially and adversely",
+      "necessary",
+      "generally"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Except as provided by Sections 19(a)(iii)(2), (a)(iii)(3), (b)(iii)(2) and      (b)(iii)(3):\n\n  a)   Neither party will have liability for any damages other than direct           damages. In no event will either party be liable to the other for any           special, incidental or consequential damages, whether based on breach           of contract, tort (including negligence) or otherwise, whether or not           that party has been advised of the possibility of such damage.\n\n  b)   Either party's liability for damages shall be limited to the amounts           actually paid by the other party.",
+    "raw_sentence": "“Substantive unconscionability involves unfairness in the contract\n       itself and whether a contract term is one-sided and will have an overly harsh\n       effect on the disadvantaged party. The factors to be weighed in assessing\n       substantive unconscionability vary with the content of the agreement. Generally, courts should consider the commercial reasonableness of the\n       contract terms, the purpose and effect of the terms, the allocation of the risks\n       between the parties, and public policy concerns.” Syllabus Point 19, Brown\n       v.",
+    "bi_encoder_score": 0.40656858682632446,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental",
+      "limited"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe contract\\b",
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "generally"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Anti-Assignment",
+    "cuad_anchor": "This contract shall not be assigned in whole or in part by either party without the prior written consent of the other, except that a party may assign this contract to a successor entity as a result of a merger or consolidation or to another entity which acquires substantially all of the assets of that party.",
+    "raw_sentence": "a contract or mineral lease]\n   among the parties, such disputes are generally addressed in the agreement.”\n   Id. Martin, The Law of Pooling and Unitization\n   § 14.04 (3d ed. (quoting T D X Energy,\n   L.L.C., 857 F.3d at 256).",
+    "bi_encoder_score": 0.4070415496826172,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 0,
+    "d1_matched_terms": [],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": null,
+    "d3_matched_category_terms": [],
+    "total_score": 0,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "The March 21, 2012 agreed order, which memorializes stipulations that the parties\nmade during a January 2012 status conference, provides in relevant part:\n              During the Status Conference, and thereafter, the parties, by\n              and through their counsel, entered into a series of stipulations,\n              which the Court now memorializes in this Agreed Order. The Court notes the exceptions and objections of the\n              defendants to the arbitration ruling above-referenced,\n              including the findings of fact and conclusions of law ultimately\n              set forth by the Court in its written Order of February 6, 2012. The parties will proceed with litigation in this Court on\n              all pleading[,] discovery, pretrial and other case developmental\n              phases of the case.",
+    "bi_encoder_score": 0.4320375323295593,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "relevant"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "Provided however, this provision shall not apply in the event Customer can establish, in writing, that it had a preexisting working relationship with such Third-Party prior to the Agreement and without Kubient's assistance. Customer acknowledges that this provision is reasonable and necessary for the protection of Kubient and that Kubient will be irrevocably damaged if such covenant is not specifically enforced. Customer further agrees that Kubient will be entitled to seek injunctive relief for the purpose of restraining Customer from violating this covenant (and no bond or other security shall be required in connection therewith) in addition to any other relief to which Kubient may be entitled under the Agreement.",
+    "raw_sentence": "The arbitration provision at issue provides in relevant part:\n\n              You and Frontier agree to arbitrate all disputes and claims\n              between us. This arbitration provision clearly and explicitly provides that it applies to pre-existing\n\ndisputes. Because there is no contravening authority that would preclude enforcement of\n\nthe provision as written, we conclude that the agreement to arbitrate may be applied to\n\npre-existing claims.",
+    "bi_encoder_score": 0.41442885994911194,
+    "contract_id": "Unknown_Contract",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "necessary"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 3,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe provision\\b",
+      "\\bthe agreement\\b",
+      "\\bprovides that\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "necessity",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  }
+]

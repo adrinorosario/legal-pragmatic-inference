@@ -1,0 +1,78 @@
+========================================================================
+TRIPLET QUALITY SCORING — SUMMARY
+========================================================================
+  Total triplets scored:   5985
+  Passes (≥ 2/3):         1266  (21.2%)
+  Fails  (< 2/3):         4719  (78.8%)
+
+  Score Distribution:
+    0/3:    430  (  7.2%)  ███
+    1/3:   4289  ( 71.7%)  ███████████████████████████████████
+    2/3:   1193  ( 19.9%)  █████████
+    3/3:     73  (  1.2%)  
+
+  Per-Dimension Pass Rates:
+    D1 (Anchor Vagueness):       5528 / 5985  ( 92.4%)
+    D2 (Judicial Content):         470 / 5985  (  7.9%)
+    D3 (Semantic Coherence):        896 / 5985  ( 15.0%)
+
+  Failure Mode Breakdown (among 4719 failures):
+    D1=✓  D2=✗  D3=✗  →   4262  ( 90.3%)
+    D1=✗  D2=✗  D3=✗  →    430  (  9.1%)
+    D1=✗  D2=✓  D3=✗  →     27  (  0.6%)
+
+  D2 Interpretive Hits Distribution:
+    0 hits:   3935  ( 65.7%)
+    1 hits:   1563  ( 26.1%)
+    2 hits:    390  (  6.5%)
+    3 hits:     82  (  1.4%)
+    4 hits:     12  (  0.2%)
+    5 hits:      3  (  0.1%)
+
+  D3 Anchor Category Distribution:
+    scope                  3531  ( 59.0%)
+    knowledge               755  ( 12.6%)
+    necessity               472  (  7.9%)
+    (unmapped)              457  (  7.6%)
+    time                    349  (  5.8%)
+    industry_norms          308  (  5.1%)
+    effort                  106  (  1.8%)
+    survival                  7  (  0.1%)
+
+  Bi-Encoder Score by Quality Tier:
+    Score 0/3  (n=  430):  mean=0.4146  median=0.4096  min=0.4001  max=0.5135
+    Score 1/3  (n= 4289):  mean=0.4146  median=0.4106  min=0.4000  max=0.5319
+    Score 2/3  (n= 1193):  mean=0.4153  median=0.4110  min=0.4000  max=0.5262
+    Score 3/3  (n=   73):  mean=0.4126  median=0.4073  min=0.4000  max=0.4600
+
+  Pass Rate by CUAD Category:
+    Cap On Liability                      676/2476  ( 27.3%)
+    Insurance                             173/1373  ( 12.6%)
+    Covenant Not To Sue                   137/540   ( 25.4%)
+    Anti-Assignment                        85/482   ( 17.6%)
+    Post-Termination Services              60/278   ( 21.6%)
+    Non-Compete                            22/108   ( 20.4%)
+    Exclusivity                            12/79    ( 15.2%)
+    Competitive Restriction Exception      12/79    ( 15.2%)
+    Audit Rights                            8/73    ( 11.0%)
+    Third Party Beneficiary                18/71    ( 25.4%)
+    Rofr/Rofo/Rofn                          9/51    ( 17.6%)
+    Warranty Duration                       2/47    (  4.3%)
+    No-Solicit Of Employees                 6/42    ( 14.3%)
+    Termination For Convenience             3/40    (  7.5%)
+    No-Solicit Of Customers                 3/38    (  7.9%)
+    Revenue/Profit Sharing                  4/35    ( 11.4%)
+    Ip Ownership Assignment                 6/34    ( 17.6%)
+    Minimum Commitment                     11/30    ( 36.7%)
+    License Grant                          10/26    ( 38.5%)
+    Joint Ip Ownership                      5/25    ( 20.0%)
+    Non-Disparagement                       2/20    ( 10.0%)
+    Irrevocable Or Perpetual License        0/13    (  0.0%)
+    Volume Restriction                      1/9     ( 11.1%)
+    Unlimited/All-You-Can-Eat-License       0/5     (  0.0%)
+    Non-Transferable License                0/4     (  0.0%)
+    Most Favored Nation                     0/3     (  0.0%)
+    Affiliate License-Licensee              0/2     (  0.0%)
+    Price Restrictions                      1/2     ( 50.0%)
+
+========================================================================

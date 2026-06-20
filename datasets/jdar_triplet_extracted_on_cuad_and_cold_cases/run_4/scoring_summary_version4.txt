@@ -1,0 +1,45 @@
+========================================================================
+TRIPLET QUALITY SCORING — SUMMARY VERSION 4
+========================================================================
+  Total triplets scored:   73
+  Passes (≥ 2/3):         34  (46.6%)
+  Fails  (< 2/3):         39  (53.4%)
+
+  Score Distribution:
+    1/3:     39  ( 53.4%)  ██████████████████████████
+    2/3:     31  ( 42.5%)  █████████████████████
+    3/3:      3  (  4.1%)  ██
+
+  Per-Dimension Pass Rates:
+    D1 (Anchor Vagueness):         73 / 73  (100.0%)
+    D2 (Judicial Content):          11 / 73  ( 15.1%)
+    D3 (Semantic Coherence):         26 / 73  ( 35.6%)
+
+  Failure Mode Breakdown (among 39 failures):
+    D1=✓  D2=✗  D3=✗  →     39  (100.0%)
+
+  D2 Interpretive Hits Distribution:
+    0 hits:     40  ( 54.8%)
+    1 hits:     22  ( 30.1%)
+    2 hits:      9  ( 12.3%)
+    3 hits:      2  (  2.7%)
+
+  D3 Anchor Category Distribution:
+    scope                    47  ( 64.4%)
+    knowledge                20  ( 27.4%)
+    effort                    4  (  5.5%)
+    time                      2  (  2.7%)
+
+  Bi-Encoder Score by Quality Tier:
+    Score 1/3  (n=   39):  mean=0.4213  median=0.4134  min=0.4003  max=0.5037
+    Score 2/3  (n=   31):  mean=0.4128  median=0.4116  min=0.4001  max=0.4397
+    Score 3/3  (n=    3):  mean=0.4134  median=0.4188  min=0.4020  max=0.4193
+
+  Pass Rate by CUAD Category:
+    Cap On Liability                       22/49    ( 44.9%)
+    Third Party Beneficiary                 6/9     ( 66.7%)
+    Non-Compete                             3/7     ( 42.9%)
+    Competitive Restriction Exception       2/6     ( 33.3%)
+    Covenant Not To Sue                     1/2     ( 50.0%)
+
+========================================================================

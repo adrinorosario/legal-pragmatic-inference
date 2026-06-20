@@ -462,9 +462,9 @@ def main():
     )
     parser.add_argument(
         "--input", "-i",
-        default="distributed_threshold_results_version4.json",
-        help="Path to the distributed_threshold_results4.json file "
-             "(default: distributed_threshold_results_version4.json in cwd)"
+        default="distributed_threshold_results_version4_1.json",
+        help="Path to the distributed_threshold_results4_1.json file "
+             "(default: distributed_threshold_results_version4_1.json in cwd)"
     )
     parser.add_argument(
         "--sample-size", "-s",
@@ -514,7 +514,7 @@ def main():
 
     # ── Write full output ──────────────────────────────────────────
     out_dir = input_path.parent
-    full_output_path = out_dir / "scored_triplets_version4.json"
+    full_output_path = out_dir / "scored_triplets_version4_1.json"
     with open(full_output_path, "w", encoding="utf-8") as f:
         json.dump(scored_all, f, indent=2, ensure_ascii=False)
     print(f"\nFull scored output written to {full_output_path}")
@@ -536,7 +536,7 @@ def main():
     print_summary(scored_all, summary_lines)
 
     # Write summary to file
-    summary_path = out_dir / "scoring_summary_version4.txt"
+    summary_path = out_dir / "scoring_summary_version4_1.txt"
     with open(summary_path, "w", encoding="utf-8") as f:
         f.write("\n".join(summary_lines) + "\n")
     print(f"\nSummary written to {summary_path}")

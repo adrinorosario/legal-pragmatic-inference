@@ -40,8 +40,8 @@ from collections import Counter
 from pathlib import Path
 
 # ═══════════════════════════════════════════════════════════════════════════
-# VAGUENESS SEED SET — 206 terms, 9 categories
-# Matches the notebook's Cell 20 exactly.
+# VAGUENESS SEED SET — expanded from notebook Cell 20
+# 9 categories + targeted gap-fills from scored sample audit
 # ═══════════════════════════════════════════════════════════════════════════
 
 VAGUENESS_CATEGORIES = {
@@ -75,6 +75,11 @@ VAGUENESS_CATEGORIES = {
         "unduly burdensome", "reasonably necessary", "to the extent practicable",
         "to a reasonable extent", "without limitation", "as applicable",
         "where relevant", "as appropriate", "to the extent required",
+        # ── gap-fills from scored sample audit ──
+        "substantially all",
+        "satisfactory to",
+        "in form and manner satisfactory",
+        "reasonable satisfaction",
     ],
     "harm": [
         "material adverse effect", "material breach", "material adverse change",
@@ -93,6 +98,8 @@ VAGUENESS_CATEGORIES = {
         "reasonably requested", "if deemed appropriate", "as deemed necessary",
         "in its reasonable opinion", "acting in good faith",
         "in its reasonable judgment", "as it sees fit", "as directed",
+        # ── gap-fill from scored sample audit ──
+        "prior written consent",
     ],
     "industry_norms": [
         "customary", "ordinary course of business", "industry standard",
@@ -167,6 +174,21 @@ INTERPRETIVE_SIGNALS = [
     r'\bthe agreement\b', r'\bparties agreed\b',
     r'\brequires that\b', r'\bprovides that\b',
     r'\bcontract language\b', r'\breasonable interpretation\b',
+    # ── appellate court language patterns from scored sample audit ──
+    r'\bin interpreting\b',
+    r'\brender.{1,20}surplusage\b',           # "render X surplusage" — canonical interpretive phrase
+    r'\bgive effect to\b',
+    r'\bharmonize\b',
+    r'\bread.{1,15}entirety\b',               # "read in its entirety"
+    r'\bcontract.{1,20}requires\b',
+    r'\bnotice.{1,20}requirement\b',
+    r'\bthe agreement.{1,20}provides\b',
+    r'\bparties.{1,20}intended\b',
+    r'\bconstrued.{1,20}require\b',
+    r'\bno work to do\b',                     # courts use this exact phrase for surplusage
+    r'\beconomic benefit\b',
+    r'\bascertainable value\b',
+    r'\bbroad definition\b',
 ]
 
 PROCEDURAL_NOISE = [

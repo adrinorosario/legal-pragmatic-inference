@@ -28,10 +28,11 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "appropriate",
-      "satisfactory",
+      "satisfactory to",
       "applicable",
-      "from time to time"
+      "appropriate",
+      "from time to time",
+      "satisfactory"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 1,
@@ -102,9 +103,10 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
+      "prior written consent",
       "ordinary course of business",
-      "and/or",
-      "related"
+      "related",
+      "and/or"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 1,
@@ -268,8 +270,8 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "similar",
-      "without limitation"
+      "without limitation",
+      "similar"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 0,
@@ -378,8 +380,8 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "similar",
-      "substantial"
+      "substantial",
+      "similar"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 0,
@@ -428,8 +430,8 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "similar",
-      "substantial"
+      "substantial",
+      "similar"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 0,
@@ -473,10 +475,11 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "appropriate",
-      "satisfactory",
+      "satisfactory to",
       "applicable",
-      "from time to time"
+      "appropriate",
+      "from time to time",
+      "satisfactory"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 0,
@@ -497,10 +500,11 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "appropriate",
-      "satisfactory",
+      "satisfactory to",
       "applicable",
-      "from time to time"
+      "appropriate",
+      "from time to time",
+      "satisfactory"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 0,
@@ -519,8 +523,11 @@
     "raw_sentence": "However, a different presumption arises when the servitude in question\n\ninvolves a right of first refusal. 14 “Rights of first refusal are presumed to be personal, and\n\nare thus not assignable unless either the clause granting the right refers to successors or\n\nassigns or the instrument clearly shows that the right was intended to be assignable.” 6A\n\nC.J.S. Burns Concrete, Inc., 164 Idaho 729, 732,\n\n435 P.3d 509, 512 (2019) (noting that “the majority of case law .",
     "bi_encoder_score": 0.40184086561203003,
     "contract_id": "Unknown_Contract",
-    "d1_anchor_vagueness": 0,
-    "d1_matched_terms": [],
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "prior written consent",
+      "substantially all"
+    ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 1,
     "d2_procedural_hits": 0,
@@ -529,9 +536,9 @@
     ],
     "d2_procedural_matched": [],
     "d3_semantic_coherence": 0,
-    "d3_anchor_category": null,
+    "d3_anchor_category": "scope",
     "d3_matched_category_terms": [],
-    "total_score": 0,
+    "total_score": 1,
     "passes": false
   },
   {
@@ -563,9 +570,10 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "satisfactory",
+      "satisfactory to",
+      "without limitation",
       "related",
-      "without limitation"
+      "satisfactory"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 1,
@@ -827,8 +835,8 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "limited",
-      "including but not limited to"
+      "including but not limited to",
+      "limited"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 0,
@@ -878,8 +886,8 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "limited",
-      "including but not limited to"
+      "including but not limited to",
+      "limited"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 0,
@@ -961,8 +969,8 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "similar",
-      "substantial"
+      "substantial",
+      "similar"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 1,
@@ -989,8 +997,8 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "similar",
-      "substantially similar"
+      "substantially similar",
+      "similar"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 0,
@@ -1013,8 +1021,8 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "upon reasonable notice",
-      "termination of this Agreement"
+      "termination of this Agreement",
+      "upon reasonable notice"
     ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 1,
@@ -1037,11 +1045,11 @@
     "contract_id": "Unknown_Contract",
     "d1_anchor_vagueness": 1,
     "d1_matched_terms": [
-      "knowledge",
       "adequate",
-      "similar",
-      "materially and adversely",
       "necessary",
+      "materially and adversely",
+      "knowledge",
+      "similar",
       "generally"
     ],
     "d2_judicial_content": 0,
@@ -1088,8 +1096,11 @@
     "raw_sentence": "a contract or mineral lease]\n   among the parties, such disputes are generally addressed in the agreement.”\n   Id. Martin, The Law of Pooling and Unitization\n   § 14.04 (3d ed. (quoting T D X Energy,\n   L.L.C., 857 F.3d at 256).",
     "bi_encoder_score": 0.4070415496826172,
     "contract_id": "Unknown_Contract",
-    "d1_anchor_vagueness": 0,
-    "d1_matched_terms": [],
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "prior written consent",
+      "substantially all"
+    ],
     "d2_judicial_content": 0,
     "d2_interpretive_hits": 1,
     "d2_procedural_hits": 0,
@@ -1097,11 +1108,13 @@
       "\\bthe agreement\\b"
     ],
     "d2_procedural_matched": [],
-    "d3_semantic_coherence": 0,
-    "d3_anchor_category": null,
-    "d3_matched_category_terms": [],
-    "total_score": 0,
-    "passes": false
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "generally"
+    ],
+    "total_score": 2,
+    "passes": true
   },
   {
     "cuad_category": "Cap On Liability",

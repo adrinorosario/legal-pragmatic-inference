@@ -373,7 +373,7 @@ def print_summary(scored: list[dict], output_lines: list[str] | None = None):
     passes = sum(1 for s in scored if s["passes"])
     fails = n - passes
     emit("=" * 72)
-    emit("TRIPLET QUALITY SCORING — SUMMARY")
+    emit("TRIPLET QUALITY SCORING — SUMMARY VERSION 3")
     emit("=" * 72)
     emit(f"  Total triplets scored:   {n}")
     emit(f"  Passes (≥ 2/3):         {passes}  ({100*passes/n:.1f}%)")
@@ -462,9 +462,9 @@ def main():
     )
     parser.add_argument(
         "--input", "-i",
-        default="distributed_threshold_results.json",
+        default="distributed_threshold_results_version3.json",
         help="Path to the distributed_threshold_results.json file "
-             "(default: distributed_threshold_results.json in cwd)"
+             "(default: distributed_threshold_results_version2.json in cwd)"
     )
     parser.add_argument(
         "--sample-size", "-s",
@@ -514,7 +514,7 @@ def main():
 
     # ── Write full output ──────────────────────────────────────────
     out_dir = input_path.parent
-    full_output_path = out_dir / "scored_triplets.json"
+    full_output_path = out_dir / "scored_triplets_version3.json"
     with open(full_output_path, "w", encoding="utf-8") as f:
         json.dump(scored_all, f, indent=2, ensure_ascii=False)
     print(f"\nFull scored output written to {full_output_path}")
@@ -536,7 +536,7 @@ def main():
     print_summary(scored_all, summary_lines)
 
     # Write summary to file
-    summary_path = out_dir / "scoring_summary.txt"
+    summary_path = out_dir / "scoring_summary_version3.txt"
     with open(summary_path, "w", encoding="utf-8") as f:
         f.write("\n".join(summary_lines) + "\n")
     print(f"\nSummary written to {summary_path}")

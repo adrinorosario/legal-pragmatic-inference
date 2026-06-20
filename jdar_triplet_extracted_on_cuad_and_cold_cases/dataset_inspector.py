@@ -11,7 +11,7 @@ import statistics
 from collections import Counter
 
 # ── Load ────────────────────────────────────────────────────────────
-with open("distributed_threshold_results_version3.json", "r") as f:
+with open("distributed_threshold_results_version4.json", "r") as f:
     data = json.load(f)  # top-level dict: threshold_key -> list[dict]
 
 # ── Collect every bi_encoder_score ──────────────────────────────────
@@ -49,7 +49,7 @@ p90 = scores[int(n * 0.90)]
 p95 = scores[int(n * 0.95)]
 
 print("=" * 70)
-print("BI-ENCODER SCORE DISTRIBUTION (Version 3) — GLOBAL SUMMARY")
+print("BI-ENCODER SCORE DISTRIBUTION (Version 4) — GLOBAL SUMMARY")
 print("=" * 70)
 print(f"  Total datapoints:   {n}")
 print(f"  Mean:               {mean:.6f}")

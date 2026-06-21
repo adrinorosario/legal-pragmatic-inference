@@ -1,0 +1,1229 @@
+[
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "As between the Parties, Dova shall own all right, title and interest in and to any Product Materials (and all content contained therein) and any Product Labeling (and all content contained therein), including applicable copyrights and trademarks (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling), and to the extent Valeant (or any of its Affiliates) obtains or otherwise has a claim to any of the foregoing, Valeant hereby assigns (and shall cause any applicable Affiliate to assign) all of its right, title and interest in and to such Product Materials (and content) and Product Labeling (and content) (other than any name, trademark, trade name or logo of Valeant or its Affiliates that may appear on such Product materials or Product Labeling) to Dova and Valeant agrees to (and shall cause its applicable Affiliate to) execute all documents and take all actions as are reasonably requested by Dova to vest title to such Product Materials (and content) and Product Labeling (and content) in Dova (or its designated Affiliate).",
+    "raw_sentence": "Original, as the term is used in\ncopyright, means only that the work was independently\ncreated by the author (as opposed to copied from other\nworks), and that it possesses at least some minimal degree of\ncreativity. The parties do not\ndispute that Desire s copyright registration for the Subject\nDesign  constitute[s] prima facie evidence of the validity of\nthe copyright and of the facts stated in the certificate. To rebut the presumption of validity,\nAppellants  must simply offer some evidence or proof to\ndispute or deny [Desire] s prima facie case . The  similarity  of one design to another has no\nbearing on whether Desire  independently created  the\nsubject design.",
+    "bi_encoder_score": 0.40886738896369934,
+    "contract_id": "desire-llc-v-manna-textiles-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "reasonably requested",
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "necessity",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "If the arbitrator determines that any Outstanding Patent should be or should have been, as applicable, an Assigned Patent, Seller shall (and shall cause the other Seller Parties to) assign such Patent to the Purchaser Assignees in accordance with Section 2.1(b)(iii)(E).",
+    "raw_sentence": "And an arbitrator s interpretation of a collective bargaining\nagreement is conclusive; a reviewing court cannot secondguess it. [E]ven if we were convinced that the arbitrator\nmisread the contract or erred in interpreting it, such a\nconviction would not be a permissible ground for vacating the\naward. Washington State Nurses Ass n, 511 F.3d\n908, 913 14 (9th Cir. Indeed,  [s]ince the labor\narbitrator is designed to function in essence as the parties \nsurrogate, he cannot  misinterpret  a collective bargaining\nagreement.",
+    "bi_encoder_score": 0.40836241841316223,
+    "contract_id": "kobold-v-good-samaritan-regional-medical-center",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "as applicable",
+      "applicable"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 3,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\binterpretation\\b",
+      "\\bthe contract\\b",
+      "\\bin interpreting\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "For good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, DD hereby  sells, assigns and transfers to MBRK and MBRK shall be the exclusive owner, assignee, and transferee of the entire  right, title and interest, including all renewals for the entire world, in and to all work performed and work product  developed or produced under this Agreement, including, but not limited to, materials (including Promotional Materials),  writings, documents or other information conceived or reduced to practice or\n\n\n\n\n\n\n\nauthored by DD or any of DD Representative's, either solely or jointly with others, in connection with and/or pursuant to  this Agreement or the relationship established between DD and MBRK or with information, materials (including  Promotional Materials) or facilities of MBRK received or used by DD or DD's Representatives during the period in which  DD is retained by MBRK.",
+    "raw_sentence": "10  Case: 13-40878  Document: 00512875149  Page: 11  Date Filed: 12/18/2014  No. 13-40878 c/w 14-40545  The grounds for DM s Rule 50(a) motion were different from those for its\nRule 50(b) motion. DM originally moved for a directed verdict on the grounds\nthat Bell  cannot, as a matter of law show that [he] was intended to be third\nparty beneficiary to the Tag Team Agreement; hence [he] cannot show [he] is\nthe owner of [Whoomp!],  and that  DM was expressly assigned all licenses in\nfavor of Bellmark. In its Rule 50(b) motion, DM admitted that, in its 50(a) motion, it\npursued only its theory that there was a single assignment, to Bellmark.",
+    "bi_encoder_score": 0.40005213022232056,
+    "contract_id": "alvertis-isbell-v-dm-records-incorporated",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "and/or"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Subject to Clauses 9.1 and 9.2, each party's total liability under or in connection with this Agreement (whether in contract, tort or  otherwise) arising in any Contract Year is limited to the greater of:\n\n  (a) [ * ] Euros ([ * ] Euros); and\n\n  (b) [ * ]% of the total payment due to the Distributor in the relevant Contract Year pursuant to Clause 4 (Payment Terms).",
+    "raw_sentence": "4 The Court does not intimate a position on whether or not plaintiff could actually recover these sums. It\nmerely states that they cannot be included in the calculation of the amount in controversy for purposes of\ndiversity jurisdiction\n\ncompensatory damages in the form of the value of the Fiat or provision of a new Fiat and\nthe consequential damages he claims to have suffered as a result of not being promptly\nawarded his prize, including the amount he spent on a new vehicle. 1980) (explaining that under District of\nColumbia law  [b]oth incidental (special) and consequential (general) damages are\nintended to compensate a party for the loss incurred by the other s breach, i.e.,\n\n535  compensatory ). Plaintiff does not request punitive damages.5  Compensatory damages\nare awarded in order to  make plaintiffs whole for the harms that they have suffered as a\nresult of defendants  actions.",
+    "bi_encoder_score": 0.4112551510334015,
+    "contract_id": "goldman-v-fiat-chrysler-automobiles-us-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "relevant"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bjurisdiction\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "incidental"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "In the event that this Agreement is terminated by Theravance pursuant to Section 14.2 for material breach by GSK:",
+    "raw_sentence": "This leaves Langenbach s termination, which the parties agree\nis a materially adverse action. Proceeding to step three of the\ndirect method analysis, we must determine if there is a causal\nconnection between Langenbach s FMLA leave and Wal-Mart s\ndecision to fire her. Langenbach can establish a causal nexus either\nwith a direct admission from Wal-Mart or  a convincing mosaic\nof circumstantial evidence. This mosaic can include suspicious timing,\nambiguous statements from which retaliatory intent can be\ninferred, evidence of similar employees being treated differently,\nor evidence that the employer offered a pretextual reason for\nthe termination.",
+    "bi_encoder_score": 0.4129209518432617,
+    "contract_id": "erika-langenbach-v-wal-mart-stores-incorporated",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "material breach",
+      "material"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "similar"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The Consultant shall promptly disclose to the Company all Inventions and will maintain adequate and current written records (in the form of notes, sketches, drawings and as may be specified by the Company) to document the conception and/or first actual reduction to practice of any Invention. Such written records shall be available to and remain the sole property of the Company at all times.",
+    "raw_sentence": "c (1): evidence, knowledge, or information remaining in permanent form (as a relic, inscription,\ndocument) . (2): an account in writing or print (as in a document) or in some other permanent form (as on a\nmonument) intended to perpetuate a knowledge of acts or events . 7  records  that must be published under the reading-room provision with the  records  that have\n\nbeen successfully requested under the reactive provision. 4 This language suggests that the\n\nparticular information that must be published under the reading-room provision has to be the same\n\ninformation that has already been released in the past.",
+    "bi_encoder_score": 0.4115469753742218,
+    "contract_id": "lipton-v-united-states-environmental-protection-agency",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "adequate",
+      "and/or",
+      "promptly"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "time",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "Except as expressly stated herein with respect to members of each Party, no person or entity not a Party to this Agreement (including, without limitation, any employee of either Party or the Joint Venture) shall be a third-party beneficiary of any provision of this Agreement, and nothing contained herein shall be construed or deemed to confer any benefit or right upon any third party.",
+    "raw_sentence": "Third, Strittmatter asserts a breach of contract claim, asserting that it is a third party\n\nbeneficiary of the contract between ECC and the Owner and that ECC breached the terms of that\n\nagreement. Finally, Strittmatter raises a negligent misrepresentation claim against ECC,\n\ncontending that  ECC directly and indirectly made knowingly and/or recklessly false and\n\nmisleading statements about the environmental conditions at the H Street Project and failed to\n\nperform its duties in monitoring the Environmental Conditions pursuant to the ECC/Owner\n\ncontract and the relevant statutes regarding undergrounds storage tanks. ECC now moves to dismiss all of Strittmatter s claims against it. Specifically, ECC argues\n\nthat Strittmatter s claims fail as a matter of law for two reasons: (1) ECC owed no legal duty to\n\nStrittmatter and ECC was not responsible for ensuring worker safety on the job site; and (2)  8\n\fStrittmatter was not an intended beneficiary of the agreement between ECC and the Owner.",
+    "bi_encoder_score": 0.4147857129573822,
+    "contract_id": "parker-v-john-moriarty-associates",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "without limitation"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe contract\\b",
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "relevant",
+      "and/or"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "Neither the  Principals  nor the  Franchisee  shall directly or indirectly  (through  stock  ownership,  partnership,  trust,  joint venture,  management  contract,  or otherwise)  (a) have any interest in another \"Fast Food Hamburger Restaurant\" during the term of this Agreement, or (b) for a period of one ye ar after termination or expiration of this Agreement,  have any interest in another Fast Food  Hamburger  Restaurant  business at or within such distance of the Location as is stated  SCHEDULE 1.",
+    "raw_sentence": "365, 372 (1991) ( [I]n order to prevent Parker from\n\nundermining the very interests of federalism it is designed to protect, it is\n\nnecessary to adopt a concept of authority broader than what is applied to determine\n\nthe legality of the municipality s action under state law. Particularly given\n\nongoing proceedings in state court in which the parties to this case are litigating\n\nrelated issues about the proper interpretation of  other waste  under state law, we\n\nemphasize that we need not and do not definitively resolve whether the Franchise\n\nAgreement improperly extends to the collection and disposal of any materials that\n\nare not in fact  other waste  under state law. Second, the Nevada legislature plainly intended to displace competition with\n\nregulation when it authorized municipalities to  displace or limit competition,  Nev. 268.081, by granting an exclusive franchise for the collection and  4\n\fdisposal of waste.",
+    "bi_encoder_score": 0.4026181995868683,
+    "contract_id": "green-solutions-recycling-llc-v-reno-disposal-company-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "directly or indirectly"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\binterpretation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "Carlson, however, clarified that the\nrule in Philippine National applies only in those\ncircumstances in which the verdict is  internally\ninconsistent as when, for example, the jury decides both\nthe issues of liability and damages, and does so\ninconsistently. We now turn to the question raised by Hazle s new-trial\nmotion: whether Hazle is entitled to compensatory damages\nfrom the state defendants.6 We hold that he is. The district  5  The state defendants also urge that Hazle waived his challenge to the\njury s zero-damages verdict when he stipulated that  the parties have not\nagreed to or stipulated to either the existence or the extent of any\nemotional distress related injuries suffered by Mr. Hazle  and that the\nissue was a question of fact for the jury.",
+    "bi_encoder_score": 0.41053518652915955,
+    "contract_id": "barry-hazle-jr-v-mitch-crofoot",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bthe jury\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "related"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The foregoing provisions of this Section 6 shall not apply to any invention that CONSULTANT developed entirely on CONSULTANT's own time without using the Company's equipment, supplies, facilities or trade secret information, except for those inventions that (i) relate to the Company's business or actual or demonstrably anticipated research or development, or (ii) result from any work performed by CONSULTANT for the Company.",
+    "raw_sentence": "And if this order is\nappealable, then it is also a violation of Rule\n65(d). But if it is not appealable (because only\nan interpretation of the decree), then there is\na procedural shortcoming--for district judges are\nfree to provide parties with their thoughts\ninformally, and they need not repeat on every\ninterpretive occasion all of the formalities\nrequired when issuing injunctions. Granting a \"motion for interpretation and/or\nmodification of consent decree\" to some\nunspecified extent is Delphic. Did the judge\ninterpret the decree (nonappealable), modify the\ndecree (appealable), or do neither (that is, just\nafford the parties a window into his thinking)?",
+    "bi_encoder_score": 0.4054359793663025,
+    "contract_id": "hispanics-united-dup-v-village-of-addison",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "anticipated"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\binterpretation\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bprocedural\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "The Executive agrees and undertakes with the Company acting on behalf of itself and as agent for each Group Company that he will not in any Relevant Capacity at any time during the Restricted Period: (a) within or in relation to the Restricted Territory take any steps preparatory to or be directly or indirectly engaged, employed, interested or concerned in: (i) any Competing Business; and/or (ii) any Target Business Entity, (b) within or in relation to the Restricted Territory acquire a substantial or controlling interest directly or by or through any nominee or nominees in any Competing Business, Target Business Entity or in any Person owning or controlling a Competing Business or Target Business Entity; or (c) solicit or attempt to solicit, canvass, interfere with or entice away from the Company or any Relevant Group Company the custom or any prospective custom of any Client or any Prospect with a view to providing to that Client or Prospect any products or services which are the same as or materially similar to any Restricted Business in competition with the Company or any Relevant Group Company; or (d) provide or agree to provide any products or services which are the same as or materially similar to any Restricted Business to any Client or any Prospect in competition with the Company or any Relevant Group Company; or (e) solicit, entice or encourage or attempt to solicit, entice or encourage any Key Individual to leave the employment of the Company or any Relevant Group Company (whether or not such person would commit any breach of his contract of employment by doing so); or (f) employ, engage, appoint, enter into partnership or association with or in any way cause to be employed, engaged or appointed any Key Individual in relation to any Person which is or is proposing to be a Competing Business or is or is proposed to be directly or indirectly owned by or controlling any Competing Business; or (g) provide or agree to provide any products or services which are the same as or materially similar to any Restricted Business in respect of any Competitor Account; or (h) be employed or engaged by any Client or Prospect if as a result the Client or Prospect will cease to use or materially reduce its usage of the products or services of the Company or any Relevant Group Company or, in the case of a Prospect, will not use the products or services of the Company or any Relevant Group Company or use them to a materially lesser extent; or (i) solicit or try to solicit or place orders for the supply of products or services from any Supplier if as a result the Supplier will cease supplying, materially reduce its supply or vary detrimentally the terms on which it supplies products or services to the Company or any Relevant Group Company; or",
+    "raw_sentence": "Plaintiff Capitol Forum is an  investigative news and legal analysis company  that\n\nprovides regular reports, on a paid subscription basis, analyzing  the effect of government policy\n\non publicly traded corporations and market competition. The reports often\n\ninclude publicly available information, such as the fact that the Federal Trade Commission has\n\ncommenced a particular investigation or an impending merger between two companies, but in\n\nlarge part consist of original writing and analysis that is  the product of the full-time effort, skill,\n\nand judgment of, among others, [Capitol Forum] analysts, journalists, and lawyers assigned to\n\nfollow developments in particular markets. These reports are written for an\n\naudience that largely consists of  policymakers, law firms, investors, and industry stakeholders  and are  intended to inform, among other things, a subscriber s investment decisions  and\n\nprovide related economic guidance. Capitol Forum distributes its reports only to its paid subscribers and other authorized\n\nrecipients.",
+    "bi_encoder_score": 0.4090147912502289,
+    "contract_id": "dbw-partners-llc-v-market-securities-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "directly or indirectly",
+      "and/or",
+      "substantial",
+      "similar",
+      "relevant"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "related"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "IntriCon is not liable in any way to Dynamic Hearing for any indirect, consequential, third party, special or incidental  harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect  commercial or economic loss of any kind whatsoever incurred by Dynamic Hearing whether in negligence, tort, equity,  contract or otherwise, arising in connection with this Agreement;",
+    "raw_sentence": "Michigan is also the jurisdiction in which Visteon s headquarters is located and in\nwhich the personnel who administer its insurance contracts\nand negotiated the contract with National Union are stationed. Simplest of all solutions would be for National Union to\nnegotiate with its insureds for the designation of the jurisdiction whose laws would govern any litigation arising out of\nits insurance contracts. But the parties tell us that insurance\ncompanies are reluctant to negotiate such clauses. They apparently want the flexibility to pick the most favorable law\nafter the risk has materialized, and in addition some states\nrefuse to enforce choice of law clauses in insurance contracts\non the ground (though hardly applicable to a large enterprise such as Visteon) that it is against public policy to allow\ninsureds to waive protections intended for them.",
+    "bi_encoder_score": 0.40122249722480774,
+    "contract_id": "visteon-corporation-v-national-union-fire-insurance",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bjurisdiction\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The Assignor hereby assigns, transfers, and conveys to and in favor of the Assignee all of the Assignor's right, title, and interest in, to, and under the Transferred Contract, together with its related rights, warranties, remedies, powers, and privileges (collectively, the \"Assigned Rights\").",
+    "raw_sentence": "We read the language  [a]ll\n\nother benefits payable by the Plan may be assigned at your option  and the antiassignment language together to provide that the assigned  benefits payable  includes the right to sue for those benefits. We give meaning to the anti-assignment\n\nclause by reading it to forbid assigning the right to sue for anything else. an assignment of benefits is sufficient to confer ERISA standing. While Defendants may contend there is nothing else to\n\nassign, the Plan does not say, for example, that the  benefits payable to you may be\n\nassigned, but your assignee cannot sue us if unhappy with our decision on the amount\n\nwe will pay.",
+    "bi_encoder_score": 0.4065273702144623,
+    "contract_id": "rmc-of-san-jose-v-wh-administrators-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bwe read\\b",
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "IBM assumes and will assume ownership and MSL assigns and will assign all       intellectual and industrial property rights for hardware, software, design       and documentation of all Products delivered under this Agreement\n\n      IBM will also own and MSL will assign any invention made by MSL on       Products, and on any invention related to IBM processes and systems that       MSL makes while MSL uses those processes and systems in the performance of       this Agreement provided that nothing herein shall restrict MSL's right to       use such inventions in the performance of its obligations hereunder.",
+    "raw_sentence": "Lehigh Valley High Network, 342 F.3d 281, 294 n.8 (3d Cir. As we conclude that the MERA Agreement does not\nsatisfy the threshold statutory requirements, we have no occasion to determine whether the  totality of the circumstances  inquiry is the proper one\nwhere those requirements are met. IBM  Schram later sent Thomforde an e-mail stating  Regarding your question on the General Release and  Covenant Not to Sue, the wording is as intended by  IBM. The site attorney was not comfortable providing an interpretation for you and suggested you consult with your own attorney.",
+    "bi_encoder_score": 0.44708558917045593,
+    "contract_id": "syverson-v-international-business-machines-corp",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\binterpretation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding the provisions of this subsection (d), no Remarketing Agent shall be required to contribute any amount in excess of the amount by which the total price at which the applicable Securities remarketed by it and distributed to the public were offered to the public exceeds the amount of any damages which such Remarketing Agent has otherwise been required to pay by reason of such untrue or alleged untrue statement or omission or alleged omission.",
+    "raw_sentence": "Indeed, the\narbitrator used a bevy of different terms to describe the\naward, including  damages,  disgorgement,  the  equitable result,  remedy,  and the  final award  (among other\nterms). In the end, what the arbitrator called the award is\nless important than what was actually alleged and proved,\nwhat was awarded, and why. 2010) (explaining that Illinois courts  compare the language of the\npolicy with the facts alleged in the complaint, rather than\nexamine whether the client has pled any particular theory of\nrelief ). Exclusion (o) lists  sanctions  alongside  fines,  penalties,  punitive damages,  and  damages resulting from the\nmultiplication of compensatory damages all terms that\ndescribe penalties rather than compensatory remedies.",
+    "bi_encoder_score": 0.40856826305389404,
+    "contract_id": "edward-t-joyce-associates-pc-v-professionals-direct-insurance",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "During the term hereof and for a period of five (5) years thereafter, each Party agrees not to, either directly or indirectly, for itself or on behalf of any other person, firm, partnership, corporation or other entity hire, solicit, contract for, attempt to solicit, or cause to be solicited, the employment or services of any current or previous employee of the other Party (unless a period of sixty months has elapsed from the last date that such employee was employed by such party) without the prior written consent of such other Party.",
+    "raw_sentence": "We note that Thomforde II stated, in no uncertain terms,\nthat clarification outside the scope of the SGRA Agreement\nwould not satisfy the strict requirements of the OWBPA. With no way to verify this\nhunch, however, we decline to so assume. [6] Because the Eighth Circuit s reasoning did not end with\nanalysis of the language of the SGRA Agreement, but instead,\nexpressly took into account facts specific to the individual\nplaintiff in that case, we conclude that the issues are not sufficiently identical between that case and this one for offensive\nnonmutual issue preclusion to apply. At the outset of the MERA Agreement, the employee is\n advised to consult an attorney  prior to signing.",
+    "bi_encoder_score": 0.43730032444000244,
+    "contract_id": "syverson-v-international-business-machines-corp",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "directly or indirectly",
+      "prior written consent"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "necessity",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "If you wish to test market an item that we have not approved, then, so long as we have given you our prior written approval, you may do so for so long, and on such terms, that we mutually agree upon (a \"Test\"), and the item so tested, and all associated formulae, plans, and materials, will become our property.",
+    "raw_sentence": "See Plaintiffs  Status Report; Manufacturers and\nRetailers  Proposed Pre-Hearing Schedule. The Court interprets these terms as all referring to\nthe same thing and the Court will use the term  POS proposal  in this opinion and order. 2\n\fplaintiffs have been developing this new POS proposal for at least a year and a half, if not longer. The plaintiffs have known that the\n\nCourt would schedule an evidentiary hearing, which would require them to finalize their POS\n\nproposal, and the Court expects it will be ready by the deadline set forth herein.",
+    "bi_encoder_score": 0.4045601785182953,
+    "contract_id": "united-states-v-philip-morris-usa",
+    "d1_anchor_vagueness": 0,
+    "d1_matched_terms": [],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": null,
+    "d3_matched_category_terms": [],
+    "total_score": 0,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "Plaintiff achieved an alteration of the legal\n\nrelationship between the parties because the Hearing Officer ordered Defendant to undertake a\n\nnew obligation and fund the student s placement at School C (HOD at 13). Finally, there is a judicial pronouncement accompanied\n\nby judicial relief because the HOD granted Plaintiff relief. However, Plaintiff only\n\nprevailed on four of the six issues raised and the Hearing Officer only granted compensatory\n\neducation as a matter of equity, even though Plaintiff failed to present appropriate evidence in\n\nsupport of this form of relief. 5\n The HOD is slightly ambiguous as to the funding of the FBA and compensatory education.",
+    "bi_encoder_score": 0.4113527536392212,
+    "contract_id": "wilhite-ex-rel-cy-v-district-of-columbia",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b",
+      "\\bobligation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "appropriate"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "Effective as of the Closing Date, and subject to Sections 2.3 and 2.4 and Article III hereof, Equifax agrees, at its expense, to transfer, or cause to be transferred, to Certegy or to a Designated Certegy Member all right, title and interest held by Equifax and/or its Affiliates as of the Closing Date in and to each of the assets identified on Exhibit B hereto, subject to the retained rights described therein.",
+    "raw_sentence": "3 Defendant\n\nEquifax objects to Plaintiff s request for this information, arguing that this was not Judge  1  Judge Facciola also ordered Equifax to provide a  list of all consumers with a current District\nof Columbia Recorder s lien on their credit file  (Order at 2) and Equifax indicates that it is in\nthe process of doing so. (Opposition at 3.)\n2  Both parties agree that copies of the consumer credit files may be redacted to show only the\npublic records at issue in this case. (Opposition at 4.) This agreement was reiterated during the\ntelephonic hearing. 3  The term  hard inquiries  was used by Plaintiff s counsel during the hearing.",
+    "bi_encoder_score": 0.4620153307914734,
+    "contract_id": "ceccone-v-equifax-information-services-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "and/or"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The foregoing provisions of this Section 6 shall not apply to any invention that CONSULTANT developed entirely on CONSULTANT's own time without using the Company's equipment, supplies, facilities or trade secret information, except for those inventions that (i) relate to the Company's business or actual or demonstrably anticipated research or development, or (ii) result from any work performed by CONSULTANT for the Company.",
+    "raw_sentence": "The Committee thus\nsought to acknowledge the reality that attorneys often feel\nthat it is extremely useful  if not necessary  to confer and\nstrategize with their experts. But there is no indication that\nthe Committee was attempting to do so at the expense of an\nadversary s ability to understand and respond to a testifying\nexpert s analysis.4  To the contrary, the Committee sought to balance the\ncompeting policy considerations, including the need to\nprovide an adversary with sufficient information to engage in\nmeaningful cross-examination and prepare a rebuttal, on the\none hand, and the need to protect the attorney s zone of\nprivacy to efficiently prepare a case for trial without incurring\nthe undue expense of engaging multiple experts, on the other. There is no indication that the Committee intended to expand\nRule 26(b)(3) s protection for trial preparation materials to\nencompass all materials furnished to or provided by testifying\nexperts, which would unfairly hamper an adverse party s\nability to prepare for cross-examination and rebuttal. 4  Indeed, we note that any ordinary work product protection (i.e., for trial\npreparation materials prepared by non-attorneys that do not reflect an\nattorney s mental impressions, conclusions, opinions, or legal theories)\nwould typically be waived where the materials are disclosed to a testifying\nexpert.",
+    "bi_encoder_score": 0.4081948697566986,
+    "contract_id": "republic-of-ecuador-v-douglas-mackay",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "anticipated"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The foregoing provisions of this Section 6 shall not apply to any invention that CONSULTANT developed entirely on CONSULTANT's own time without using the Company's equipment, supplies, facilities or trade secret information, except for those inventions that (i) relate to the Company's business or actual or demonstrably anticipated research or development, or (ii) result from any work performed by CONSULTANT for the Company.",
+    "raw_sentence": "Ford Motor Co., supra, which\nstates that an injunction that incorporates materials by reference cannot be enforced, though the court went on to  nd\nthat in any event the incorporated material a settlement\nagreement was ambiguous. National Friction Products Corp, 568\nF.2d 24, 27 (7th Cir. 1977), that  Rule 65(d) is no mere extract from a manual of procedural practice. What the court seems to have meant was that it would\nbe unjust to punish someone for violatingan injunction that\nhe could not understand.",
+    "bi_encoder_score": 0.4170789420604706,
+    "contract_id": "dupuy-belinda-v-samuels-bryan",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "anticipated"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bprocedural\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "If the arbitrator determines that any Outstanding Patent should be or should have been, as applicable, an Assigned Patent, Seller shall (and shall cause the other Seller Parties to) assign such Patent to the Purchaser Assignees in accordance with Section 2.1(b)(iii)(E).",
+    "raw_sentence": "1994) ( While an order\ndismissing a complaint  without prejudice  usually is not appealable because the plaintiff may\nfile an amended complaint, the district court s order in this case is final and appealable\nbecause no amendment is possible. Without prejudice  here simply meant without detriment\nto [the plaintiff s] ability to present the claims to an arbitrator. 2002) ( We conclude that even though the\nDistrict Court s order dismissed this case without prejudice and directed the parties to\nproceed with arbitration, the order was final and appealable. 2001) ( [T]he district court s\norder and judgment sufficiently show that the court intended to close this case without\nprecluding the parties from bringing a new action after completing arbitration.",
+    "bi_encoder_score": 0.41915467381477356,
+    "contract_id": "jernard-griggs-v-sge-management-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "as applicable",
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The foregoing provisions of this Section 6 shall not apply to any invention that CONSULTANT developed entirely on CONSULTANT's own time without using the Company's equipment, supplies, facilities or trade secret information, except for those inventions that (i) relate to the Company's business or actual or demonstrably anticipated research or development, or (ii) result from any work performed by CONSULTANT for the Company.",
+    "raw_sentence": "This case presents the novel question of whether a\nprospective intervenor must also consent for the magistrate\njudge to rule on the motion to intervene. The Second Circuit relied\non authority providing that  voluntary consent of all\nparties even those entering [the] case at [a] later\nstage may be required to invoke [the] jurisdictional\nprovisions of  636(c). MOMS ON A MISSION HUI  We agree with the Seventh Circuit that a prospective\nintervenor is not a  party  as that term is used in  636(c)(1). [W]hen the term to intervene is used in\nreference to legal proceedings, it covers the right of one to\ninterpose in, or become a party to, a proceeding already\ninstituted.",
+    "bi_encoder_score": 0.40811818838119507,
+    "contract_id": "robert-ito-farm-inc-v-county-of-maui",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "anticipated"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The foregoing provisions of this Section 6 shall not apply to any invention that CONSULTANT developed entirely on CONSULTANT's own time without using the Company's equipment, supplies, facilities or trade secret information, except for those inventions that (i) relate to the Company's business or actual or demonstrably anticipated research or development, or (ii) result from any work performed by CONSULTANT for the Company.",
+    "raw_sentence": "Starting with the fact that a private appraiser prepared the draft appraisals, the so-called\n\nconsultant-corollary doctrine  extends [Exemption 5] to communications between Government\n\nagencies and outside consultants hired by them  so long as  the consultant does not represent an\n\ninterest of its own, or the interest of any other client, when it advises the agency that hires it. Here, the\n\nForest Service hired the appraiser to perform appraisal services in connection with the Valle\n\nSeco land exchange, and nothing in the record suggests that this neutral appraiser represented the\n\ninterests of any party other than the Forest Service. Although COWPL notes that outside parties are listed as  intended users  of\n\nthe appraiser s work product, the Service is the only listed client. Dep t of Def., 512 F.3d 677, 682 83 (D.C.",
+    "bi_encoder_score": 0.4491913914680481,
+    "contract_id": "colorado-wild-public-lands-v-united-states-forest-service",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "anticipated"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bparties.{1,20}intended\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "IBM assumes and will assume ownership and MSL assigns and will assign all       intellectual and industrial property rights for hardware, software, design       and documentation of all Products delivered under this Agreement\n\n      IBM will also own and MSL will assign any invention made by MSL on       Products, and on any invention related to IBM processes and systems that       MSL makes while MSL uses those processes and systems in the performance of       this Agreement provided that nothing herein shall restrict MSL's right to       use such inventions in the performance of its obligations hereunder.",
+    "raw_sentence": "IBM\nwaiver, IBM employees could still obtain individual relief for\ntheir ADEA claims [filed with the EEOC]. The employees argue that given\nthe last sentence of the covenant not to sue, it was  incumbent\nupon IBM to provide sufficient information so as not to mislead them  about their ability to obtain victim-specific relief\nby filing claims with the EEOC, the availability of such relief\nbeing, apparently, an open legal question. 279, 294-98 (2002).11  The language that the employees challenge, however, does\nnot exaggerate or misrepresent the availability of relief via the\nEEOC. It merely notes that such relief is unaffected by the\nMERA Agreement.",
+    "bi_encoder_score": 0.48922398686408997,
+    "contract_id": "syverson-v-international-business-machines-corp",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "For good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, DD hereby  sells, assigns and transfers to MBRK and MBRK shall be the exclusive owner, assignee, and transferee of the entire  right, title and interest, including all renewals for the entire world, in and to all work performed and work product  developed or produced under this Agreement, including, but not limited to, materials (including Promotional Materials),  writings, documents or other information conceived or reduced to practice or\n\n\n\n\n\n\n\nauthored by DD or any of DD Representative's, either solely or jointly with others, in connection with and/or pursuant to  this Agreement or the relationship established between DD and MBRK or with information, materials (including  Promotional Materials) or facilities of MBRK received or used by DD or DD's Representatives during the period in which  DD is retained by MBRK.",
+    "raw_sentence": "DQSI objected that the Request for Equitable Adjustment\nwas  not properly supported as required  by the memorandum of agreement. The motion\nwas granted, requiring DQSI to submit Fisk s Request for Equitable\nAdjustment within seven days of the court order. DQSI submitted a Request\nfor Equitable Adjustment to the Corps. In December 2014, Fisk and DQSI entered into a settlement agreement\nintended  to formalize the terms  of the memorandum of agreement.",
+    "bi_encoder_score": 0.4063801169395447,
+    "contract_id": "fisk-electric-company-v-dqsi-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "and/or"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The foregoing provisions of this Section 6 shall not apply to any invention that CONSULTANT developed entirely on CONSULTANT's own time without using the Company's equipment, supplies, facilities or trade secret information, except for those inventions that (i) relate to the Company's business or actual or demonstrably anticipated research or development, or (ii) result from any work performed by CONSULTANT for the Company.",
+    "raw_sentence": "He claims that this\nexperience informed his understanding of the term  saved\ngrade  as used in the settlement agreement. The submitted documents pertain to the  Placement\nPolicies as a Result of the System-wide MSC [management\nsectional center] Consolidations Effective September 23,\n1989. In other words, as the district court noted, the documents relate to a specific context, they have no relevance\noutside of the reorganization and they should not be used to\ninform the interpretation of the parties  settlement agreement. Holmes claims,  [t]his determination might be relevant if\nHolmes was suing to enforce U.S.P.S.",
+    "bi_encoder_score": 0.4133188724517822,
+    "contract_id": "holmes-rochester-v-potter-john-e",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "anticipated"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b",
+      "\\binterpretation\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+    "raw_sentence": "The parties do not cite any District of Columbia case that addresses whether an injured\n\nparty is an intended third-party beneficiary of a liability insurance contract. In certain states, an injured party is not an intended third-party beneficiary\n\nwho may sue the insurer directly. 1993) (holding that the injured party in a car accident could not sue the at-fault driver s\n\ninsurer because the policy  was not made for the express benefit  of the plaintiff and benefited the\n\nplaintiff  only incidentally ). Other states regard the injured party, at least in some circumstances,\n\nas a third-party beneficiary of the liability insurance contract.",
+    "bi_encoder_score": 0.4180637001991272,
+    "contract_id": "williams-v-aviles",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Subject to Clauses 9.1 and 9.2, each party's total liability under or in connection with this Agreement (whether in contract, tort or  otherwise) arising in any Contract Year is limited to the greater of:\n\n  (a) [ * ] Euros ([ * ] Euros); and\n\n  (b) [ * ]% of the total payment due to the Distributor in the relevant Contract Year pursuant to Clause 4 (Payment Terms).",
+    "raw_sentence": "This conclusion is also supported by the Tennessee Court of Appeals  explanation in\nanother case that  [g]eneral liability policies are not  all-risk  policies. They provide an insured\nwith indemnification for damages up to policy limits for which the insured becomes liable as a\nresult of tort liability to a third party. Chester-O Donley & Assoc., 972 S.W.2d at 6 (citations\nomitted). Business risk exclusions in CGL policies  are based on the premise that general liability\ncoverage is not intended as a guarantee of the insured s product or work .",
+    "bi_encoder_score": 0.4032561182975769,
+    "contract_id": "ja-street-assoc-inc-v-bitco-general-ins-co",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "relevant"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bcourt of appeals\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "In the event LEA shall be deemed to have acquired any ownership rights in the Licensed Intellectual Property, the LEA shall assign, and agrees to execute all documents reasonably requested by T&B to assign, all such rights in the Licensed Intellectual Property to T&B or its nominee.",
+    "raw_sentence": "Because this Court referred to this 1989 training seminar manual as the\n Leasehold Appraisal Policy  in both Maplewood and UPE I, we will continue to use this\nterm for clarity s sake. Musick contends\n\nthat Maplewood incorrectly cited to the Valuation of Leasehold Interest Seminar Training\n\nManual (otherwise referred to in Maplewood as the Leasehold Appraisal Policy) in\n\nholding that the separate value of a leasehold is based on whether leasehold is a bargain\n\nlease and freely assignable, as those terms are not contained in the Leasehold Appraisal\n\nPolicy. Rather, the Leasehold Appraisal Policy instead refers only to marketability. Musick complains that in Maplewood this Court cited language from\n\nthe subject fourteenth page and incorrectly attributed the language to the Leasehold\n\nAppraisal Policy.",
+    "bi_encoder_score": 0.403029203414917,
+    "contract_id": "mark-a-musick-monongalia-co-assessor-v-university-park-at-evansdale",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "reasonably requested"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "necessity",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "Consultant hereby irrevocably assigns to Company all right, title and interest in and to any information (including, without limitation, business plans and/or business information), technology, know-how, materials, notes, records, designs, ideas, inventions, improvements, devices, developments, discoveries, compositions, trade secrets, processes, methods and/or techniques, whether or not patentable or copyrightable, that are conceived, reduced to practice or made by Consultant alone or jointly with others in the course of performing the Services or through the use of Confidential Information (collectively, 111nventions\").",
+    "raw_sentence": "Unsurprisingly, however, there\nis plenty of legislative history to go around, as Fox and the\nCopyright Office make extensive use of it as well. To the extent the\nlegislative history provides relevant evidence of  111 s\nmeaning, we would defer to the Copyright Office s\ninterpretation of it, seeing as the Copyright Office has a much\nmore intimate relationship with Congress and is\ninstitutionally better equipped than we are to sift through and\nto make sense of the vast and heterogeneous expanse that is\nthe Act s legislative history. Finally, we note two additional reasons to reject FilmOn s\nargument that  111 must be read to encompass Internetbased retransmission services. AEREOKILLER  As courts have explained in the past, compulsory licenses\nrepresent a  limited exception to the copyright holder s\nexclusive right to decide who shall make use of his [work], \nand courts should not  expand the scope of the compulsory\nlicense provision beyond what Congress intended .",
+    "bi_encoder_score": 0.4112812876701355,
+    "contract_id": "fox-television-stations-inc-v-aereokiller-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "trade secrets",
+      "and/or",
+      "without limitation"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bmust be read\\b",
+      "\\binterpretation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "limited",
+      "relevant"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "All modifications and enhancements made to the approved information system shall be our property (or the appropriate vendor if we so designate), without regard to the source of the modification or enhancement. You agree to execute any documents, in the form provided by us, that we determine are necessary to reflect such ownership.",
+    "raw_sentence": "Date  Receipient  CC  Ruling\nDoc#  Doc#  Sender  Description  Designation  Aird, Brenda  Hawbecker, Karen  Draft Information Privileged -  Denied. of  Memorandum  AttorneyTransmittal of  Advisor, Office  Mineral Resources);  regarding Remand Client  draft. Does not  of the Ass't  Anderson, Bob (Deputy  of 43 C.F.R. 3809  disclose  Sec'y)  Ass't Director, BLM);  Regulations in  communication  Abbott, Jim (Acting  Mineral Policy  from client  Ass't Director, BLM);  Center versus  intended to be  Leverette, Mitchell  Norton.",
+    "bi_encoder_score": 0.40945279598236084,
+    "contract_id": "earthworks-v-us-department-of-the-interior",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "appropriate",
+      "necessary"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "362(k)(1), which\nallows an individual injured by a willful violation of the\nautomatic stay  actual damages, including costs and\nattorneys  fees. In order to define the term, we turned to Black s\nLaw Dictionary, which defines  actual damages  as  an\namount awarded to compensate for a proven injury or loss. We\nlater made clear that under our precedent the automatic stay\n is designed to effect an immediate freeze of the status quo. In this case, the parties were returned to the status quo\nwhen Schwartz-Tallard received her property back from\nASC.",
+    "bi_encoder_score": 0.46555906534194946,
+    "contract_id": "americas-servicing-co-v-schwartz-tallard-in-re-schwartz-tallard",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "SONY hereby assigns to PURCHASER SONY's entire right, title and interest in, to and under the Transferred Patents, and any  patents that may issue therefrom (including any foreign counterparts, divisions, continuations, renewals, continuations in part, reexaminations or  reissues thereof), along with the right to sue and collect damages for any future infringement, and agrees to take all reasonably necessary action to  assist PURCHASER, at PURCHASER's sole expense, to register, confirm and perfect such assignment, including by making filings with or at any  and all necessary patent offices and/or governmental agencies.",
+    "raw_sentence": "[5] In sum, we hold that the term  negligent publication \nin the AISLIC policy refers to a very narrow tort in which the\npublication of material encourages or instructs readers to\nengage in harmful conduct. Sony s attempt to expand the meaning of\n negligent publication  to cover all negligent communications\nwith the public fails. The Kim/Kaen suits do not allege  negligent  publication  [6] To determine whether the Kim/Kaen lawsuits alleged\nclaims of  negligent publication,  we must compare the allegations of the complaints with the coverage language of the\npolicy. 4th at 1115-16 ( If a claim does not\nfall within the terms of [the coverage] clauses, then no coverage exists.",
+    "bi_encoder_score": 0.4004022181034088,
+    "contract_id": "sony-computer-entertainment-america-inc-v-american",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "and/or",
+      "reasonably necessary",
+      "necessary"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b",
+      "\\bmeaning of\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "material"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "For clarity and notwithstanding anything contained herein, nothing in this Section 2.1(e)(i) (A) is intended to be inconsistent with Section 2.4(e)(i) or to otherwise indicate that Customer is subject to any requirement to purchase Product under this Agreement or (B) is intended to prevent Customer from qualifying a back-up supplier for any Product during the Exclusivity Period",
+    "raw_sentence": "The district court came to different conclusions based not\non the text of  546(e) but on policy grounds, concluding that\nCongress could not have intended the safe harbor provisions\nto apply to the circumstances of this case. The court distinguished between an insolvent debtor\nselling a security to a buyer just before going bankrupt and an\ninsolvent debtor distributing the proceeds of the sale of a\ncustomer s security. The text of  546(e) does not include an\nexception for preferential transfers, although it does make an\nexception for actual fraud. We have explained that  [t]he presence of an\nexception for actual fraud makes sense only if  546(e) applies\nas far as its language goes.",
+    "bi_encoder_score": 0.4273233413696289,
+    "contract_id": "frederick-grede-v-fcstone-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "1365\nthat courts should look to the plaintiffs  intent in bringing the\naction. See Molski, 318 F.3d at 950 ( In order to determine\npredominance, we have focused on the language of Rule\n23(b)(2) and the intent of the plaintiffs in bringing the suit. As mentioned above, Plaintiffs stated that their primary intention in bringing this case was to obtain injunctive and declaratory relief  not money damages  and Wal-Mart has failed\nto effectively rebut Plaintiffs  statements or cast doubt on\ntheir reliability. In addition, the district court s order contains a provision to\nallow Plaintiffs to opt-out of claims for punitive damages.",
+    "bi_encoder_score": 0.45614495873451233,
+    "contract_id": "dukes-v-wal-mart-stores",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "Conformis by operation of law or by assignment by its employees or consultants; and to facilitate such assignment to Stryker,   Conformis agrees (i) to regularly ensure that its employees and consultants timely make any appropriate assignments to it of that   which constitutes Improved Stryker Background IP, and (ii) at Stryker's reasonable request, to execute and have its employees   and consultants execute, as necessary, all assignments and any other documentation necessary to perfect title in Stryker of such   Improved Stryker Background IP.",
+    "raw_sentence": "The MSC references vessels by requiring insurance coverage when the\n contractor uses any vessels in connection with its work for Company or\nCompany Group. While this factor concerns the specific work order and not\nthe MSC, the language of the MSC indicates the parties at least contemplated\nthe use of a vessel during the operations for which Apache would employ STS. The second factor examines the work the crew assigned under the work\norder actually performed. The STS crew performed a flow-back operation,  8  Case: 16-30217  Document: 00513888356  Page: 9  Date Filed: 02/23/2017  No.",
+    "bi_encoder_score": 0.40909454226493835,
+    "contract_id": "larry-doiron-inc-v-specialty-rental-tools-supply-llp",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "appropriate",
+      "necessary"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The Assignor hereby assigns, transfers, and conveys to and in favor of the Assignee all of the Assignor's right, title, and interest in, to, and under the Transferred Contract, together with its related rights, warranties, remedies, powers, and privileges (collectively, the \"Assigned Rights\").",
+    "raw_sentence": "at 607, nor the\n\nCourt s precedents supported a  holding that the term  prevailing party  authorizes an award of\n\nattorney s fees without a corresponding alteration in the legal relationship of the parties,  id. at\n7  The fee-shifting provisions of both statutes are similar to 42 U.S.C. The Fair Housing Amendments Act\nprovides that  the court, in its discretion, may allow the prevailing party . , in its\ndiscretion, may allow the prevailing party .",
+    "bi_encoder_score": 0.41816624999046326,
+    "contract_id": "state-of-texas-v-holder",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b",
+      "\\bprovides that\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "similar"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "Franchisee shall execute, for no additional consideration, any and all documents deemed necessary by Franchisor or its attorneys to be necessary to transfer such right, title or interest to Franchisor.",
+    "raw_sentence": "It also declined to interpret the franchise agreement and discern whether the  set of assigned rights was empty, reasoning that the job of interpreting the  franchise agreement belonged to  another forum. The job of discerning what if anything can be assigned  under  365(f) decidedly belongs to the bankruptcy judge, the district court,  and by extension, us. The Flynns then used that partial assignment to revivify its claims  against Anytime in the New Suits. If the Louisiana state court were to find  assigned indemnity rights were not a null set, the state court could not then  refuse to honor the unlawful partial assignment.",
+    "bi_encoder_score": 0.4179834723472595,
+    "contract_id": "anytime-fitness-v-thornhill-brothers",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "necessary"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "necessity",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "In order to carry out the intent of the Parties with respect to the recordation of the transfers of any registrations or applications of Honeywell IP or SpinCo IP, as applicable, to the extent the ownership thereof has transferred from a member of the Honeywell Group to a member of the SpinCo Group, or vice versa, pursuant to the Separation Agreement or any other Ancillary Agreement, the Parties shall, and shall cause their respective Group members (as applicable) to, execute intellectual property assignments in a form substantially similar to that attached as Exhibit A1 (the \"Patent Assignment Agreement\"), Exhibit A2 (the \"Trademark Assignment Agreement\"), Exhibit A3 (the \"Copyright Assignment Agreement\"), Exhibit A4 (the \"Domain Name Assignment Agreement\") and Exhibit A5 (the \"Invention Disclosure Assignment Agreement\") as well as such additional case specific assignments as deemed appropriate or necessary under applicable Laws (collectively, the \"Intellectual Property Assignment Agreements\") for recordation with the appropriate Governmental Authority.",
+    "raw_sentence": "2014) (interpreting the term  operations,  which was defined to specifically include  drilling ); Peironnet v. 2013) (interpreting a lease that\nspecifically defined  actual drilling operations  to mean drilling into the\nground); Exxon Mobil Corp. 2007) (interpreting a lease that defined  actual drilling\noperations  as commenced by spudding in a new well); Hall v. However, that decision\nwas in the context of a federal regulatory provision that defined the term as\nthe physical drilling of a well and activities that take place after drilling.",
+    "bi_encoder_score": 0.4133438169956207,
+    "contract_id": "hess-bakken-investments-ii-v-agribank",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "as applicable",
+      "substantially similar",
+      "appropriate",
+      "similar",
+      "applicable",
+      "necessary"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "All modifications and enhancements made to the approved information system shall be our property (or the appropriate vendor if we so designate), without regard to the source of the modification or enhancement. You agree to execute any documents, in the form provided by us, that we determine are necessary to reflect such ownership.",
+    "raw_sentence": "The defendant also cites the Justice Department s Office of\nInformation Policy, Guide to the Freedom of Information Act (2009 ed.) at 92, which merely repeats the language of\nthe 1996 guidance. 26\n\fguidance on an agency s obligations in this exact circumstance. The DOJ s answer to the\n\nquestion:  If an agency maintains a record in more than one form or format, can a FOIA\n\nrequester now choose the one in which it will be disclosed? The guidance goes on to state that  [i]n almost all\n\ncases, an agency will be able to readily reproduce any existing form or format of a record for\n\nwhich a requester expresses a preference.",
+    "bi_encoder_score": 0.40136000514030457,
+    "contract_id": "scudder-v-central-intelligence-agency",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "appropriate",
+      "necessary"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+    "raw_sentence": "Third-party\n\nbeneficiary status requires that the contracting parties had an express or implied intention to benefit\n\ndirectly the party claiming such status. (quoting Fort Lincoln Civic Ass n, Inc., 944 A.2d at\n\n1064) (internal quotation marks omitted). Court of Appeals has adopted the approach\n\nfrom the Restatement (Second) of Contracts and recognized the distinction between an intended\n\nbeneficiary, one who has rights to recover under a contract claim, and an incidental beneficiary,\n\none who does not have such rights. Fort Lincoln Civic Ass n, Inc., 944 A.2d at 1064.",
+    "bi_encoder_score": 0.4326738715171814,
+    "contract_id": "parker-v-john-moriarty-associates",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\brequires that\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bcourt of appeals\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The foregoing provisions of this Section 6 shall not apply to any invention that CONSULTANT developed entirely on CONSULTANT's own time without using the Company's equipment, supplies, facilities or trade secret information, except for those inventions that (i) relate to the Company's business or actual or demonstrably anticipated research or development, or (ii) result from any work performed by CONSULTANT for the Company.",
+    "raw_sentence": "It\nwould not make sense to interpret these two references to\nmean  subsection,  because  1681m(c) itself does not\ncontain any rules that can be violated or complied with. 1681n and 1681o, do not apply to one portion of  1681, namely 15 U.S.C. 1681m(e), the provision dealing with  red flagging  of reports affected by identity\ntheft. 1681s-2(c) to exempt  1681m(e) from private\nremedies if all of  1681m were already exempt from private\nremedies by virtue of  1681m(h)(8).",
+    "bi_encoder_score": 0.4059179425239563,
+    "contract_id": "perry-thelma-v-first-national-bank",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "anticipated"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe provision\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "The Parties agree that any and all intellectual property researched and developed, created and invented by the Parties (including their employees) in the course of performance of this Agreement shall be owned by Party B. For the purpose of this Article 12.3, \"Intellectual Property\" means the patent, patent application right, trademark, service mark, logo, image, trade name, internet domain name, design right, copyright (including copyright of computer software) and moral rights, database right, right of semiconductor design drawing, utility model, proprietary technology and other intellectual property that are registered and unregistered including those that have applied for registration, as well as all other rights or protection methods with same or similar effect on a global scope.",
+    "raw_sentence": "Another\nclause, however, provides that if  any such additional\nproprietary subject matter is first conceived and/or reduced\nto practice by or on behalf of [XCO] during the term of this\nAgreement, then title thereto shall vest in and remain\n[XCO s] exclusive property. XCO claims to have incurred nearly $400,000\nin legal fees and other expenses to defend against the\ncounterclaim. XCO s appeal challenges the district judge s denial of its\nmotion for sanctions as well as his refusal to enforce the\nliquidated damages clause. In defending the latter ruling\nPacSci not only embraces the judge s penalty-clause determination but also argues that letting the patents lapse was\nnot a breach of contract after all.",
+    "bi_encoder_score": 0.4206293523311615,
+    "contract_id": "xco-intl-inc-v-pacific-scientific",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "similar"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b",
+      "\\bprovides that\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "and/or"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Subject to Clauses 9.1 and 9.2, each party's total liability under or in connection with this Agreement (whether in contract, tort or  otherwise) arising in any Contract Year is limited to the greater of:\n\n  (a) [ * ] Euros ([ * ] Euros); and\n\n  (b) [ * ]% of the total payment due to the Distributor in the relevant Contract Year pursuant to Clause 4 (Payment Terms).",
+    "raw_sentence": "428, 432 S.E.2d 98 (1993) (emphasis\n\nadded); see also Id., at 431, 432 S.E.2d at 101 ( [A] just public policy demands that\n\nindemnity agreements be permitted unless they go beyond a mere allocation of potential joint\n\nand several liability and indemnify against the sole negligence of the indemnitee without an\n\nappropriate insurance fund, bought pursuant to the contract, for the express purpose of\n\nprotecting all concerned. Indeed, this Court has\n\nexpressly declared that  [c]ontracts of indemnity against one s own negligence do not\n\ncontravene public policy and are valid. 15  Elk Run next asserts that the circuit court erred in finding the language of the\n\nH & D Agreement was not sufficiently clear to express that Medford had agreed to indemnify\n\nElk Run for accidents arising from Elk Run s sole negligence. The indemnifying clause at issue\n\nin Sellers provided that  Subcontractor shall indemnify Contractor against all claims for\n\ndamages arising from accidents to persons or property occasioned by the Subcontractor, his\n\nagents or employees.",
+    "bi_encoder_score": 0.4127248525619507,
+    "contract_id": "elk-run-coal-co-v-canopius-us-insurance",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "relevant"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b",
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "appropriate"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "If the arbitrator determines that any Outstanding Patent should be or should have been, as applicable, an Assigned Patent, Seller shall (and shall cause the other Seller Parties to) assign such Patent to the Purchaser Assignees in accordance with Section 2.1(b)(iii)(E).",
+    "raw_sentence": "Under that standard, an arbitrator s\n\ndecision must be confirmed so long as it  draws its essence from the collective bargaining\n\nagreement. That\n\nstandard applies  even if the court is convinced the arbitrator committed serious error. That is not to say that the Court acts merely as a rubber-stamp when it comes to labor\n\narbitration. A court is required to reverse an arbitrator s decision  [w]hen the arbitrator s words\n\nmanifest an infidelity to [their] obligation  to interpret and apply the agreement at issue.",
+    "bi_encoder_score": 0.42868801951408386,
+    "contract_id": "securiguard-inc-v-united-government-security-officers-of-america-local",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "as applicable",
+      "applicable"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bobligation\\b",
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "CRO agrees that during the term of this Agreement and for a period of three years thereafter: (a) to disclose and assign to Client as its exclusive property all inventions and technical or business innovations specifically derived from the work assigned by Client to CRO which CRO develops or conceives, solely or in conjunction with others (1) that are based on or involve information of Client, (2) that relate to, constitute, result from, or include the work in which CRO will be engaged for Client, or (3) that are otherwise made through the use of any time, facilities or materials of Client;",
+    "raw_sentence": "The crux of the parties  dispute is the interpretation of the language of their joint status\n\nreport, which embodies the parties  agreement on the scope of the agency s obligations in\n\nfulfilling the plaintiff s FOIA request. The parties fundamentally disagree over the terms of the agreement governing the CBP s\n\nproduction of records to the plaintiff. The parties submitted a joint status report to the Court\n\nadvising that:  [I]n the interest of expediting the release of emails to Plaintiff, CBP may satisfy  Plaintiff s FOIA request with respect to the processing of emails by providing to  29  Plaintiff the emails as released in CREW v. DHS pursuant to the search described  in the Joint Status Report and Proposed Disclosure Schedule .",
+    "bi_encoder_score": 0.40804705023765564,
+    "contract_id": "gilman-v-us-department-of-homeland-security",
+    "d1_anchor_vagueness": 0,
+    "d1_matched_terms": [],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 3,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b",
+      "\\binterpretation\\b",
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": null,
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Neither Party shall be liable to the other Party in contract, tort or otherwise, whatever the cause, for any loss of profit, business or goodwill or any indirect, incidental or consequential costs, damages or expenses of any kind, except for such loss attributable to breach of confidentiality.",
+    "raw_sentence": "JMAV in its briefing does cite to an\n\nunpublished opinion from the United States Court of Appeals for the Fourth Circuit ( Fourth  9\n\fCircuit ) applying District of Columbia contract law to an indemnity provision that includes a  Who  clause and holding that the language of the agreement unambiguously evidenced the intent\n\nto include indemnification even in the case of the indemnitee s own negligence. The agreement\n\nin that case provided, in part, that a security guard service would indemnify Red Roof Inns for any\n\nclaims arising out of injury to an employee of the security guard service. The agreement\n\nspecifically provided that the security guard service s indemnity obligations  extend to any\n\ndamages resulting from any action or omission of [Red Roof Inns], negligent or otherwise. In contrast, the  Who  clause of the indemnity\n\nprovision in the instant case references the actions of the indemnitor, Strittmatter, rather than the\n\nactions of the indemnitee, JMAV.",
+    "bi_encoder_score": 0.44182640314102173,
+    "contract_id": "parker-v-john-moriarty-associates",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b",
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bcourt of appeals\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "If you wish to test market an item that we have not approved, then, so long as we have given you our prior written approval, you may do so for so long, and on such terms, that we mutually agree upon (a \"Test\"), and the item so tested, and all associated formulae, plans, and materials, will become our property.",
+    "raw_sentence": "It\nis our obligation, sitting in diversity, to respect the balance Illinois has established. The task is especially delicate in a case like this one, where the party whose disposition of the property has been challenged is dead and thus\ncannot counter the surviving party s version of the relevant events. 1974), parties that succeed in imposing a constructive trust on life insurance\nproceeds have powerful evidence such as a written agreement to show how the property was intended to be distributed. 00-3910  9\n\nance in marital settlement agreement creates equitable\nright); Perkins v.",
+    "bi_encoder_score": 0.40424516797065735,
+    "contract_id": "davis-linda-y-v-combes-david",
+    "d1_anchor_vagueness": 0,
+    "d1_matched_terms": [],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bobligation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": null,
+    "d3_matched_category_terms": [],
+    "total_score": 0,
+    "passes": false
+  },
+  {
+    "cuad_category": "Ip Ownership Assignment",
+    "cuad_anchor": "If the arbitrator determines that any Outstanding Patent should be or should have been, as applicable, an Assigned Patent, Seller shall (and shall cause the other Seller Parties to) assign such Patent to the Purchaser Assignees in accordance with Section 2.1(b)(iii)(E).",
+    "raw_sentence": "See Arbitration Award at 2\n\n( This Division of the Adjustment Board has jurisdiction over the dispute involved herein. Later, however, it states that the claim is  beyond the Board s jurisdiction. And throughout, the award references Amtrak s argument that  [t]he Board does not have\n\njurisdiction to interpret and apply the Agreement to future situations. ( Declaratory judgments and injunctive relief are beyond the jurisdiction of the Board .",
+    "bi_encoder_score": 0.4460015594959259,
+    "contract_id": "brotherhood-of-railroad-signalmen-v-national-railroad-passenger",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "as applicable",
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bjurisdiction\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  }
+]

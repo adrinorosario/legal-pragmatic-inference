@@ -488,6 +488,18 @@ def main():
         default="0.4",
         help="Top-level key in the JSON to read triplets from (default: '0.4')"
     )
+    parser.add_argument(
+        "--summary-dir",
+        type=Path,
+        default=None,
+        help="Output directory for scored_triplets and scoring_summary files "
+             "(default: same directory as input file)"
+    )
+    parser.add_argument(
+        "--summary-only",
+        action="store_true",
+        help="Only write the summary file, skip scored_triplets outputs"
+    )
     args = parser.parse_args()
 
     # ── Load data ──────────────────────────────────────────────────
@@ -513,22 +525,27 @@ def main():
     print(f"  ... scored {len(scored_all)}/{len(entries)} — done.")
 
     # ── Write full output ──────────────────────────────────────────
-    out_dir = input_path.parent
-    full_output_path = out_dir / "scored_triplets_version5.json"
-    with open(full_output_path, "w", encoding="utf-8") as f:
-        json.dump(scored_all, f, indent=2, ensure_ascii=False)
-    print(f"\nFull scored output written to {full_output_path}")
+    run_match = re.search(r"run_(\d+)", str(input_path))
+    run_version = run_match.group(1) if run_match else "5"
+    out_dir = args.summary_dir if args.summary_dir is not None else input_path.parent
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    # ── Write sample output ────────────────────────────────────────
-    if not args.full_only:
-        random.seed(args.seed)
-        sample_size = min(args.sample_size, len(scored_all))
-        sample = random.sample(scored_all, sample_size)
+    if not args.summary_only:
+        full_output_path = out_dir / f"scored_triplets_version{run_version}.json"
+        with open(full_output_path, "w", encoding="utf-8") as f:
+            json.dump(scored_all, f, indent=2, ensure_ascii=False)
+        print(f"\nFull scored output written to {full_output_path}")
 
-        sample_output_path = out_dir / "scored_triplets_sample_5.json"
-        with open(sample_output_path, "w", encoding="utf-8") as f:
-            json.dump(sample, f, indent=2, ensure_ascii=False)
-        print(f"Sample ({sample_size} rows) written to {sample_output_path}")
+        # ── Write sample output ────────────────────────────────────
+        if not args.full_only:
+            random.seed(args.seed)
+            sample_size = min(args.sample_size, len(scored_all))
+            sample = random.sample(scored_all, sample_size)
+
+            sample_output_path = out_dir / f"scored_triplets_sample_{run_version}.json"
+            with open(sample_output_path, "w", encoding="utf-8") as f:
+                json.dump(sample, f, indent=2, ensure_ascii=False)
+            print(f"Sample ({sample_size} rows) written to {sample_output_path}")
 
     # ── Print summary ──────────────────────────────────────────────
     summary_lines = []
@@ -536,7 +553,7 @@ def main():
     print_summary(scored_all, summary_lines)
 
     # Write summary to file
-    summary_path = out_dir / "scoring_summary_version5.txt"
+    summary_path = out_dir / f"scoring_summary_version{run_version}.txt"
     with open(summary_path, "w", encoding="utf-8") as f:
         f.write("\n".join(summary_lines) + "\n")
     print(f"\nSummary written to {summary_path}")

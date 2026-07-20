@@ -1,0 +1,1736 @@
+[
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "They are correct that Mastrobuono declined to apply New York arbitration law on\n\npunitive damages, at least in part, because the contract lacked  an unequivocal exclusion of\n\npunitive damages claims. But the Supreme Court s\n\ninvocation of a clear-statement test was based on the premise that,  when a court interprets [an\n\nambiguous] provision[] in an agreement covered by the FAA,  due regard must be given to the\n\nfederal policy favoring arbitration, and ambiguities as to the scope of the arbitration clause itself\n\n[must be] resolved in favor of arbitration. 2d at 153 &\n\nn.21 (relying on  the policies that heavily favor arbitration  to hold that  Mastrobuono requires  a clear-statement of intent to apply local arbitration law).",
+    "bi_encoder_score": 0.4137718677520752,
+    "contract_id": "equitas-disability-advocates-llc-v-daley-debofsky-and-bryant-pc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b",
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding the provisions of this subsection (d), no Remarketing Agent shall be required to contribute any amount in excess of the amount by which the total price at which the applicable Securities remarketed by it and distributed to the public were offered to the public exceeds the amount of any damages which such Remarketing Agent has otherwise been required to pay by reason of such untrue or alleged untrue statement or omission or alleged omission.",
+    "raw_sentence": "We also expressly rejected the idea that the Supreme Court\nendorses the categorical relevance of mitigation in punitive\ndamages calculations. at 812 ( We do not interpret the\nlanguage in BMW and Cooper as relying on evidence of postoccurrence remediation for overturning the punitive damages\nawards; rather the Court appears simply to have been recounting a full history of the litigation to give a complete picture\nof the proceedings. Additionally, the majority s approach makes little sense as\na matter of policy, for it runs directly counter to the twin goals\nof punitive damages: deterrence and retribution.",
+    "bi_encoder_score": 0.4156174957752228,
+    "contract_id": "baker-v-exxon-mobile-corp",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "As used in this section, \"Competitor\" means: (i) any private or publicly traded real estate investment trust, fund or other investment vehicle or program whose principal place of business is in Virginia or any other state in which the Company owns real estate and whose business strategy is based on investing in, acquiring or developing flex/industrial, retail, multifamily and limited service hotel real estate, whether directly or indirectly through joint ventures, or (ii) any entity whose principal place of business is in Virginia or any other state in which the Company owns real estate and that advises (including any external advisor) such investment vehicles or programs.",
+    "raw_sentence": "In particular,\n\nMoldova points to the term  State-controlled entity,  which is part of the definition of  Moldova  in the RFPs, and  Identified State Controlled Entities,  a term incorporated into  State-controlled entity. Moldova s problem with these definitions seems to be that\n\nthey may include entities that have been privatized or entities in which the Republic owns less\n\nthan a 50% stake. Relatedly, Moldova contends that almost all of Stileks s discovery\n\nrequests are overbroad or irrelevant because the definitions of  Moldova  and  State-controlled\n\nentity  include agencies, instrumentalities, political subdivisions, representatives, alter-egos, and\n\nthe like, which Moldova maintains are non-parties beyond the scope of post-judgment discovery.",
+    "bi_encoder_score": 0.41969215869903564,
+    "contract_id": "llc-energoalliance-v-republic-of-moldova",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "directly or indirectly"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding the provisions of this subsection (d), no Remarketing Agent shall be required to contribute any amount in excess of the amount by which the total price at which the applicable Securities remarketed by it and distributed to the public were offered to the public exceeds the amount of any damages which such Remarketing Agent has otherwise been required to pay by reason of such untrue or alleged untrue statement or omission or alleged omission.",
+    "raw_sentence": "Here, there was no\nfraud; and Appellants eschew arguing that the punitive damages were imposed\ndue to Pastazios  malice, as that would trigger the Policy s exclusion for injury\n expected or intended  by Pastazios. 41.001(7) (defining  malice  as  a specific intent by the defendant to cause\nsubstantial injury or harm to the claimant ). Thus, Appellants rely on the\ntheory that the punitive damages were imposed solely due to Pastazios  gross\nnegligence.",
+    "bi_encoder_score": 0.41676345467567444,
+    "contract_id": "century-surety-company-v-ajredin-deari",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding the provisions of this subsection (d), no Remarketing Agent shall be required to contribute any amount in excess of the amount by which the total price at which the applicable Securities remarketed by it and distributed to the public were offered to the public exceeds the amount of any damages which such Remarketing Agent has otherwise been required to pay by reason of such untrue or alleged untrue statement or omission or alleged omission.",
+    "raw_sentence": "Nor did it appear until very recently\nthat the  vague contours  of the Due Process Clause served\nto measure the constitutionality of particular punitive\ndamages awards. Beginning in the mid-1980s, however, a smattering of\nSupreme Court dicta began to suggest that one or more\nJustices believed that such limitations might be necessary as\na constitutional response to a growing trend of punitive\ndamages  run wild. 1, 9 12 (1991) (collecting dicta from  recent years \nin which  [the] Court and individual Justices  expressed\ndoubts about the constitutionality of certain punitive damages\nawards ).",
+    "bi_encoder_score": 0.40850964188575745,
+    "contract_id": "pinon-v-bank-of-america-na",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages including but not limited to lost profits, lost revenues, failure to realize expected savings, loss of data and loss of use.",
+    "raw_sentence": "If allegedly delinquent pension fund  contributors such as Defendant were regularly granted venue transfers, pension  funds such as Plaintiff Fund would be forced to incur enormous, if not  prohibitively high, expenses to collect unpaid monies a situation Congress  explicitly sought to prevent when it enacted ERISA's special venue provisions. 1253, 1256 (E.D.Va.1988) (noting that ERISA's venue provision was  explicitly intended to  remove jurisdictional and procedural obstacles which in  the past appear to have hampered effective enforcement of fiduciary  responsibilities under state law for recovery of benefits due to participants,  H.R.Rep. 2011)\n\n( Although the Court recognizes the significant cost and expense of litigating this case half-way\n\nacross the country, the Court must weigh the defendant s burden against the public policy\n\nrationales for allowing ERISA Funds their choice of forum.",
+    "bi_encoder_score": 0.4115874171257019,
+    "contract_id": "national-shopmen-pension-fund-v-stamford-iron-steel-works-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "including but not limited to"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bprocedural\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "significant"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Covenant Not To Sue",
+    "cuad_anchor": "Notwithstanding any prior termination of the Owner or this Agreement, the Servicer shall not at any time with respect to the Owner, acquiesce, petition or otherwise invoke or cause the Owner to invoke the process of any court or governmental authority for the purpose of commencing or sustaining a case against the Owner under any federal or state bankruptcy, insolvency or similar law or appointing a receiver, conservator, liquidator, assignee, trustee, custodian, sequestrator or other similar official of the Owner or any substantial part of its property, or ordering the winding up or liquidation of the affairs of the Owner.",
+    "raw_sentence": "The doctrine of non-statutory review of ultra vires actions\n\nallows a plaintiff in certain limited circumstances to challenge government action in court even if\n\nthe  plaintiff is unable to bring his case predicated on either a specific or a general statutory\n\nreview provision. Sovereign immunity is not a bar to such a claim because  sovereign immunity does not\n\nbar a suit challenging the actions of a federal officer who has acted in excess of his legal\n\nauthority. However, it is well-settled that this doctrine is narrow:  [t]here certainly is no question that\n\nnonstatutory review  is intended to be of extremely limited scope.",
+    "bi_encoder_score": 0.4201420545578003,
+    "contract_id": "cause-of-action-institute-v-eggleston",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "substantial",
+      "similar"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "limited"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding anything contained herein to the contrary, the                   cumulative liability of the parties to one another for any                   claims, liabilities, losses, damages or expenses, direct or                   indirect, arising out of or related to this Agreement shall                   not exceed the lesser of $50,000 or (not including other                   funding amounts such as the Point value of Cards) or the                   amount paid by Schoolpop to AEIS for the immediately preceding                   twelve (12) months provided, however, that in no event shall                   this limitation of liability apply to any claims, liabilities,                   losses, damages, or expenses, direct or indirect, arising out                   of or related to this Agreement brought by the actions of                   Schoolpop pursuant to paragraphs 4(e), 4(i), 4(k), 4(p), 5(a),                   5(b), 6(b), 7(a), 7(d), 14(d.iii), 9(f) and Sections 2, 3 11,                   12, and 13, and Exhibit 1 of this Agreement. In no event shall\n\n\n\n\n\neither party be liable to the other, under any theory, for                   lost profits, exemplary, punitive, special incidental,                   indirect, or consequential damages.",
+    "raw_sentence": "Unum offered and Shatkin Arbor\nsponsored a group plan, which would come into force only\nif 75% or more of eligible persons enrolled; there was no\nindividual insurance policy. If a  plan  is covered, then\nevery participant and beneficiary receives ERISA S benefits\n(or detriments, which is how Shyman sees the absence of\nremedies such as punitive damages in tort). Unum and Shatkin\nArbor agreed that  [w]hen making a benefit determination\nunder the Policy, UNUM has discretionary authority to\ndetermine your eligibility for benefits and to interpret the\nterms and conditions of this Policy.",
+    "bi_encoder_score": 0.40200525522232056,
+    "contract_id": "shyman-ira-v-unum-life-insur-co",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related",
+      "incidental"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "AT&T may elect to, after consultation with Vendor and good faith discussion to negotiate another resolution:\n\n(i) terminate its obligations solely with respect to each Cell Site affected by or related to such Permitting Delay under this Agreement and exercise any of the Termination Remedies set forth in the Build Addendum, without liability to Vendor; provided that AT&T shall pay to Vendor, an amount equal to the demonstrated costs incurred by Vendor for any Work completed (in accordance with applicable Specifications and requirements) to the extent such Work is transferred to AT&T as of the effective time of termination of the applicable terminated Cell Site, which amount shall not exceed $[***]",
+    "raw_sentence": "The legislature placed such a responsibility on the  employer and the owner. Thus, we hold that the\namended complaint must be dismissed for failure to state a claim upon which relief can be  6  In a series of cases arising out of a variety of factual settings in which a discharge clearly\nviolated an express statutory objective or undermined a firmly established principle of public\npolicy, this Court has recognized that an employer s traditional broad authority to discharge an\nat-will employee may be limited by considerations of substantial public policy. Specifically, Petitioner pled no facts to show that her workplace  the client s home  was unsafe.",
+    "bi_encoder_score": 0.401269793510437,
+    "contract_id": "julie-conrad-v-council-of-senior-citizens-of-gilmer-county",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related",
+      "applicable",
+      "good faith",
+      "consultation"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "effort",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "Except as expressly stated herein with respect to members of each Party, no person or entity not a Party to this Agreement (including, without limitation, any employee of either Party or the Joint Venture) shall be a third-party beneficiary of any provision of this Agreement, and nothing contained herein shall be construed or deemed to confer any benefit or right upon any third party.",
+    "raw_sentence": "Imposition of a  duty to an individual, other than an  intended beneficiary  would offend public policy by  plac[ing] an  attorney in a position where his own interests would  conflict directly with his client s interests. PAUL  tionally,  as a matter of law and common sense, [Ms. Thompson] had no right to rely on statements made  by the attorneys opposing [her].",
+    "bi_encoder_score": 0.40382257103919983,
+    "contract_id": "thompson-v-paul",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "without limitation"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Neither Party shall be liable to the other Party in contract, tort or otherwise, whatever the cause, for any loss of profit, business or goodwill or any indirect, incidental or consequential costs, damages or expenses of any kind, except for such loss attributable to breach of confidentiality.",
+    "raw_sentence": "24-27.) Finally, plaintiff claims that the  punitive damages exclusion  bars\n\nCitron from seeking coverage for any award of punitive damages. Exclusions  [W]here [insurance] contract language is not ambiguous, summary judgment is\n\nappropriate because a written contract duly signed and executed speaks for itself and binds the\n\nparties without the necessity of extrinsic evidence. United Food\n\n& Commercial Workers Int'l Union, 770 A.2d 978, 985 (D.C.",
+    "bi_encoder_score": 0.40200644731521606,
+    "contract_id": "essex-insurance-company-v-cafe-dupont-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b",
+      "\\bcontract language\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bsummary judgment\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "appropriate"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding anything contained herein to the contrary, the                   cumulative liability of the parties to one another for any                   claims, liabilities, losses, damages or expenses, direct or                   indirect, arising out of or related to this Agreement shall                   not exceed the lesser of $50,000 or (not including other                   funding amounts such as the Point value of Cards) or the                   amount paid by Schoolpop to AEIS for the immediately preceding                   twelve (12) months provided, however, that in no event shall                   this limitation of liability apply to any claims, liabilities,                   losses, damages, or expenses, direct or indirect, arising out                   of or related to this Agreement brought by the actions of                   Schoolpop pursuant to paragraphs 4(e), 4(i), 4(k), 4(p), 5(a),                   5(b), 6(b), 7(a), 7(d), 14(d.iii), 9(f) and Sections 2, 3 11,                   12, and 13, and Exhibit 1 of this Agreement. In no event shall\n\n\n\n\n\neither party be liable to the other, under any theory, for                   lost profits, exemplary, punitive, special incidental,                   indirect, or consequential damages.",
+    "raw_sentence": "2015)\n\n(recognizing that a party may allege multiple theories of liability), and absent a persuasive\n\nargument from the defendants that the plaintiff s tortious bad faith claim may not proceed as an  8\n\falternative theory of liability, the Court is not prepared at this early stage to dismiss that claim. The Plaintiff s Wrongful Discharge in Violation of Public Policy Claim (Count IV)  The plaintiff asserts a claim against the defendants for wrongful discharge in violation of\n\npublic policy based on the allegation that the plaintiff was terminated  [a]s a direct and\n\nproximate result of the [p]laintiff s complaints to the [d]efendants that [Howard University\n\nFaculty Practice Plan] was engaging in illegal billing practices in violation of federal and local\n\nlaw. Even assuming for the sake of argument that the Complaint sufficiently alleges the\n\nexistence of an employment contract between the plaintiff and the defendants, see supra at 6 8\n\n(concluding that the Complaint does not identify any contractual obligation that would support a\n\nbad faith claim predicated on the implied covenant of good faith and fair dealing),  [i]t has long\n\nbeen settled in the District of Columbia that an employer may discharge an at-will employee at\n\nany time and for any reason, or for no reason at all,  Adams v.",
+    "bi_encoder_score": 0.40011832118034363,
+    "contract_id": "taylor-v-howard-university-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related",
+      "incidental"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bcontractual\\b",
+      "\\bobligation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "For clarity and notwithstanding anything contained herein, nothing in this Section 2.1(e)(i) (A) is intended to be inconsistent with Section 2.4(e)(i) or to otherwise indicate that Customer is subject to any requirement to purchase Product under this Agreement or (B) is intended to prevent Customer from qualifying a back-up supplier for any Product during the Exclusivity Period",
+    "raw_sentence": "But this logic prevails only if the four exceptions represent the entire\n\nuniverse of what may be excluded from the definition of \"new hospital.\" It doesn't! Although the regulatory language does not articulate explicitly that the  412.300(b) exceptions are exclusive, neither does it state that the exceptions are nonexclusive. Once\n\nagain, the parties' arguments and the language of the regulation itself point to ambiguity.",
+    "bi_encoder_score": 0.4529340863227844,
+    "contract_id": "select-specialty-hospital-bloomington-inc-v-sebeli",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "2010) (explaining that Illinois courts  compare the language of the\npolicy with the facts alleged in the complaint, rather than\nexamine whether the client has pled any particular theory of\nrelief ). Exclusion (o) lists  sanctions  alongside  fines,  penalties,  punitive damages,  and  damages resulting from the\nmultiplication of compensatory damages all terms that\ndescribe penalties rather than compensatory remedies. 14-3341  arbitration award, on the other hand, is crafted as a remedy\nfor the Joyce firm s breach of fiduciary duty in connection\nwith its handling of the retention of the outside firms for the\ncollection litigation against EPS s insurers.",
+    "bi_encoder_score": 0.4128473401069641,
+    "contract_id": "edward-t-joyce-associates-pc-v-professionals-direct-insurance",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "For clarity and notwithstanding anything contained herein, nothing in this Section 2.1(e)(i) (A) is intended to be inconsistent with Section 2.4(e)(i) or to otherwise indicate that Customer is subject to any requirement to purchase Product under this Agreement or (B) is intended to prevent Customer from qualifying a back-up supplier for any Product during the Exclusivity Period",
+    "raw_sentence": "However, the circuit court failed to recognize that, on appeal of this ruling,\n\nthe Pennsylvania Supreme Court thoroughly explained why the policy language at issue in\n\nthat case yielded such a result and expressly contrasted it with the type of exclusionary\n\nlanguage used in the case at bar. merely apply the rule that a separation-of-insureds clause does not negate the effect of\n\na plainly worded exclusion. This explicit carve out of  any insured  exclusionary provisions from its\n\nanalysis notwithstanding, the Politsopoulos II discussion is instructive on Pennsylvania s\n\nlikely treatment of the term  any insured  in an ELE.",
+    "bi_encoder_score": 0.4272124767303467,
+    "contract_id": "federal-insurance-company-v-jenny-m-neice-administratrix-of-the-estate",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bon appeal\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "No action,                   case, suit or proceeding, regardless of form, arising out of                   or related to this Agreement, may be brought by either party                   more than one (1) year after the cause of action has arisen,                   or in the case of nonpayment, more than two (2) years from the                   date of the last payment.",
+    "raw_sentence": "Syria is not a party to the bilateral agreement between the United States and Libya, nor\n\nwas the Agreement intended to apply to claims by United States nationals against states other\n\nthan Libya. The argument that the Agreement deprives this court of jurisdiction over the\n\nplaintiffs  claims against the Syrian defendants is without merit. Whether the Issuance of a Stay Will Substantially Injure Other Interested  Parties, and Where the Public Interest Lies  The final two factors for considering a stay are whether the issuance of a stay will\n\nsubstantially injure other interested parties to the suit, and whether public policy favors a stay.",
+    "bi_encoder_score": 0.43402814865112305,
+    "contract_id": "baker-v-great-socialist-peoples-libyan-arab-jamahi",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bjurisdiction\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding the provisions of this subsection (d), no Remarketing Agent shall be required to contribute any amount in excess of the amount by which the total price at which the applicable Securities remarketed by it and distributed to the public were offered to the public exceeds the amount of any damages which such Remarketing Agent has otherwise been required to pay by reason of such untrue or alleged untrue statement or omission or alleged omission.",
+    "raw_sentence": "When Congress\n\nenacted subsection 1605A(c), however, it provided that a plaintiff asserting a private right of\n\naction under that subsection may seek  punitive damages. at 692 96 (considering the application of Landsgraf to the FSIA for\nconduct taking place before 1976 and noting that  in most cases, the antiretroactivity\npresumption is just that a presumption, rather than a constitutional command ). 62\n\flimited, it is not immediately apparent to the Court that this permissive provision was clearly\n\nintended to allow plaintiffs to seek punitive damages for pre-enactment conduct.",
+    "bi_encoder_score": 0.43307381868362427,
+    "contract_id": "flanagan-v-islamic-republic-of-iran",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "For clarity and notwithstanding anything contained herein, nothing in this Section 2.1(e)(i) (A) is intended to be inconsistent with Section 2.4(e)(i) or to otherwise indicate that Customer is subject to any requirement to purchase Product under this Agreement or (B) is intended to prevent Customer from qualifying a back-up supplier for any Product during the Exclusivity Period",
+    "raw_sentence": "This  equivalence  provision simply clarifies that\nthe term  State  includes  any federally recognized Indian\ntribe, as defined by the Secretary of the Interior . It does not expressly provide that tribes\nare excluded from the definition of  person  or from the\nBureau s enforcement authority under the Act. In sum, the\nTribal Lending Entities  interpretation of the equivalence\nprovision reads far too much into a simple definition.",
+    "bi_encoder_score": 0.40147221088409424,
+    "contract_id": "consumer-financial-protection-bureau-v-great-plains-lending-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b",
+      "\\binterpretation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Covenant Not To Sue",
+    "cuad_anchor": "SpinCo hereby covenants not to sue RemainCo under any Licensed SpinCo Know-How and under SpinCo's right, title and interest in and to Shared Library Materials and Foundational Software, including, without limitation, all applicable Patents, Copyrights, and Know-How, for infringement or misappropriation based upon any action that occurs in connection with the continued operation of the RemainCo Business and any future extensions of the RemainCo Business in any field other than the SpinCo Core Field after the Distribution Date",
+    "raw_sentence": "The district court dismissed the RICO claim on two alternative grounds. [2] We agree that the PSLRA bars Swartz s claim and\nhereby adopt the district court s opinion in Swartz I to that\nextent. Swartz s argument on appeal that the BLIPS transactions\nwere intended to be a swap agreement does not change the\nfact that the complaint alleges fraud in connection with the\nsale of securities.",
+    "bi_encoder_score": 0.45870208740234375,
+    "contract_id": "swartz-v-kpmg-llp",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "without limitation",
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 2,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bon appeal\\b",
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages including but not limited to lost profits, lost revenues, failure to realize expected savings, loss of data and loss of use.",
+    "raw_sentence": "A bankruptcy court s decision to overrule a claim objection for failure to\n\nprosecute is governed by the following factors:  (1) the public s interest in\n\nexpeditious resolution of litigation; (2) the court s need to manage its docket; (3) the\n\nrisk of prejudice to the defendants; (4) the public policy favoring disposition of cases\n\non their merits; and (5) the availability of less drastic sanctions. Although beneficial to the reviewing court,  the bankruptcy court  is\n\nnot required to make specific findings on each of the essential factors. Reversal\n\nis inappropriate unless this Court has  a definite and firm conviction that the court\n\nbelow committed a clear error of judgment in the conclusion it reached upon a\n\nweighing of the relevant factors.",
+    "bi_encoder_score": 0.4004947245121002,
+    "contract_id": "juana-medina-v-daniels-jewelers",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "including but not limited to"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "relevant"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "IntriCon is not liable in any way to Dynamic Hearing for any indirect, consequential, third party, special or incidental  harm, liability, expense, cost, loss or damage, loss of profits, loss of data, exemplary damages or any other indirect  commercial or economic loss of any kind whatsoever incurred by Dynamic Hearing whether in negligence, tort, equity,  contract or otherwise, arising in connection with this Agreement;",
+    "raw_sentence": "No  public policy should permit the members to eliminate or limit the liability of  directors for conduct intended to cause harm to the corporation or its members. Thus, according to the Model Act s Official Comment, a\n\ndirector s conduct rises to the level of intentional infliction of harm if the director (1) intends the\n\nconduct; (2) with the knowledge that the conduct will cause harm. 12\n\fpurchased by a different entity; a transaction in which the defendants had an interest.",
+    "bi_encoder_score": 0.4075789749622345,
+    "contract_id": "bronner-v-duggan",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding anything in this agreement to the contrary, neither Party shall be liable to the other Party for special, indirect, consequential, punitive, or exemplary damages suffered by such Party resulting from or arising out of this Agreement or the breach thereof or under any other theory of liability, whether tort, negligence, strict liability, breach of contract, warranty, indemnity, or otherwise, including, without limitation, loss of use, increased cost of operations, loss of profit or revenue, or business interruptions. In furtherance of the foregoing, each Party releases the other Party and waives any right of recovery for special, indirect, consequential, punitive, or exemplary damages suffered by such Party regardless of whether any such damages are caused by the other Party's negligence (and regardless of whether such negligence is sole, joint, concurrent, active, passive, or gross negligence), fault, or liability without fault.",
+    "raw_sentence": "Similarly, to the extent that Count VIII is intended to\n\nplead a common law claim of wrongful discharge, it does not. In\n\nsome circumstances, [courts in the District of Columbia] have  -21recognized a common law tort of wrongful discharge  as an\n\nexception to the traditional at-will doctrine governing\n\ntermination of employment, where the discharge violates a clear\n\nmandate of public policy. One of those circumstances is where  the sole reason for\n\n[the employee s] discharge [was] the employee s refusal to\n\nviolate the law.",
+    "bi_encoder_score": 0.4017978608608246,
+    "contract_id": "carson-v-sim",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "without limitation"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "No action,                   case, suit or proceeding, regardless of form, arising out of                   or related to this Agreement, may be brought by either party                   more than one (1) year after the cause of action has arisen,                   or in the case of nonpayment, more than two (2) years from the                   date of the last payment.",
+    "raw_sentence": "The other\ncase, as the district court here pointed out, is a 10-line order\nthat lacks context, Gillis v. Day does not argue that the duration\nterm in this case is ambiguous, and he has failed to persuade\nus that the explicit and unambiguous contract term may be\nrebutted by extrinsic evidence. We also reject Day s arguments that employment contracts\nfor one fishing voyage are, as applied to unearned wages, per\nse unconscionable or void as against public policy.",
+    "bi_encoder_score": 0.4002504348754883,
+    "contract_id": "day-v-american-seafoods-co",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "Products. Any failure of Endorser to disclose such conflicting interests, or any breach of this Section, shall be deemed a material breach of the Agreement.",
+    "raw_sentence": "Intervet argues that the request is overbroad, vague, unduly burdensome,\n\nirrelevant and privileged. Merial also argues that Intervet has improperly withheld discovery on\n\nthe issue of wilfulness, and Intervet responded that it intended to file a motion to bifurcate, but in\n\nany event, it had given all of its non-privileged information to Merial. The parties also disagree\n\nas to the sufficiency of Intervet s responses to Merial s 30(b)(6) notices.",
+    "bi_encoder_score": 0.40289467573165894,
+    "contract_id": "intervet-inc-v-merial-limited",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "material breach",
+      "material"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "unduly burdensome"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "BOA contends that the exculpatory language limits BOA s liability to instances of gross\n\nnegligence, willful misconduct, material breach, bad faith, or  other malfeasance,  and precludes  45\n\fliability for  material breach  unless the parties have given BOA notice of the breach and an\n\nopportunity to cure, all of which, BOA asserts, the FDIC failed to plead in its Counterclaims. BOA concedes that the language in\n\nparagraph 10A  is more specific  than that of paragraph 11, but argues that both paragraphs\n\npreclude liability  under the circumstances  alleged in the Counterclaims. According\n\nto BOA, the exculpatory language  could not be clearer or less equivocal.",
+    "bi_encoder_score": 0.40951934456825256,
+    "contract_id": "bank-of-america-national-association-v-federal-dep",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "material"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In no event will either party be liable to the other for special,       incidental, or indirect damages or for any consequential damages       (including lost profits or savings), even if they are informed of the       possibility; provided that this Section 10 does not apply to Customer's       failure to pay any amounts owing to IBM under this Agreement (including       amounts owing for Services that would have been rendered but for       Customer's breach of this Agreement).",
+    "raw_sentence": "1989) (holding that exculpatory\n\nclauses had  no force and effect  because they contradicted each other). The FDIC argues that the exculpatory language in question here is anything but clear. Indeed, according to the FDIC, the exculpatory language is unenforceable because the language\n\ncontained in both paragraphs 10A and 11 is unclear and contradictory, thereby making it\n\nimpossible for this Court to ascertain the parties  intent.",
+    "bi_encoder_score": 0.4093121290206909,
+    "contract_id": "bank-of-america-national-association-v-federal-dep",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "In the event that it is determined that                   Excite violated the Agreement by excluding a bona fide                   NetGrocer Competitor from Exhibit A or displayed on the                   Excite Site advertising or promotional material from a bona                   fide NetGrocer Competitor, Excite will be obligated to (i)                   immediately add the online supermarket to Exhibit A, (ii)                   immediately remove from the Excite Site any advertising or                   promotional material from the online supermarket and (iii)                   provide NetGrocer with advertising and promotional value,                   without additional cost, equal to the advertising and                   promotional value provided to the online supermarket prior to                   the removal of its advertising and promotional material from                   the Excite Site.",
+    "raw_sentence": "Rather, it had a  right but not a duty to\ndefend  such suits, but promised to pay a varying portion of Sony s\ndefense costs in excess of Sony s deductible depending on whether Sony\nchose its own lawyer or used AISLIC s counsel. AMERICAN HOME ASSURANCE  8769  [10] In light of the above, we hold that because there is no\ncoverage under the insuring provisions of the AISLIC Policy,\nthere is no coverage under the carve-out for defense of false\nadvertising within Exclusion P. AISLIC did not\nengage in bad faith when it refused coverage because coverage did not exist, thus summary judgment on that claim was\nalso appropriate.",
+    "bi_encoder_score": 0.4186479449272156,
+    "contract_id": "sony-computer-entertainment-america-inc-v-american",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "material"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bsummary judgment\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "appropriate"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "In determining the proper\n\npunitive damages award, courts evaluate four factors:  (1) the character of the defendants  act,\n\n(2) the nature and extent of harm to the plaintiffs that the defendants caused or intended to cause,\n\n(3) the need for deterrence, and (4) the wealth of the defendants. The nature\n\nof the defendants  acts and the nature and extent of the harm defendants intentionally caused are\n\namong the most heinous the Court can fathom. The defendants  demonstrated policy of encouraging, supporting and directing a campaign of deadly terrorism is\n\nevidence of the monstrous character of the bombing that inflicted maximum pain and suffering\n\non innocent people.",
+    "bi_encoder_score": 0.4036403000354767,
+    "contract_id": "valore-v-islamic-republic-of-iran",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Neither Party shall be liable to the other Party in contract, tort or otherwise, whatever the cause, for any loss of profit, business or goodwill or any indirect, incidental or consequential costs, damages or expenses of any kind, except for such loss attributable to breach of confidentiality.",
+    "raw_sentence": "where no prejudice results to the insured from reliance on the initial statement of the insurer. These cases are plainly wrong, because considerations of prejudice and detrimental reliance are not essential to the assertion of waiver.3 To ensure clarity in our law, we hold that, to the extent that Syllabus Point 3 of Jarvis and Syllabus Point 3 of McMahon require proof of prejudice or detrimental reliance to establish the common-law doctrine of waiver, they are overruled.4\nThe contract right at issue in this case involves arbitration. Both federal and state laws reflect a strong public policy recognizing arbitration as an expeditious and relatively inexpensive forum for dispute resolution.",
+    "bi_encoder_score": 0.4079211354255676,
+    "contract_id": "richard-parsons-v-halliburton-energy-services-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding anything to the contrary contained herein or           otherwise, Contractor's liability to NICE for any indirect, special,           incidental, exemplary or consequential damages as a result of any           claim arising under this Agreement or in connection therewith,           regardless of whether Contractor has been advised of the possibility           of such damages, shall not exceed five million US dollars ($5,000,000)           in the aggregate for all claims, except for infringement of           Intellectual Property rights for which Contractor is liable under           Section 12.6.",
+    "raw_sentence": "Here, the\ndistrict court erred in holding that the war exclusions should\nbe understood in their ordinary and plain sense, instead of\napplying the special meaning of the terms in the insurance\ncontext. 5  The Supreme Court recently addressed California s contra\nproferentem doctrine in Lamps Plus, Inc. When a contract is ambiguous, contra proferentem provides\na default rule based on public policy.",
+    "bi_encoder_score": 0.40716686844825745,
+    "contract_id": "universal-cable-productions-v-atlantic-specialty-insurance",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b",
+      "\\bmeaning of\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "2011) (recognizing that the term\n damages  is ambiguous such that  it could refer to\ncompensatory damages, punitive damages, nominal damages,\nor some combination of the three ). Only one court of appeals has squarely addressed this\nquestion. In reaching this conclusion,\nthe court relied upon the purposes Congress intended the\nADA to serve namely, protecting the dignitary interests of\nindividuals with disabilities and enlisting the aid of private\ncitizens in the enforcement of public policy.",
+    "bi_encoder_score": 0.40299126505851746,
+    "contract_id": "tayler-bayer-v-neiman-marcus-group-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b",
+      "\\bambiguous\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bcourt of appeals\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "AT&T may elect to, after consultation with Vendor and good faith discussion to negotiate another resolution:\n\n(i) terminate its obligations solely with respect to each Cell Site affected by or related to such Permitting Delay under this Agreement and exercise any of the Termination Remedies set forth in the Build Addendum, without liability to Vendor; provided that AT&T shall pay to Vendor, an amount equal to the demonstrated costs incurred by Vendor for any Work completed (in accordance with applicable Specifications and requirements) to the extent such Work is transferred to AT&T as of the effective time of termination of the applicable terminated Cell Site, which amount shall not exceed $[***]",
+    "raw_sentence": "As additional support, Lozano points to\nthis court s decision in AT&T Corp. 6  At least two other federal courts have implicitly recognized the right\nof parties to agree to arbitrate their FCA claims. Lozano argues that because\nimportant public policy considerations are litigated in FCA\nclaims, Congress intended to limit the adjudication of these\nclaims to the FCC and the federal district courts, and to the\nexclusion of an arbitral forum.",
+    "bi_encoder_score": 0.5037111043930054,
+    "contract_id": "lozano-v-att-wireless",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related",
+      "applicable",
+      "good faith",
+      "consultation"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "effort",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages including but not limited to lost profits, lost revenues, failure to realize expected savings, loss of data and loss of use.",
+    "raw_sentence": "If the\ncourt determines that the government s action is intended\neither to protect the government s pecuniary interest in the\ndebtor s property or to adjudicate private rights, the\ngovernment regulatory exemption will not apply and the\nautomatic stay will be imposed. In extending the government regulatory\nexemption to the Rule 38 sanctions proceedings at issue in\nBerg,3 we reasoned that because the purpose of Rule 38\nsanctions is to  effectuate public policy [in deterring\nunprofessional conduct in litigation], not to protect private\nrights or the government s interest in the sanctioned person s\nproperty,  the government regulatory exemption applies to a\ncreditor s attempt to collect sanctions against a debtor under  3  As relevant here, Rule 38 allows appellate courts to  award just\ndamages and single or double costs to the appellee  when the appellant\nfiles a  frivolous  appeal. This is true regardless of whether the sanctions\nare initially pursued by a private party or whether the\nsanctions award is ultimately payable to a private party.",
+    "bi_encoder_score": 0.40327316522598267,
+    "contract_id": "mark-dingley-v-yellow-logistics-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "including but not limited to"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "relevant"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "But Appellants are mistaken Gilmer\nmerely holds that litigants may not waive their right to a\njudicial forum if they are litigating federal statutory claims\nand if Congress has evinced its intention to preclude such\na waiver for the statutory rights at issue. Appellants here,\nhowever, are pursuing only state common-law claims and so\nGilmer s rule precluding waiver is not applicable. Appellants next assert that AAL s arbitration provision\nis unconscionable because it is vague and arbitrary.",
+    "bi_encoder_score": 0.4246070981025696,
+    "contract_id": "hawkins-glenn-a-v-aid-assoc-lutherans",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "Products. Any failure of Endorser to disclose such conflicting interests, or any breach of this Section, shall be deemed a material breach of the Agreement.",
+    "raw_sentence": "To afford language in a syllabus point dispositive significance in a\n\nscenario not contemplated or intended is a dangerous game. This language1 simply does\n\nnot contemplate anything other than a case involving one defendant or multiple, vicariously\n\nliable defendants with an unanimity of interest and cause of action. Where there exists a\n\nmultiplicity of parties, occurrences, and legal theories, this overbroad language bites off\n\nmore than it intends to chew.",
+    "bi_encoder_score": 0.4156065881252289,
+    "contract_id": "tucker-stephen-g-bell-v-nicholson-construction-company",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "material breach",
+      "material"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "TARGET CORPORATION  12225\nsufficient to give it veto power over any subsequent settlement that would deprive it of its portion of the punitive damages. Under Oregon law, a right to recovery becomes vested\nonly when it is final:  The first and essential quality of [ ] a\njudgment or decree [which gives to it the effect of a vested\nright] is that it be a final determination of the rights of the parties. If the Oregon Legislature  intended the state to have a\nvested interest in an award of punitive damages immediately\nupon the entry of a verdict,  MAN AG, 179 P.3d at 680, the\nnature of that interest was very different from that of the Oregon Supreme Court s definition of vested interest.",
+    "bi_encoder_score": 0.4545133113861084,
+    "contract_id": "james-patton-v-target-corporation",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "Yet  punitive damages may not be awarded in private suits brought under . Allowing\n\nthe Red Cross to be sued under 42 U.S.C. 12112 the disability-discrimination provision that\n\nallows for awards of punitive damages sends a strong signal that Congress intended the Red  15\n\fCross to be amenable to suits for those damages or, at a minimum, that Congress did not intend\n\nto limit the Red Cross s full waiver of immunity with respect to such damages.",
+    "bi_encoder_score": 0.44606345891952515,
+    "contract_id": "conn-v-american-national-red-cross",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding the provisions of this subsection (d), no Remarketing Agent shall be required to contribute any amount in excess of the amount by which the total price at which the applicable Securities remarketed by it and distributed to the public were offered to the public exceeds the amount of any damages which such Remarketing Agent has otherwise been required to pay by reason of such untrue or alleged untrue statement or omission or alleged omission.",
+    "raw_sentence": "In short, the AXIS excess policy does not clearly and\nunambiguously reserve for AXIS a right to challenge\nNational Union s and CNA s payment of the DOL\nSettlement. C  Because we hold that there is no general rule supporting\nAXIS s claim of improper erosion and AXIS did not\ncontractually reserve its right to assert this claim, we do not\nreach the question of whether the DOL Settlement violated\nCalifornia s public policy against paying insurance benefits\n\f16  AXIS REINSURANCE V. 2014)\n( When an underlying action alleging ill-gotten gains and\nseeking disgorgement of those gains settles before trial, there\nis no final adjudication in that action determining that the\ngains were ill-gotten and ordering the return of those\ngains.",
+    "bi_encoder_score": 0.41062772274017334,
+    "contract_id": "axis-reinsurance-company-v-northrop-grumman-corporation",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+    "raw_sentence": "Finally, the Choctaw Movants rely on the Agreement s use of\n\nthe term  beneficiary  to describe the organizations that may\n\nreceive a cy pres distribution, but the use of that word does\n\nnot trump the purposes of the cy pres doctrine and the\n\nAgreement s expressed intent to benefit class members. The mere\n\nfact that those selected to be vehicles for distributing the\n\nfunds to the class s benefit may themselves  benefit  from that\n\nselection does not make them intended beneficiaries with legally\n\nenforceable rights. Because the Choctaw Movants lack such  28\n\frights, they lack prudential standing to intervene to enforce\n\ntheir preferred interpretation of the Agreement.",
+    "bi_encoder_score": 0.41929638385772705,
+    "contract_id": "keeps-eagle-v-veneman",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 3,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b",
+      "\\binterpretation\\b",
+      "\\bthe agreement\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding the provisions of this subsection (d), no Remarketing Agent shall be required to contribute any amount in excess of the amount by which the total price at which the applicable Securities remarketed by it and distributed to the public were offered to the public exceeds the amount of any damages which such Remarketing Agent has otherwise been required to pay by reason of such untrue or alleged untrue statement or omission or alleged omission.",
+    "raw_sentence": "In other words, the defendant is investing in developing\na reputation intended to deter plaintiffs. It is difficult\notherwise to explain the great stubborness with which it has\ndefended this case, making a host of frivolous evidentiary\narguments despite the very modest stakes even when the\npunitive damages awarded by the jury are included. As a detail (the parties having made nothing of the point),\nwe note that  net worth  is not the correct measure of a\ncorporation s resources.",
+    "bi_encoder_score": 0.41290977597236633,
+    "contract_id": "mathias-v-accor-economy-lodging-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [
+      "\\bthe jury\\b"
+    ],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "Products. Any failure of Endorser to disclose such conflicting interests, or any breach of this Section, shall be deemed a material breach of the Agreement.",
+    "raw_sentence": "To afford language in a syllabus point dispositive significance in a\n\nscenario not contemplated or intended is a dangerous game. This language 1 simply does\n\nnot contemplate anything other than a case involving one defendant or multiple, vicariously\n\nliable defendants with an unanimity of interest and cause of action. Where there exists a\n\nmultiplicity of parties, occurrences, and legal theories, this overbroad language bites off\n\nmore than it intends to chew.",
+    "bi_encoder_score": 0.4257369935512543,
+    "contract_id": "tucker-stephen-g-bell-v-nicholson-construction-company",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "material breach",
+      "material"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "This Agreement does not and is not intended to confer any rights upon any person other than the Parties, except that it is expressly agreed that Team and SCSA are intended third party beneficiaries of Section 8.",
+    "raw_sentence": "Like the intervenors in Trbovich, Black Fire Fighters, Edwards, and\nBrumfield, the Jane Does have interests sufficient to support intervention. First, they have an interest in receiving deferred action under DAPA so that\nthey may legally remain in the United States. This is not a mere generalized\ninterest in the implementation of DAPA; rather, the Jane Does are the\nintended beneficiaries of the challenged federal policy.",
+    "bi_encoder_score": 0.41735371947288513,
+    "contract_id": "state-of-texas-v-usa",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "A Participant will not be liable to the Joint Venture, or to any other Participant, for any mistake or error in judgment or for any act or omission done in good faith and believed to be within the scope of authority conferred or implied by this Agreement or the Joint Venture.",
+    "raw_sentence": "When \"the language of a release is clear and\n\nunambiguous, the signing of a release is a 'jural act' binding on the parties.\" Booth v. New York's \"public policy favor[s]  enforcement of settlements\" and thus releases. \"Releases are contracts and their interpretation  is governed by principles of contract law.\" Shklovskiy v.",
+    "bi_encoder_score": 0.40815839171409607,
+    "contract_id": "bain-v-gary-williams-parenti-watson-gary-p-l",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "good faith"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b",
+      "\\binterpretation\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "effort",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+    "raw_sentence": "Bristol Steel & Iron Works, Inc., 769 F.2d 1503, 1516-17 (11th Cir. at 1211 n.2 (quoting Restatement\n(Second) of Contracts  304, 315 (1979)). To qualify as an\nintended beneficiary, the third party  must show that the contract reflects the express or implied intention of the parties to\nthe contract to benefit the third party.",
+    "bi_encoder_score": 0.4118521213531494,
+    "contract_id": "county-of-santa-clar-v-astra-usa-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "The Feagins presented no evidence showing  oppression, fraud or malice  as required for punitive damages. And the district court did not abuse its discretion by refusing to reopen  1  We use the term  Trump  to refer to all Trump defendants: the Trump\nOrganization; Trump Ruffin Tower I, LLC; Trump International Hotel & Tower -\nLas Vegas Unit Owners Association; and Trump Ruffin Commercial, LLC. 2\n\fdiscovery given the Feagins  lack of diligence both in failing to seek a schedule\n\nmodification before the close of discovery and in failing to generate an expert\n\nreport during the discovery period.",
+    "bi_encoder_score": 0.42438456416130066,
+    "contract_id": "kevin-feagins-v-trump-organization",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "Party B shall not advertise, or make any statement favorable for, any competitor having the same or similar business scope as Party A in the services it provides.",
+    "raw_sentence": "Circuit that such nondisclosure is not the optimal policy\ncourse. As Judge Tatel writes in his concurrence in Canadian Commercial,  given that FOIA s\nprimary purpose is to inform citizens about what their government is up to, it seems quite\nunlikely that Congress intended to prevent the public from learning how much the government\npays for goods and services. 514 F.3d at 43 (internal quotations and citation omitted); see\nUSAF II, 375 F.3d at 1203 (Garland, J., concurring in part and dissenting in part) (noting that\napplication of the substantial competitive harm test  may bar disclosure of [line-item] prices in\nthe very situation in which the public interest in disclosure is at its apogee ); Widnall, 57 F.3d at\n1167 ( the idea that a price charged to the government for specific goods or services could be a\n trade secret  appears passing strange to us ).",
+    "bi_encoder_score": 0.40333303809165955,
+    "contract_id": "general-electric-co-v-dept-of-air-force",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "similar"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "substantial"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Neither Party shall be liable to the other Party in contract, tort or otherwise, whatever the cause, for any loss of profit, business or goodwill or any indirect, incidental or consequential costs, damages or expenses of any kind, except for such loss attributable to breach of confidentiality.",
+    "raw_sentence": "Additionally, the language of the\n\nAcknowledgement of Risk form  is sufficiently broad and sweeping to encompass losses by\n\nnegligence[,]  because although the exculpatory clause  does not specifically refer to negligence\n\nclaims, it closely follows the language of other disclaimers upheld in previous decisions  27\n\flanguage indicating that the plaintiff agreed  to indemnify and hold harmless  the University\n\ndefendants. 2013) (stating that  courts applying District of Columbia law have upheld liability waivers . that did not expressly foreclose causes of action[] arising from negligence ).",
+    "bi_encoder_score": 0.4089469313621521,
+    "contract_id": "bradley-v-national-collegiate-athletic-association",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "In the case of Skype and its Affiliates, the foregoing restrictions shall not apply:\n\n8.2.1 (a) (i) for the avoidance of doubt, to the operations of Skype as existing now or hereafter undertaken with respect to any non co- branded version of the Skype Software distributed by Skype except where those operations provide for distribution in the PRC of the Skype Software in simplified Chinese by a Primarily PRC Based Service Provider, or (ii) the operations of Skype customers and Affiliates under any agreement existing as of the date hereof (e.g., with HGC), or (b) to any agreement now existing or hereafter entered into with an entity that operates in multiple international markets, which may include the PRC, so long as such agreement applies to multiple territories, which may include the PRC in addition to other territories, and does not, directly or indirectly, allow or provide for distribution in the PRC of the Skype Software in simplified Chinese by a Primarily PRC Based Service Provider (other than any service provider formed for the sole purpose of performing such agreement and not operating in the PRC prior to the date of such agreement), or (c) to any (i) Affiliate Program or (ii) any agreement or activity under the Affiliate Program by or with any third party, except in the case where the Affiliate Program, directly or indirectly, allows or provides for distribution in the PRC of the Skype Software in simplified Chinese by a Primarily PRC Based Service Provider (other than any service provider formed for the sole purpose of performing such agreement and not operating in the PRC prior to the date of such agreement); or\n\n8.2.2 with respect to the provisions of Section 8.1.2, during any period following the expiration of the Enterprise Non-Competition Period.",
+    "raw_sentence": "If the 505(b)(2) or (j)  application has been approved and not withdrawn, the first approved product is  excluded from fees even if the generic product is not presently marketed. Plaintiff argues that FDA was right in 1994, and that since the language of the\n\nexception itself has not changed since the issuance of this policy guidance, the Court can decide\n\nat the Chevron step one stage that the exception still applies. 28872, 28928 (July 10, 1989)  well before 1992 when the PDUFA was\nfirst enacted.",
+    "bi_encoder_score": 0.40611907839775085,
+    "contract_id": "stat-trade-inc-v-us-food-and-drug-administration",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "directly or indirectly"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding the provisions of this subsection (d), no Remarketing Agent shall be required to contribute any amount in excess of the amount by which the total price at which the applicable Securities remarketed by it and distributed to the public were offered to the public exceeds the amount of any damages which such Remarketing Agent has otherwise been required to pay by reason of such untrue or alleged untrue statement or omission or alleged omission.",
+    "raw_sentence": "Punitive Damages  Plaintiff here also seeks punitive damages from all parties. Circuit has clarified:  The term  extraordinary circumstances  is a term of art in this  context. 247 (1981)], clarified the meaning of  extraordinary  circumstances  to refer to circumstances such as  where a  jurisdiction's taxpayers are directly responsible for perpetrating the  policies that caused the plaintiff's injuries  or  where a  municipality or its policymakers have intentionally adopted the  unconstitutional policy that caused the damages in question.",
+    "bi_encoder_score": 0.4017569124698639,
+    "contract_id": "mpoy-v-fenty",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b",
+      "\\bmeaning of\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bjurisdiction\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "Even assuming that plaintiff intended to maintain his assertions of gross\n\nnegligence and/or recklessness, his mere recitations of the terms  gross negligence  and  7  District of Columbia law does not generally recognize varying degrees of negligence. However, courts\napplying District of Columbia law have, for equitable reasons, recognized whether a defendant\nacted with gross negligence; such is the case with liability waivers. 2006) (holding that where a liability waiver limited a\nparty s liability for negligence, plaintiff could nevertheless proceed on a theory of gross\nnegligence as a matter of  public policy to discourage aggravated wrongs ).",
+    "bi_encoder_score": 0.4397306442260742,
+    "contract_id": "mero-v-city-segway-tours-of-washington-dc-llc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "limited",
+      "generally",
+      "and/or"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages including but not limited to lost profits, lost revenues, failure to realize expected savings, loss of data and loss of use.",
+    "raw_sentence": "Because it is at\nleast highly debatable if not absolutely clear that a fair\nuse defense would not protect the conduct underlying the\njudgment of which Sicre de Fontbrune seeks recognition,\nWofsy s inability to urge a fair use defense in France does\nnot place the French judgment in  direct and definite conflict\nwith fundamental American constitutional principles. 11  11  We leave for another day the question of whether a defendant s\nlack of opportunity to assert a clearly meritorious fair use defense would\nrender a foreign judgment repugnant to the public policy of the United\nStates or of California. Lack of Subject Matter Jurisdiction  The applicable version of the California Recognition Act\nprovides that a court  shall not  recognize a foreign-country\njudgment if the  foreign court did not have jurisdiction over\nthe subject matter.",
+    "bi_encoder_score": 0.4036622643470764,
+    "contract_id": "vincent-de-fontbrune-v-alan-wofsy",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "including but not limited to"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bprovides that\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bjurisdiction\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding the provisions of this subsection (d), no Remarketing Agent shall be required to contribute any amount in excess of the amount by which the total price at which the applicable Securities remarketed by it and distributed to the public were offered to the public exceeds the amount of any damages which such Remarketing Agent has otherwise been required to pay by reason of such untrue or alleged untrue statement or omission or alleged omission.",
+    "raw_sentence": "In order to sustain a cause of action for retaliatory discharge, the public policy relied\nupon must not just exist; it must be substantial. Moreover,  [t]he term  substantial public policy  implies that the policy principle will be  clearly recognized simply because it is substantial. An employer should not be  exposed to liability where a public policy standard is too general to provide any  specific guidance or is so vague that it is subject to different interpretations.",
+    "bi_encoder_score": 0.42068299651145935,
+    "contract_id": "barbara-chamberlain-v-wexford-health-sources",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Neither party shall be liable to the other party for any direct, indirect, consequential, incidental, special, punitive or exemplary damages arising out of or relating to the suspension or termination of any of its obligations or duties under this Agreement by reason of the occurrence of Force Majeure.",
+    "raw_sentence": "07-2609\n\nwhether the employee s failure to wear the harness violates public policy but whether the order to reinstate\ndoes. The court recognized that there is a\nstrong federal interest in workplace safety, but reasoned\nthat a six-month suspension does not necessarily condone a worker s failure to comply with safety rules. Speaking to the arbitrator s authority, the agreement provides that  [t]he arbitrator shall interpret and\napply this Agreement in an effort to settle this dispute\nbut the arbitrator shall have no power to add to, subtract\nfrom, or otherwise modify the terms of this Agreement\nand the arbitrator s decision shall be final and binding\non the parties to the Agreement and the Employee involved.",
+    "bi_encoder_score": 0.403196781873703,
+    "contract_id": "clear-channel-outdoor-v-international-unions-of-pa",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 3,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe agreement\\b",
+      "\\bprovides that\\b",
+      "\\bthe agreement.{1,20}provides\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Subject to Clauses 9.1 and 9.2, each party's total liability under or in connection with this Agreement (whether in contract, tort or  otherwise) arising in any Contract Year is limited to the greater of:\n\n  (a) [ * ] Euros ([ * ] Euros); and\n\n  (b) [ * ]% of the total payment due to the Distributor in the relevant Contract Year pursuant to Clause 4 (Payment Terms).",
+    "raw_sentence": "08-1163  9\n\nbility, and the policy language which defines the liability\non a per-accident basis. 2008) (stating that resort to\nlegislative history is only necessary if the statutory language is ambiguous); see also Hamm, 10 F.Supp.2d at 54448 (rejecting public policy argument that MCA-90 endorsement establishes a $750,000 per-person limit). The insurance policy clearly and expressly limited\nCarolina Casualty s liability to a maximum of $1,000,000\nper accident.",
+    "bi_encoder_score": 0.404718816280365,
+    "contract_id": "carolina-casualty-insurance-co-v-estate-of-dimitry",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "relevant"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "limited"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "Except as expressly stated herein with respect to members of each Party, no person or entity not a Party to this Agreement (including, without limitation, any employee of either Party or the Joint Venture) shall be a third-party beneficiary of any provision of this Agreement, and nothing contained herein shall be construed or deemed to confer any benefit or right upon any third party.",
+    "raw_sentence": "at 834  6  Case: 15-50953  Document: 00513720174  Page: 7  Date Filed: 10/17/2016  No. There was nothing in the contract s language to show that Sales was intended\nto benefit from the contract, so Sales could not pursue reformation. The district court stated that the instant case was materially\nindistinguishable, and thus cited American Home Insurance for the proposition\nthat, because the instant policy s language does not evince any intent to benefit\na third party (Tesoro Refining or otherwise), Tesoro Refining cannot assert\nthird-party beneficiary status.",
+    "bi_encoder_score": 0.4250982701778412,
+    "contract_id": "aig-specialty-insurance-co-v-tesoro-corporation",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "without limitation"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bdistrict court\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "Except as expressly stated herein with respect to members of each Party, no person or entity not a Party to this Agreement (including, without limitation, any employee of either Party or the Joint Venture) shall be a third-party beneficiary of any provision of this Agreement, and nothing contained herein shall be construed or deemed to confer any benefit or right upon any third party.",
+    "raw_sentence": "205.) But it is by\n\nnow well established that, to show the requisite clear intent under the circumstances\n\npresented here, it is not sufficient to appeal to  a contract s recitation of interested\n\nconstituencies, vague hortatory pronouncements, statements of purpose, explicit\n\nreference[s] to a third party, or even a showing that the contract operates to the third\n\nparties  benefit and was entered into with them in mind. 2003)\n\n(holding that Plaintiffs must allege that  the contract not only reflects an express or\n\nimplied intention to benefit the party, but that it reflects an intent to benefit the party\n\ndirectly[.]  (emphasis in original)). And, indeed,  only in rare circumstances will\n\ncourts deem individual members of the public to be intended beneficiaries empowered\n\nto enforce those [government] contracts in court.",
+    "bi_encoder_score": 0.48996874690055847,
+    "contract_id": "ross-v-lockheed-martin-corp",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "without limitation"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "grounds, for any punitive, consequential, indirect, exemplary, special or incidental loss or damage suffered by the other arising from or related to this Agreement, including without limitation, loss of data, profits, interest or revenue, or interruption of business, even if such party has been informed of or might otherwise anticipated or foreseen the possibility of such losses or damages; provided, however, that such limitations shall not apply to liabilities which may arise as the result of willful misconduct of a party.",
+    "raw_sentence": "In\n\ndetermining the proper amount of punitive damages, courts evaluate four factors:  (1) the\n\ncharacter of the defendants  act, (2) the nature and extent of harm to the plaintiffs that the\n\ndefendants caused or intended to cause, (3) the need for deterrence, and (4) the wealth of the\n\ndefendants. Here, the evidence shows Syria supported, protected, harbored, aided, enabled,\n\nsponsored, and subsidized the PKK, a known terrorist organization whose operations included\n\nthe kidnapping of plaintiffs. The brutal character of the kidnapping in this\n\ncase, the significant harm it caused both the hostage plaintiffs and their families, along with\n\nSyria s demonstrated and well known policy to encourage terrorism all merit an award of\n\npunitive damages.",
+    "bi_encoder_score": 0.42307955026626587,
+    "contract_id": "wyatt-v-syrian-arab-republic",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related",
+      "without limitation",
+      "incidental",
+      "anticipated"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "significant"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "If the Due Process Clause governed these proceedings\n(which it does not, see infra note 37), ratios of 53, 64, and 80, might all be unconstitutional. 408, 425 (2003) ( Single-digit multipliers are more likely to comport with due\nprocess, while still achieving the State s goals of deterrence and retribution, than awards with ratios in range of 500\nto 1 or, in this case, of 145 to 1. and extent of harm to the plaintiffs that defendants caused or intended to cause,  among other\n\nfactors, in calculating punitive damages (internal quotation marks omitted)).",
+    "bi_encoder_score": 0.4134127199649811,
+    "contract_id": "flanagan-v-islamic-republic-of-iran",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In the case of termination by Monsanto upon any of the Events of Default specified in Sections 10.4(b) (6), (7) and (9), the remedies of Monsanto shall be limited to (i) termination of this Agreement and (ii) the recovery of reasonable and customary out-of-pocket expenses incurred by Monsanto in transferring the Agent's duties hereunder to a new agent; provided that in no case shall the amount of expenses recoverable under this provision exceed $20MM.",
+    "raw_sentence": "Courts, including this\none, considering Montana s public policy repeatedly refer to\nit in arbitration-specific terms. We hold that the FAA preempts the Montana  MORTENSEN V . Federal courts sitting in diversity use the choiceof-law rules of the forum state, in this case Montana, to make\na choice-of-law determination.",
+    "bi_encoder_score": 0.40332692861557007,
+    "contract_id": "dale-mortensen-v-bresnan-communications",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "termination of this Agreement",
+      "customary"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "time",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Neither Party shall be liable to the other Party in contract, tort or otherwise, whatever the cause, for any loss of profit, business or goodwill or any indirect, incidental or consequential costs, damages or expenses of any kind, except for such loss attributable to breach of confidentiality.",
+    "raw_sentence": "428, 432 S.E.2d 98 (1993) (emphasis\n\nadded); see also Id., at 431, 432 S.E.2d at 101 ( [A] just public policy demands that\n\nindemnity agreements be permitted unless they go beyond a mere allocation of potential joint\n\nand several liability and indemnify against the sole negligence of the indemnitee without an\n\nappropriate insurance fund, bought pursuant to the contract, for the express purpose of\n\nprotecting all concerned. Indeed, this Court has\n\nexpressly declared that  [c]ontracts of indemnity against one s own negligence do not\n\ncontravene public policy and are valid. 15  Elk Run next asserts that the circuit court erred in finding the language of the\n\nH & D Agreement was not sufficiently clear to express that Medford had agreed to indemnify\n\nElk Run for accidents arising from Elk Run s sole negligence.",
+    "bi_encoder_score": 0.4187922179698944,
+    "contract_id": "elk-run-coal-co-v-canopius-us-insurance",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "incidental"
+    ],
+    "d2_judicial_content": 1,
+    "d2_interpretive_hits": 2,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bthe language\\b",
+      "\\bthe contract\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "appropriate"
+    ],
+    "total_score": 3,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Without affecting Section 10 or the respective obligations of the parties under the Confidentiality Agreement and except  for any liability (i) relating to any breach associated with the unauthorized use of Intellectual Property, (ii) arising from the  intentional breach or willful misconduct of a party, or (iii) arising from the non-compliance with any mandatory applicable law or  regulation, the total aggregate liability of one party to another party for any claim relating to any breach of this Agreement (or any  Purchase Order or other agreement entered into in connection with this Agreement) (a \"Claim\") shall be limited to the aggregate  amount of the purchase prices paid by Distributor to Accuray for Products pursuant to this Agreement (or any Purchase Order or  other Agreement entered into in connection with this Agreement) during the twelve calendar months preceding the date of the  notification to the other party of such Claim less any amounts paid or payable in respect of any other Claim of which the other party  was notified during such twelve month period.",
+    "raw_sentence": "While the AAA renamed the Supplementary Procedures\n\nfor Consumer-Related Disputes in 2014, this does not render the reference  4\n\fambiguous or misleading in the version of the COU that applied when Wiseley\n\nmade his purchases in 2012 and 2013. Wiseley s three arguments for substantive unconscionability also lack\n\nmerit.1 First, the unilateral modification clause does not render the arbitration\n\nprovision substantively unconscionable because Amazon is limited by the implied\n\ncovenant of good faith and fair dealing.2 See Tompkins v. 2d 102, 112 13 (2014) (holding that the duty of good\n\nfaith limits a party s unilateral discretion to determine a contract term).",
+    "bi_encoder_score": 0.43311843276023865,
+    "contract_id": "allen-wiseley-v-amazoncom-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "applicable"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "limited",
+      "related"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "This Agreement does not and is not intended to confer any rights upon any person other than the Parties, except that it is expressly agreed that Team and SCSA are intended third party beneficiaries of Section 8.",
+    "raw_sentence": "At all times relevant to this litigation, the ALPA was the collective\n\nbargaining representative for pilots employed by United under a Collective Bargaining\n\nAgreement ( CBA ). Also, at all times relevant to this case, each plaintiff was an\n\nintended beneficiary or third-party beneficiary of the CBA. Each of the eight plaintiffs was born in December 1947 and was employed by United as\n\neither a captain or first officer at the time each of them turned sixty years of age, their birthdays\n\nall falling on dates between December 3 and December 11, 2007.",
+    "bi_encoder_score": 0.42446309328079224,
+    "contract_id": "emory-v-united-air-lines-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Competitive Restriction Exception",
+    "cuad_anchor": "For clarity and notwithstanding anything contained herein, nothing in this Section 2.1(e)(i) (A) is intended to be inconsistent with Section 2.4(e)(i) or to otherwise indicate that Customer is subject to any requirement to purchase Product under this Agreement or (B) is intended to prevent Customer from qualifying a back-up supplier for any Product during the Exclusivity Period",
+    "raw_sentence": "A term is not ambiguous solely\nbecause the parties disagree about its meaning. In re Airadigm Comme ns, Inc., 616 F.3d 642, 664 (7th Cir, 2010) (quoting Chi. INIC argues that the INIC Policy did not cover the COF Suit because that suit was\nexcluded from coverage by each provision of the Policy s Specific Investigation/Claim/\nLitigation/Event or Act Exclusion ( the Exclusion ).",
+    "bi_encoder_score": 0.41796210408210754,
+    "contract_id": "emmis-communications-corporati-v-illinois-national-insurance-co",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Notwithstanding anything contained herein to the contrary, the                   cumulative liability of the parties to one another for any                   claims, liabilities, losses, damages or expenses, direct or                   indirect, arising out of or related to this Agreement shall                   not exceed the lesser of $50,000 or (not including other                   funding amounts such as the Point value of Cards) or the                   amount paid by Schoolpop to AEIS for the immediately preceding                   twelve (12) months provided, however, that in no event shall                   this limitation of liability apply to any claims, liabilities,                   losses, damages, or expenses, direct or indirect, arising out                   of or related to this Agreement brought by the actions of                   Schoolpop pursuant to paragraphs 4(e), 4(i), 4(k), 4(p), 5(a),                   5(b), 6(b), 7(a), 7(d), 14(d.iii), 9(f) and Sections 2, 3 11,                   12, and 13, and Exhibit 1 of this Agreement. In no event shall\n\n\n\n\n\neither party be liable to the other, under any theory, for                   lost profits, exemplary, punitive, special incidental,                   indirect, or consequential damages.",
+    "raw_sentence": "2  Another possibility is that the Public Entities Act effects\na waiver of Arizona s state sovereign immunity from both\ntort claims and non-tort claims but that such a waiver is\nlimited to claims arising out of state law in other words that\nArizona specifically retains its immunity from federal law\nclaims like those in this case. Such a reading is supported\nby the Public Entities Act s enacted statement of purpose, in\nwhich the Legislature declared it  to be the public policy of\nthis state that public entities are liable for the acts or\nomissions of public employees in accordance with the\nstatutes and common law of this state. Insofar as the scope of the\nPublic Entities Act s provisions is ambiguous, the enacted\nstatement of purpose may suggest that the Act does not\ngovern immunity from federal claims.",
+    "bi_encoder_score": 0.41511523723602295,
+    "contract_id": "marcie-redgrave-v-doug-ducey",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related",
+      "incidental"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [
+      "\\bambiguous\\b"
+    ],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "limited"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "Each Party agrees that, for a period of five years (\"Non-Competition Period\") from the Effective Date (\"End Date\"), no Party, nor any of their respective Affiliates, will enter into an agreement with any third party, or otherwise carry on any business, directly or indirectly, which is focused on, and targets, primarily Consumers within the PRC, and (i) in the case of Skype and Skype Holding, which provides for a co-branded Internet-based application in simplified Chinese similar in functionality and features as the Company-Skype Branded Application (as may be updated or upgraded from time to time) (and for the avoidance of doubt, a co-branded Internet-based application in simplified Chinese shall be similar in functionality and features as the Company-Skype Branded Application only in the event such application is a customized co-branded version of the Skype Software having one or more functionality or features contained in the Company-Skype Branded Application), or provides for distribution in the PRC of the Skype Software in simplified Chinese by a Primarily PRC Based Service Provider; and (ii) in the case of Online BVI, Tom Holding and the Company, which provides for any voice over internet protocol and/or instant messaging products or services that compete or are likely to compete with the Skype Software.",
+    "raw_sentence": "As in those cases, defendants had a less intrusive means of\n\npursuing their concerns, through the investigative process set forth in USAGM s policy on\n\npotential ethics violations, at their disposal. (IV) Conflicts-of-Interest Policy  Chao s fourth set of allegations concerns the conflicts-of-interest policy announced by\n\ndefendants, which she characterizes as unconstitutionally vague and overbroad. Plaintiffs fear that this facially neutral policy might be applied in a manner that\n\ndiscriminates on the basis of viewpoint, see, e.g., Pls.",
+    "bi_encoder_score": 0.4095669090747833,
+    "contract_id": "turner-v-us-agency-for-global-media",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "from time to time",
+      "and/or",
+      "similar",
+      "directly or indirectly"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "time",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "Booker II, 413 F.3d at 81, citing PacifiCare Health Sys., Inc. 401, 406 07 (2003) (allowing arbitration of plaintiff s RICO claims pursuant to\n\nan arbitration agreement that precluded punitive damages because the plaintiff did not show that\n\nthe arbitrator would interpret the bar against punitive damages to also preclude treble damages,\n\nwhich was allowed under RICO). Similarly, he filed an EEOC claim five months after\n\nhis termination and thus he cannot show that the administrative claims provision  interfere[d]\n\nwith the effective vindication of his statutory rights  under federal civil rights laws or the\n\nEEOC s Enforcement Guidance.",
+    "bi_encoder_score": 0.41022175550460815,
+    "contract_id": "fox-v-computer-world-services-corp",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "In no event shall either party be liable for           ---------------------      any special, incidental or consequential damages arising out of or in      connection with this Agreement or the performance thereof.  FNW's liability      for any breach of this Agreement shall be strictly limited to refunding to      Sponsor that portion of any consideration paid by Sponsor for which Sponsor      has not received the rights granted to it herein.",
+    "raw_sentence": "Newton s claim that the self-defense exception to the at will employment\n\ndoctrine applied in this case, Mr. Newton  was engaged in an altercation with a coworker\n\nthat did not involve weapons, dangerous circumstances, or a threat of lethal imminent\n\ndanger. The facts in this case [did] not describe the substantial public policy exception\n\nintended by Feliciano [v.",
+    "bi_encoder_score": 0.42162972688674927,
+    "contract_id": "timothy-newton-v-morgantown-machine-hydraulics-of-west-virginia-inc",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited",
+      "incidental"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [
+      "substantial"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "The Company's sole and exclusive liability and MBE's sole and          -------- exclusive remedy for breach of the representations and warranties set forth in this Section 11 shall be, at the Company's election, to either (i) use its best efforts to make the Service perform in accordance with the Specifications in all material respects as soon as reasonably practicable, or (ii) return the Fees paid by MBE and MBE Centers for the Service in which case MBE would have the right to either terminate the entire Agreement or the portions of the Agreement affected by breach of the representation and warranties.",
+    "raw_sentence": "This issue requires us to consider the relevant statutory\n\nlanguage and to determine whether the Legislature intended that language to embody\n\nsubstantial public policy. The resolution of both inquiries is also subject to our plenary  10  See generally 11 U.S.C. 362 (automatically staying judicial proceedings\nagainst debtor upon debtor s filing of bankruptcy proceeding); W.",
+    "bi_encoder_score": 0.4226721525192261,
+    "contract_id": "todd-jarell-v-frontier-west-virginia-inc-daniel-jordan-and-michael",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "best efforts",
+      "material"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "effort",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "Each of us waives any right to or claim of punitive, exemplary, multiple, or consequential damages against the other in litigation and agrees to be limited to the recovery of actual damages sustained.",
+    "raw_sentence": "Whether an insurer possessed an arguable or\nlegitimate reason to deny coverage is a question of law, which we review de\nnovo. They\nargue that GuideOne s defective notice of cancellation, which violated the\nexpress notice requirements of both Mississippi law and the policy, was\nsufficient as a matter of law to defeat summary judgment on the issue of\npunitive damages. Yet these arguments overlook the fact that GuideOne relied on the\nmajority rule in interpreting both Mississippi law and the policy, which allows\na defective notice of cancellation to become effective after the notice period has\nlapsed.",
+    "bi_encoder_score": 0.40723031759262085,
+    "contract_id": "guideone-elite-insurance-co-v-mount-carmel-ministries",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "limited"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bin interpreting\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bsummary judgment\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Cap On Liability",
+    "cuad_anchor": "grounds, for any punitive, consequential, indirect, exemplary, special or incidental loss or damage suffered by the other arising from or related to this Agreement, including without limitation, loss of data, profits, interest or revenue, or interruption of business, even if such party has been informed of or might otherwise anticipated or foreseen the possibility of such losses or damages; provided, however, that such limitations shall not apply to liabilities which may arise as the result of willful misconduct of a party.",
+    "raw_sentence": "Punitive Damages  Defendant argues that punitive damages against the District\n\nof Columbia are only recoverable in \"extraordinary\n\ncircumstances.\"  Butera v. The term  extraordinary circumstances  refers to circumstances  where a jurisdiction's taxpayers are\n\ndirectly responsible for perpetrating the policies that caused\n\nthe plaintiff's injuries  or  where a municipality or its\n\npolicymakers have intentionally adopted the unconstitutional\n\npolicy that caused the damages in question. Plaintiff specifically claims that there is a culture of\n\ngender discrimination against female high school principals in\n\nthe District of Columbia.",
+    "bi_encoder_score": 0.42060336470603943,
+    "contract_id": "musgrove-v-district-of-columbia-public-schools",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "related",
+      "without limitation",
+      "incidental",
+      "anticipated"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 1,
+    "d2_procedural_hits": 1,
+    "d2_interpretive_matched": [
+      "\\bthe term\\b"
+    ],
+    "d2_procedural_matched": [
+      "\\bjurisdiction\\b"
+    ],
+    "d3_semantic_coherence": 0,
+    "d3_anchor_category": "scope",
+    "d3_matched_category_terms": [],
+    "total_score": 1,
+    "passes": false
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "It is understood that Duval is not a party hereto and has no liability hereunder but is an intended specific third party creditor beneficiary hereof.",
+    "raw_sentence": "4\n\fwas the intended beneficiary of the transaction, and thus may not be executed on by judgment\n\ncreditors under TRIA  201. 4  Under Heiser, defendants had no property interest in these blocked EFTs. Because this motion for sanctions fails, the Court also rejects plaintiffs  motion to schedule\n\ndiscovery and oral argument.",
+    "bi_encoder_score": 0.40201351046562195,
+    "contract_id": "peterson-v-islamic-republic-of-iran",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Third Party Beneficiary",
+    "cuad_anchor": "Member hereby acknowledges and agrees that Franchisor is an intended third-party beneficiary of this Agreement with the right to enforce it, independently or jointly with Franchisee.",
+    "raw_sentence": "This puts the Association in a position comparable to other successful\nintervenors in our circuit. For example, in Texas, women who potentially\nqualified for deferred action status sought to intervene in a lawsuit challenging\nthe federal government s policies for granting deferred action. We permitted the intervention because the women were the  intended\nbeneficiaries  of the policy under challenge even though the intervenors had\nneither applied for nor received the benefit.",
+    "bi_encoder_score": 0.43117016553878784,
+    "contract_id": "wal-mart-stores-inc-v-texas-alcoholic-beverage-commission",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "intended"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  },
+  {
+    "cuad_category": "Non-Compete",
+    "cuad_anchor": "During the Term of this Agreement, and for a period of two (2) years thereafter, Aucta shall not research, develop, manufacture, file, sell, market, or distribute more than two products containing the active ingredient Lamotrigine; nor will Aucta directly or indirectly assist any other Person or entity in carrying or any such activities. [ * * * ]",
+    "raw_sentence": "Thus, we conclude that the plain text of LUTSA would preclude\na civilian law conversion claim involving confidential information that\nqualifies as a trade secret under LUTSA. We also conclude that if confidential information that is not a trade\nsecret is nonetheless stolen and used to the unjust benefit of the thief or\ndetriment of the victim, then a cause of action remains under Louisiana law. But courts interpreting their respective states  versions of the\nUniform Trade Secret Act ( UTSA ) have not uniformly applied UTSA s\npreemption provision; instead, courts have come to varying conclusions about\nthe preemption provision s intended scope.",
+    "bi_encoder_score": 0.40243691205978394,
+    "contract_id": "brand-services-llc-v-irex-corporation",
+    "d1_anchor_vagueness": 1,
+    "d1_matched_terms": [
+      "directly or indirectly"
+    ],
+    "d2_judicial_content": 0,
+    "d2_interpretive_hits": 0,
+    "d2_procedural_hits": 0,
+    "d2_interpretive_matched": [],
+    "d2_procedural_matched": [],
+    "d3_semantic_coherence": 1,
+    "d3_anchor_category": "knowledge",
+    "d3_matched_category_terms": [
+      "intended"
+    ],
+    "total_score": 2,
+    "passes": true
+  }
+]

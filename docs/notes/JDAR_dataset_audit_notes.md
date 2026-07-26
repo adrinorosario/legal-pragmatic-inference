@@ -275,6 +275,8 @@ User independently built and ran a consolidation script across all 5 runs' full 
 ### 6.2 Process-integrity findings (self-reported by the audit script, worth recording for methods rigor)
 
 - `d3_semantic_coherence` **was present and non-null in every row across all 5 files** — no run lacked D3 scoring, contrary to an earlier assumption that Runs 1–2 (pre-dating the current scorer version per the run-changes table) might be missing it. This was flagged explicitly as worth checking: either the uploaded Run 1/2 files were regenerated with the current scorer before upload, or D3 logic existed earlier than documented. **Open question, not resolved — worth a footnote/methods clarification if this matters for reproducibility claims.**
+
+**Follow-up resolution:** This was confirmed to be a non-issue. D1/D2/D3 scoring is, and always was, a standalone post-hoc layer (`triplet_quality_scorer.py`) entirely decoupled from the extraction notebook and its per-run changes. Every run's raw triplet JSON output was passed through the same scorer after extraction. The D3-required `passes` criterion and the corrected IP Ownership Assignment category key were applied retroactively and uniformly across all five scored outputs in the consolidation pass; no scorer-version drift or historical mismatch needs to be claimed in the paper.
 - **Stored** `passes` **field in every source file equals** `total_score >= 2` **exactly** — i.e., none of the original run outputs ever used a D3-aware rule; the new rule is a genuine methodological change, not a re-derivation of existing logic. Recomputation diverges from stored `passes` specifically and only where `total_score >= 2` but `d3 == 0` (i.e., D1=1, D2=1, D3=0, total=2) — the exact class of error demonstrated by club-misty.
 - **Checkpoint math verified:** 12,294 input rows → 2,027 clean-pass + 10,267 clean-fail + 0 unverified = 12,294 (sums correctly).
 - **300 duplicate rows removed** across the 5 runs (expected, given overlapping COLD Cases source material across runs).
@@ -526,3 +528,97 @@ Resolved: there is no historical-version ambiguity to hedge around in your metho
 - **Future work / journal-version framing:** Section 2 (GRPO, full ablations), Section 10 items 6–7 (cross-encoder reinstatement, long-tail category recovery), and re-extraction of IP Ownership Assignment and Covenant Not To Sue with corrected/strengthened gates as a distinct future contribution.
 - **Reproducibility appendix:** Section 9 (raw per-run tables), with an explicit note that these reflect pre-correction pipeline logic and pointing readers to the corrected Section 6.6 figures for actual reported results.
 
+---
+
+## 12. Follow-Up Session — Resolution and Pairing Detail
+
+### 12.1 Per-run × per-category breakdown of the validated 1,069 triplets
+
+Computed directly from `clean_passing_triplets_deduped.json`, filtered to the four categories validated at that stage:
+
+| Category | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Total |
+|---|---:|---:|---:|---:|---:|---:|
+| Cap On Liability | 505 | 211 | 2 | 15 | 78 | 811 |
+| Competitive Restriction Exception | 2 | 56 | 0 | 1 | 26 | 85 |
+| Non-Compete | 18 | 32 | 0 | 3 | 25 | 78 |
+| Third Party Beneficiary | 6 | 26 | 3 | 6 | 54 | 95 |
+
+**Notes for methods/limitations sections:**
+
+- Cap On Liability is 62% sourced from Run 1 (505/811), which predates category restriction and phrase-gate refinements. Its phrase gate is confirmed correctly keyed and was applied retroactively/uniformly, so this is not a correctness issue; however, most of this category was extracted under the least-refined windowing/step settings and this merits a methods-section sentence.
+- Competitive Restriction Exception and Non-Compete have near-zero presence in Run 3 (0 each) and thin presence in Run 4 (1 and 3, respectively); their totals lean heavily on Runs 1, 2, and 5.
+- The original source-run tiering plan (Run 4/4.1/5 for reward-model training; Run 2/3 for SFT warmup) no longer maps cleanly onto the consolidated data. The recommended replacement is to tier by `total_score`: 3/3-scoring triplets for the reward-model pool and 2/3-scoring triplets for SFT warmup.
+
+### 12.2 D1/D2/D3 scorer versioning — clarified
+
+The scorer (`triplet_quality_scorer.py`) was never part of the extraction notebook and never changed alongside the per-run extractor changes (prompt fixes, AND-gate, category restriction, and phrase gates). It is a standalone post-hoc scoring pass applied uniformly to each run's raw JSON output after extraction. Therefore, no reproducibility caveat is needed about different D3 scorer versions between Runs 1–2 and later runs.
+
+Suggested methods wording:
+
+> All five extraction runs' triplet outputs were scored using a single, consistent post-hoc quality rubric (D1/D2/D3), applied uniformly across runs. The rubric's pass criterion was subsequently corrected during dataset auditing to require D3 (semantic coherence) explicitly — previously D1+D2 alone could satisfy the ≥2/3 threshold — and this corrected criterion, along with a fix to a category-key mismatch affecting the IP Ownership Assignment phrase gate, was applied retroactively and uniformly to all five runs' scored output prior to final dataset consolidation.
+
+### 12.3 DPO pairing script — implementation and run outcome
+
+`build_dpo_pairs.py` implements the prior pairing decision:
+
+1. For each passing triplet in the validated categories, prefer a same-category, same-`cuad_anchor` failing triplet with a different `raw_sentence`.
+2. If none exists, fall back to a same-category failing triplet with a different anchor.
+3. If neither exists, record the passing triplet as unpaired rather than silently dropping it.
+4. Tag each output with `pair_type` (`same_anchor` or `same_category_diff_anchor`) and provenance fields (`contract_id`, `_source_run`, and `total_score`) for both sides.
+
+At the initial implementation stage, `FAILING_PATH` was deliberately left unset rather than guessed because the failing-triplet pool had not yet been supplied. Once the corrected D1=1 failing pool was available, the script was run against it.
+
+The script was subsequently run against the corrected failing pool, defined as `D1 == 1 AND total_score < 2`, producing 1,069 pairs across the then-validated four categories and no unpaired passing triplets. The resulting pair-level audit and final category decision are recorded in Section 13.
+
+---
+
+## 13. Pair-Level Audit and Final Category Drop (Post-Pairing)
+
+The first pairing run produced:
+
+```
+Cap On Liability:                   811 pairs (806 same_anchor, 5 same_category_diff_anchor)
+Third Party Beneficiary:             95 pairs (94 same_anchor, 1 same_category_diff_anchor)
+Competitive Restriction Exception:   85 pairs (82 same_anchor, 3 same_category_diff_anchor)
+Non-Compete:                         78 pairs (69 same_anchor, 9 same_category_diff_anchor)
+Unpaired: 0 across all categories.
+```
+
+**Failing pool size:** 3,278 candidate negatives, restricted to the four categories above. The `failure_reason` breakdown was 100% `low_density_and_subject_mismatch`. This follows mathematically from the pool definition: D1=1 contributes one point, and `total_score < 2` forces D2 and D3 both to be 0. A finer D2-only versus D3-only negative distinction will require a broader future pool definition.
+
+**Same-anchor pairing dominance:** 1,051/1,069 pairs (98.3%) were same-anchor pairs. The failing pool was sufficient to provide the tightest negative type for nearly every passing triplet; the same-category fallback was used only 18 times.
+
+### 13.1 Manual pair-level audit
+
+Despite the triplet-level corrections, manual review surfaced a new pairing-stage-visible problem in **Competitive Restriction Exception**.
+
+Two sampled same-anchor pairs used an anchor beginning, “For clarity and notwithstanding anything contained herein, nothing in this Section 2.1(e)(i)(A) is intended…”. Their chosen/rejected sides concerned, respectively, bankruptcy safe-harbor doctrine versus insurance claims-made-and-reported notice-prejudice, and a TVPRA civil-remedy provision versus a motion-for-clarification procedural standard. Neither side substantively concerned competitive restrictions or an exception to one.
+
+This indicates a **gate-precision problem rather than a gate-activation problem**: the Competitive Restriction Exception gate was correctly keyed and executed, but its pattern matched generic connective/boilerplate language instead of requiring category-specific competitive-restriction substance. It is distinct from the IP casing bug and from the generic D1/D2/D3 failure identified for Covenant Not To Sue.
+
+For comparison, a 20-pair stratified manual audit of **Cap On Liability** found a mixed result:
+
+- Approximately 70–80% of reviewed pairs showed a clear, category-relevant reasoning-quality gap involving indemnification, consequential/punitive-damages exclusions, or liability limitations.
+- Roughly 20–30% were weaker: neither side clearly engaged with liability-limitation reasoning. A notable cluster used BP Deepwater Horizon settlement-program claims-administration text, which is damages-adjacent but concerns claims processing rather than judicial interpretation of a liability-cap clause.
+- It remains unverified whether this BP settlement text is concentrated in a small number of `contract_id` values; this is a follow-up item, not a resolved finding.
+
+Cap On Liability was retained because a clear category-relevant quality gap was present in the majority of the manual sample, unlike the sampled Competitive Restriction Exception pairs.
+
+### 13.2 Decision: Competitive Restriction Exception dropped
+
+**Competitive Restriction Exception (85 pairs) is excluded from the final conference training/paper dataset.** The small manual sample (2 of 85 pairs) yielded 0/2 pairs with genuine category-relevant substance on either the chosen or rejected side. This is a time-constrained judgment rather than exhaustive proof: a larger audit could find a better rate, but the remaining timeline supported dropping the category rather than pursuing another gate redesign and audit cycle.
+
+Suggested limitations wording: “Competitive Restriction Exception was excluded following a small-sample manual audit that raised concerns about gate precision; a fuller audit is deferred to future work.”
+
+### 13.3 Final validated dataset for the conference paper
+
+| Category | Pairs | Same-anchor | Same-category fallback |
+|---|---:|---:|---:|
+| Cap On Liability | 811 | 806 | 5 |
+| Third Party Beneficiary | 95 | 94 | 1 |
+| Non-Compete | 78 | 69 | 9 |
+| **Total** | **984** | **969 (98.5%)** | **15 (1.5%)** |
+
+This **984-pair, three-category set supersedes the earlier 1,069-pair, four-category figure** in Sections 6.6, 8, 10, and 12.1. `build_dpo_pairs.py` was updated to use `VALIDATED_CATEGORIES = {"Cap On Liability", "Third Party Beneficiary", "Non-Compete"}`; rerunning it regenerates `dpo_pairs.jsonl` against the corrected set.
+
+Category imbalance is now more pronounced: Cap On Liability is 811/984 (about 82%) of the final dataset, up from 76% in the four-category version. The weighted-sampling and category-stratified-evaluation mitigations described in Section 10 are therefore essential.

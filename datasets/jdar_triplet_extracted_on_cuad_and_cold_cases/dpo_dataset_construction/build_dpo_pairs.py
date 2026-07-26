@@ -49,9 +49,9 @@ import json
 import random
 from collections import defaultdict
 
-PASSING_PATH = "/mnt/user-data/uploads/clean_passing_triplets_deduped.json"
-FAILING_SOURCE_PATH = None  # <-- SET THIS to raw scored triplets (all runs, unfiltered)
-OUTPUT_PATH = "/mnt/user-data/outputs/dpo_pairs.jsonl"
+PASSING_PATH = "clean_passing_triplets_deduped.json"
+FAILING_SOURCE_PATH = "concatenated_runs_json_triplets.json"
+OUTPUT_PATH = "dpo_pairs.jsonl"
 
 VALIDATED_CATEGORIES = {
     "Cap On Liability",

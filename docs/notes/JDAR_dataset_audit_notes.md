@@ -494,7 +494,20 @@ These are the original run summaries as scored by the pipeline's own (pre-D3-req
 ## 10. Open Items / Not Yet Resolved (Carry Forward)
 
 1. **Per-run breakdown of the final validated 1,069 triplets (4 categories only)** — not separately re-tabulated after the all-runs consolidation; needed before finalizing the SFT-warmup vs. reward-model-training tiering split.
+
+| Clause                              | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Total |
+|-------------------------------------|------:|------:|------:|------:|------:|------:|
+| Cap On Liability                    | 505   | 211   | 2     | 15    | 78    | 811   |
+| Competitive Restriction Exception   | 2     | 56    | 0     | 1     | 26    | 85    |
+| Non-Compete                         | 18    | 32    | 0     | 3     | 25    | 78    |
+| Third Party Beneficiary             | 6     | 26    | 3     | 6     | 54    | 95    |
+
+Instead of ranking and placing the triplets based on which run they originated from for each category, tier them by triplet quality (how many checks were passed, and rank them based on that over 3 levels); this is better since each run had varying window sizes and rules that restricted the pass of a lot of data.
+
 2. **Whether the pre-D3 scorer version genuinely existed for Runs 1–2**, or whether uploaded files were regenerated with the current scorer before upload — flagged by the audit script, not resolved. Relevant for any reproducibility statement in the paper.
+
+Resolved: there is no historical-version ambiguity to hedge around in your methods section. You can write, accurately and simply: "All five extraction runs' triplet outputs were scored using a single, consistent post-hoc quality rubric (D1/D2/D3), applied uniformly across runs; the rubric's passes criterion was subsequently corrected mid-project to require D3 coherence explicitly (previously D1+D2 alone could satisfy the threshold), and this corrected criterion, along with a fix to a category-key mismatch affecting the IP Ownership Assignment phrase gate, was applied retroactively to all five runs' scored output before final dataset consolidation." That's a clean, honest, defensible sentence — no hedge needed.
+
 3. **KL penalty β calibration** for DPO training — flagged as needing attention, not yet addressed.
 4. **Within-category DPO pairing negative-selection strategy**: decided to prefer same-anchor negatives (passing triplet vs. failing triplet sharing the same anchor) where supply allows, falling back to same-category-different-anchor negatives only where necessary — pairing script should log which type each pair is for transparency/reporting. Not yet built as of this document.
 5. **Category imbalance in the final 4-category set** (Cap On Liability alone is 811/1,069 ≈ 76% of the validated dataset) — decided to address via (a) weighted/stratified sampling during DPO training (e.g., `WeightedRandomSampler`) to prevent majority-category domination of gradient updates, and (b) mandatory category-stratified evaluation reporting in the results section (not just an aggregate DPO-vs-baseline number), so any category-specific weakness is disclosed rather than hidden. Neither yet implemented.

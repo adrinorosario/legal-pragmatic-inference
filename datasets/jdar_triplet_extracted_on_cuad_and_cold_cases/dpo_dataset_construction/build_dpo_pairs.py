@@ -51,14 +51,19 @@ from collections import defaultdict
 
 PASSING_PATH = "clean_passing_triplets_deduped.json"
 FAILING_SOURCE_PATH = "concatenated_runs_json_triplets.json"
-OUTPUT_PATH = "dpo_pairs.jsonl"
+OUTPUT_PATH = "dpo_pairs_2.jsonl"
 
 VALIDATED_CATEGORIES = {
     "Cap On Liability",
     "Third Party Beneficiary",
-    "Competitive Restriction Exception",
     "Non-Compete",
 }
+# Competitive Restriction Exception removed after DPO-pair-level manual
+# audit (20-sample review) found its category gate matches on generic
+# boilerplate ("notwithstanding," "for clarity") rather than
+# competitive-restriction-specific substance — same failure pattern as
+# club-misty (Sec. 3) and Covenant Not To Sue (Sec. 6.4), confirmed at
+# the pairing stage. See audit notes Section 13 for detail.
 
 SEED = 42
 

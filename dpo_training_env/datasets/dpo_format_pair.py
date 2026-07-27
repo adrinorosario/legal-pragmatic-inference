@@ -56,7 +56,12 @@ def convert_to_dataset(pair_list):
     dataset = Dataset.from_list(pair_list)
     return dataset
 
-def save_dataset_locally(dataset, save_path):
+def save_dataset_locally(json_list, dataset, save_path):
+    # save the json as well for the weighted random sampling
+    with open(f"{save_path}.json", "w") as file:
+        json.dump(json_list, file, indent=4)
+    
+    # save the hf dataset
     dataset.save_to_disk(save_path)
 
 def main():
@@ -66,8 +71,8 @@ def main():
     dpo_dataset = convert_to_dataset(DPO_FORMAT_PAIR)
     sft_dataset = convert_to_dataset(SFT_FORMAT_PAIR)
     # save dataset locally
-    save_dataset_locally(dpo_dataset, "dpo_dataset_local")
-    save_dataset_locally(sft_dataset, "sft_dataset_local")
+    save_dataset_locally(DPO_FORMAT_PAIR, dpo_dataset, "dpo_dataset_local")
+    save_dataset_locally(SFT_FORMAT_PAIR, sft_dataset, "sft_dataset_local")
 
 if __name__ == "__main__":
     main()

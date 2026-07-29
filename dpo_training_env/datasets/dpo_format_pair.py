@@ -79,7 +79,7 @@ def main():
         return
 
     # Process and save cleanly via explicit PyArrow tables
-    save_dataset_locally(dpo_list, "dpo_dataset_revised")
+    # save_dataset_locally(dpo_list, "dpo_dataset_revised")
     save_dataset_locally(sft_list, "sft_dataset_revised")
 
 if __name__ == "__main__":

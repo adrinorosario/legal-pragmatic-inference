@@ -1,7 +1,7 @@
 import json
 import traceback
 import pyarrow as pa
-from datasets import Dataset
+from datasets import Dataset, load_from_disk
 
 PROMPT_TEMPLATE = (
     "Given the following contractual clause which falls in the category of {cuad_category}, provide judicial reasoning of "
@@ -55,6 +55,50 @@ def load_jsonl_file(file_path):
         
     return dpo_pairs, sft_pairs
 
+def load_balanced_dataset(load_path="balanced_dataset_post_weighted_sampling"):
+    """Loads a weighted-sampled, balanced Dataset from disk and reformats it
+    into DPO/SFT pairs — mirrors load_jsonl_file's transform logic."""
+    dpo_pairs = []
+    sft_pairs = []
+
+    try:
+        dataset = load_from_disk(load_path)
+    except FileNotFoundError:
+        print(f"Dataset not found at: {load_path}")
+        return dpo_pairs, sft_pairs
+    except Exception:
+        print("Error loading dataset from disk:")
+        traceback.print_exc()
+        return dpo_pairs, sft_pairs
+
+    for row in dataset:
+        try:
+            prompt_anchor = row["prompt_anchor"]
+            chosen_response = row["chosen"]
+            rejected_response = row["rejected"]
+            category_anchor = row["cuad_category"]
+        except KeyError as e:
+            print(f"Skipping row, missing key: {e}")
+            continue
+
+        formatted_prompt_anchor = PROMPT_TEMPLATE.format(
+            cuad_category=category_anchor,
+            prompt_anchor=prompt_anchor
+        )
+
+        sft_pairs.append({
+            "prompt": formatted_prompt_anchor,
+            "response": chosen_response
+        })
+
+        dpo_pairs.append({
+            "prompt": formatted_prompt_anchor,
+            "chosen": chosen_response,
+            "rejected": rejected_response
+        })
+
+    return dpo_pairs, sft_pairs
+
 def save_dataset_locally(json_list, save_path):
     """Compiles and writes datasets using PyArrow to completely isolate Python 3.14 pickle bugs."""
     # 1. Save standard JSON backup for weighted random sampling
@@ -72,15 +116,23 @@ def save_dataset_locally(json_list, save_path):
 
 def main():
     # Load separate list returns cleanly
-    dpo_list, sft_list = load_jsonl_file("dpo_pairs_2.jsonl")
-    
+    # dpo_list, sft_list = load_jsonl_file("dpo_pairs_2.jsonl")
+    dpo_list, sft_list = load_balanced_dataset("balanced_dataset_post_weighted_sampling")
+
     if not dpo_list or not sft_list:
         print("Data compilation aborted: Lists are empty.")
         return
 
+    # save_dataset_locally(dpo_list, "dpo_dataset_balanced")
+    save_dataset_locally(sft_list, "sft_dataset_balanced")
+    
+    # if not dpo_list or not sft_list:
+    #     print("Data compilation aborted: Lists are empty.")
+    #     return
+
     # Process and save cleanly via explicit PyArrow tables
     # save_dataset_locally(dpo_list, "dpo_dataset_revised")
-    save_dataset_locally(sft_list, "sft_dataset_revised")
+    # save_dataset_locally(sft_list, "sft_dataset_revised")
 
 if __name__ == "__main__":
     main()

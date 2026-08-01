@@ -1,0 +1,113 @@
+{
+  "overall": {
+    "tfidf_cosine": {
+      "n_scored": 984,
+      "n_skipped": 0,
+      "wins": 568,
+      "ties": 0,
+      "losses": 416,
+      "accuracy": 0.5772357723577236
+    },
+    "bm25": {
+      "n_scored": 984,
+      "n_skipped": 0,
+      "wins": 557,
+      "ties": 0,
+      "losses": 427,
+      "accuracy": 0.5660569105691057
+    },
+    "embedding_gemma": {
+      "n_scored": 969,
+      "n_skipped": 15,
+      "wins": 488,
+      "ties": 0,
+      "losses": 481,
+      "accuracy": 0.5036119711042312
+    }
+  },
+  "per_category": {
+    "tfidf_cosine": {
+      "Cap On Liability": {
+        "n_scored": 811,
+        "n_skipped": 0,
+        "wins": 468,
+        "ties": 0,
+        "losses": 343,
+        "accuracy": 0.5770653514180024
+      },
+      "Third Party Beneficiary": {
+        "n_scored": 95,
+        "n_skipped": 0,
+        "wins": 60,
+        "ties": 0,
+        "losses": 35,
+        "accuracy": 0.631578947368421
+      },
+      "Non-Compete": {
+        "n_scored": 78,
+        "n_skipped": 0,
+        "wins": 40,
+        "ties": 0,
+        "losses": 38,
+        "accuracy": 0.5128205128205128
+      }
+    },
+    "bm25": {
+      "Cap On Liability": {
+        "n_scored": 811,
+        "n_skipped": 0,
+        "wins": 452,
+        "ties": 0,
+        "losses": 359,
+        "accuracy": 0.5573366214549939
+      },
+      "Third Party Beneficiary": {
+        "n_scored": 95,
+        "n_skipped": 0,
+        "wins": 60,
+        "ties": 0,
+        "losses": 35,
+        "accuracy": 0.631578947368421
+      },
+      "Non-Compete": {
+        "n_scored": 78,
+        "n_skipped": 0,
+        "wins": 45,
+        "ties": 0,
+        "losses": 33,
+        "accuracy": 0.5769230769230769
+      }
+    },
+    "embedding_gemma": {
+      "Cap On Liability": {
+        "n_scored": 806,
+        "n_skipped": 5,
+        "wins": 395,
+        "ties": 0,
+        "losses": 411,
+        "accuracy": 0.49007444168734493
+      },
+      "Third Party Beneficiary": {
+        "n_scored": 94,
+        "n_skipped": 1,
+        "wins": 60,
+        "ties": 0,
+        "losses": 34,
+        "accuracy": 0.6382978723404256
+      },
+      "Non-Compete": {
+        "n_scored": 69,
+        "n_skipped": 9,
+        "wins": 33,
+        "ties": 0,
+        "losses": 36,
+        "accuracy": 0.4782608695652174
+      }
+    }
+  },
+  "category_counts": {
+    "Cap On Liability": 811,
+    "Third Party Beneficiary": 95,
+    "Non-Compete": 78
+  }
+}

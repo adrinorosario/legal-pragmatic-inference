@@ -1,0 +1,2511 @@
+{
+  "summary": {
+    "n_pairs": 500,
+    "mean": 0.073308396618775,
+    "median": 0.07015788708667887,
+    "min": 0.017025467017732665,
+    "max": 0.23197563153471285
+  },
+  "pairs": [
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.03170882683257169
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07305258854753487
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07950328084291458
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0833744002576089
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06850562817312487
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05518704952442314
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0486684009867215
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.042490786433722796
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05222021903408752
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.03244572080346568
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06763234555084652
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.06021351360055476
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07567778851836178
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08291260306556365
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07688346753168622
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08356434789985158
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06430946192806371
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06380864967651344
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08853717830106309
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06611137368630887
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.09545517101922879
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.09344206040068911
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.07435332957784001
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06618313807447494
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.0903839755090539
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08973026053030081
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0811783052014383
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.052788837835516564
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08443714736336935
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09273118833692447
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.059707663586182895
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.13241525457619602
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.04289815034068631
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.061765691388504296
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.14777570407119722
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.031916619981263133
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0779052662617466
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.07101828812918605
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0746568930323176
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07954793930063998
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.044790470928417335
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04784027923089539
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.08496351454640484
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06662505995460412
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.11740635795773079
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10313508247913614
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.11304776398312232
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.08809388758957458
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0582336981523591
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05516250015367779
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.09861838289210811
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07858376531818453
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.056162024667035876
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08182179871265842
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0907353200338049
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.08987743880051734
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.03713649993571809
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.07550432433061603
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.08411815902246797
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07751575658767675
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.11343766456269701
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05463433027968264
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04330186479727494
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08256885725654368
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04924788234136436
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.047304955682957645
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.03859616383594743
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0971960775807943
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.03647848050327735
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.09081929831288418
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.05868996477511624
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07561830076796627
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08248898529145927
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.09065489595737597
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04330136162425939
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07568830324820754
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04896228268144781
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10316816501647176
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.061253200354142334
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06649395283677118
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08428281580939143
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05705806184523779
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.08544252343818243
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.12075051743790925
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.1068960023627357
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05096366046209152
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.054479047661566894
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05386289223216595
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.07552045507018638
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07879613037238885
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.07506889385953928
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.027292640115269762
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07242099305357903
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08737537808224909
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.07137087693777763
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09308255946755199
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.15629189680033312
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08218468959828262
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0353009968636588
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08332912605050496
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.051253571942205034
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0335585765037493
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08130219019733738
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10741066118125854
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04630528346791252
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05960100499507655
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07078194293054178
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05259114099734895
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06528356328148865
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.04200751282253247
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.12156920293495042
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.038997729279554645
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04005554549383672
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.11248410852260336
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08400963390176756
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.10636492741445076
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0642455690348886
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08151326613310911
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.08882516508623484
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07770266441268792
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04915852626387291
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.0829752895847207
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09970382721023886
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.03583214932615418
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.0958205934791415
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.045337284928055464
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.03880174982844214
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.06811490137031914
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.057956858502841185
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08863306611018529
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06773324961661303
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.052824099043461026
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10491977755421603
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08334947189085894
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.058576784950993784
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.09010714938769633
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05015079375347569
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0810293404161213
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.04933122957097205
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08491951506524247
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07071123895257592
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08481092525313137
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.1269271310236994
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.055846621854822004
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04561575379353512
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06985097234213447
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08090067599992805
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.042341598726823734
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.05714600799382718
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.14312114025897163
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10720917673160249
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08546878075391916
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.03255773621735274
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07261438505935076
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0704913365119743
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.051312714938529416
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05164562146056249
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.03337579456205354
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.1695587961465067
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.1096556136276448
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10949737492042536
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.028005214731587444
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.0917050204313631
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05940774985928127
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05734952496032289
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.1254561445556679
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08366275380946486
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.11033539207670114
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06623347125601935
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08762930200372479
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.023141805513236285
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07818109325645418
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.02783495714953892
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.050861572020089195
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06874074813210887
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04597301061039366
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.06304186449217912
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.035523219089644925
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.04217992619850187
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05885894787481034
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06268371906973992
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08475838511135991
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06725055501598436
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.0665644879911654
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07245664727888548
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.09238523983953915
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.02723295717429726
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.13984658910069675
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.054572828874943434
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08322469603377679
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04749402383054194
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.018469408358600187
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.07057492900734036
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.03970159658997621
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.09002709454209713
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07719825161835986
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10295894445687351
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09056280086269204
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.05493699302640062
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.1458387053789659
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05805935096609238
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.06972038830739877
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08414411868474028
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04914474480864122
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.1199238265444177
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07091139447836031
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10560773578405151
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.048932919255158296
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.11858663338381609
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05427485695633817
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.041283345755554306
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04692807250210139
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08886437912344797
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.11600169990395365
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.10298496866174275
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07957372236988634
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07262198065079802
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10881508129341542
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05990752164747305
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05238117363751926
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10079117459408601
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05352179826224743
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.06494178087097162
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.10555884850833436
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.050279140000979126
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06005058299595477
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.047821258687014166
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06192543451472055
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08312202298312399
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05395296283756678
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07391818021415099
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09835628262556187
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.12171191888165646
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04483705995881613
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.04744896917226336
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.10117788627775316
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.19795785946883057
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.06667180938667921
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.12402466135005398
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08301710688879135
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06881661864311897
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10679859992729186
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06951539254285681
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08262336587840424
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.10759245676733108
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06890993907605016
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08057604459046125
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04670638250231996
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04865199949668139
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0669417955291531
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.10808759266880474
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10117687068995805
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.056048752483134096
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.14816548903949558
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04054300340681113
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.035523219089644925
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.048564765061290545
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.0689286992921693
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.05231772764816368
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0701829388834563
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08251723810431046
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10412513130581515
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05222778672509617
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.058628669969467355
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06900085539365555
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04205986022725889
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07015788708667887
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05332414231705431
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.0443413816075651
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09233062127544325
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0724673554261164
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06306730212386503
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09819669587873538
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0792617484230344
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07774065859802967
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10236304141306223
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.07390618912012466
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08520635452897055
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05074502075209797
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.059019183804206544
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04729065212274246
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04584899891247953
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08426137980481663
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09122443379698342
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.03913427640601834
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08904519353495922
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10190735294309526
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.053316534693064944
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0695170317644748
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.101086568814802
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.10771710922459204
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.061856495870523595
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07603154609692246
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04093473931009197
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.06310165113398525
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.06002790324578617
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04985249985220719
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.10729705595907865
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.051411587462023636
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.07497394125956632
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05752359697836702
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.12156420283827576
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.03138723925807538
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10816209176709221
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.15179977423610164
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.0883953255450751
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.07332290832545722
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04515898002733452
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.11023422289078114
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08898852296512084
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08791697452896803
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06891789709537645
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.030728424309262915
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07037816100922696
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04296689817733607
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.039845350015685684
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.050146862365426245
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05615728428828093
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.07846325749937338
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.05545061775399064
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08731080621231925
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.058062007703250144
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.12731610066370008
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.20333706037597876
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10387030405459545
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04862269992949901
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0637711498983597
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.11854443004724197
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.07382974928548086
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04877348265274843
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06808664022483507
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06654972453519302
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07677046954526799
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.11441061209888824
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.048522073698369056
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08772723574131808
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08890869371678324
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.058927139970250515
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.02517812307628823
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09111489433378288
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.049861941479102466
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07491969985118124
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.07702622368302299
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.0283471124506092
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.057403790554482303
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06668560849629665
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06596491131135282
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06457808207618797
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04631231628094113
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.03730397733314642
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08506709090936908
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.05108631571091013
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.042870062504497666
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.1224548814912857
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.054577270734652225
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06264708653071457
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06857937730602857
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0771813370078774
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.08991307706528037
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06465047159652293
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.027593397852347205
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08688280680988307
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.017396021897143996
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.03806477581580439
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05259441959306577
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.09034515392073371
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.044802310467391734
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06029301832346267
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04040116595577227
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.09638628459327697
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07361716153177904
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10561606044365615
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07912305885336575
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.0340804678793949
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.0834925106278032
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06926023795645564
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08336247999819582
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04485178000893748
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.05625447732344498
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.03891058044689294
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06146658210066841
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07778573491443483
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.049114947814253164
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06388273190590452
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10973823992040868
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.062403286102821864
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07205023404974215
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.02944781483567219
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.060641665713713544
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09566279499573671
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05262377504488498
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07808682527525629
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.024890069768989314
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06553774691306263
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05464314608189613
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06838260626077731
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.023070454113905188
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.125345377143913
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.11781528596947528
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.05566212380283535
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.055852015163512084
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07773694103589794
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08441758902998649
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0864428449279796
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0675344860588246
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.11479587782947173
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.061685707517116196
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.13814004669734833
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08864894296680094
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04987630518983366
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08054033042711276
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.057357628184671536
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04372560214127982
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.07347444799846249
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04732661980633764
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.017025467017732665
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0422906012914921
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07501498321890668
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.11921573810190898
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06595137479260854
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05364893102293385
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.03387277496154576
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07898196102975064
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10904238271034207
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.043091014415781684
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06905054738695249
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07802222924532788
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.1138439236963103
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.10610213362790491
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.07794857094387253
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09050599174175007
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06334222751580436
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06804337945376769
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06478840987143003
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09063901017999665
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06185816402888955
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04430848958567639
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.07131649763150151
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0721051656964331
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07607272219298071
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04241965592319924
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08103885505171637
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09454953583180987
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.04692082365614504
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08831797046328865
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06221238514716935
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04772976556383047
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.05802863689521469
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.056528790491607216
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.09309341887743842
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.03361623292599293
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07667422798158466
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0708545430406404
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.12686575523844557
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05924551421004863
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07277227123923079
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.024425076826301136
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.048608213712243824
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.06453158991257904
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05897404968645985
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06831208092117745
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.03882599134191471
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.05160653341462427
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.11915139471457616
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.10106277212777691
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.11020780611520678
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07246857984677253
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.23197563153471285
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.07400049802672083
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.06019333431759186
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06026273971582011
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07984269068398343
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0643299005205371
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.19949858171378204
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.14062737735036715
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.06190683455692576
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.0466463765639008
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.0992458090626591
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.09234867409238988
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.10949084207998126
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.04621074669211165
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.12457034201957524
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.0961805756023209
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.05437985116617677
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.11496050528692232
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.07371065660671954
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07324156308472428
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.061962400696518094
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.07959998257798409
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.09590494786640875
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.04687451743108453
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.05486759733243674
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Cap On Liability",
+      "cosine": 0.08369043878199103
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.057466429932388555
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.06438892855855186
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Third Party Beneficiary",
+      "cosine": 0.08240921010864981
+    },
+    {
+      "category_a": "Cap On Liability",
+      "category_b": "Non-Compete",
+      "cosine": 0.07688246043660012
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.12438544846269207
+    },
+    {
+      "category_a": "Non-Compete",
+      "category_b": "Cap On Liability",
+      "cosine": 0.036101247050296104
+    },
+    {
+      "category_a": "Third Party Beneficiary",
+      "category_b": "Non-Compete",
+      "cosine": 0.08145336932595196
+    }
+  ]
+}

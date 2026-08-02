@@ -1,0 +1,171 @@
+{
+  "project_metadata": {
+    "name": "JDAR — Judicial Decision-Aligned Reasoning",
+    "type": "conference paper",
+    "researcher": "Adrino",
+    "supervisor": "Dr. Rajesh Khanna",
+    "supervisor_venue_preference": "none stated; requires full draft",
+    "compiled": "2026-08-02",
+    "immediate_deadline": "draft to supervisor in 3 days",
+    "status": "all experiments complete; paper unwritten",
+    "paper_type_final": "audit / analysis paper with negative headline result"
+  },
+  "venues": [
+    {"name": "NLLP 2026", "colocated": "EMNLP, Budapest, 2026-10-28", "direct_deadline": "2026-08-11", "arr_commit_deadline": "2026-08-27", "notification": "2026-09-15", "length": "8pg long / 4pg short", "audience": "NLP methods", "recommendation": "preferred, as 4-page short paper"},
+    {"name": "JURIX 2026", "location": "Toulouse", "conference": "2026-12-08", "paper_deadline": "2026-09-05", "abstract_deadline": "2026-08-28", "review": "single-blind", "format": "IOS Press", "core_rank": "C", "audience": "AI & Law", "recommendation": "fallback"}
+  ],
+  "thesis": {
+    "originating_question": "Why do LLMs reason over legal language like ordinary language, when it carries depth, extended context, factual grounding, and pragmatic inference?",
+    "research_question": "Can a model pragmatically infer the operative meaning of a contractual clause the way a court would?",
+    "current_statement": "Corpus-grounded automatic preference construction for contractual clause interpretation produces pairs whose chosen and rejected members are semantically near-equivalent, and preference optimization over them yields a discriminator no better than lexical overlap — indicating that threshold-based pipeline supervision does not encode the pragmatic distinctions it is intended to capture.",
+    "falsifiers": [
+      "expert annotation showing chosen is genuinely judicially superior at high agreement",
+      "any scorer exceeding ~65% on held-out pairs",
+      "decisive-tail shown to reflect interpretive rather than threshold distinctions"
+    ]
+  },
+  "rejected_framings": [
+    {"framing": "JDAR is a process reward model", "reason": "scores nothing at training or inference; filtered a dataset once, offline"},
+    {"framing": "JDAR is a verifier, not a Bradley-Terry reward model", "reason": "DPO loss IS the Bradley-Terry NLL with reward reparameterised as beta*(log pi_theta - log pi_ref)"},
+    {"framing": "rewards/margins demonstrates success", "reason": "training diagnostic; with 0.604 cosine between chosen and rejected it measures learning of a surface property"},
+    {"framing": "anisotropy explains the low discrimination", "reason": "REFUTED by isotropy control: random unrelated judicial pairs at mean cosine 0.0733"},
+    {"framing": "ask the DPO adapter what the failed triplets lack", "reason": "circular; model trained on threshold-defined preference would report the threshold function back"}
+  ],
+  "dataset": {
+    "file": "dpo_training_env/datasets/dpo_dataset_revised.json",
+    "n_pairs": 984,
+    "categories": {"Cap On Liability": {"n": 811, "pct": 82.4}, "Third Party Beneficiary": {"n": 95, "pct": 9.7}, "Non-Compete": {"n": 78, "pct": 7.9}},
+    "dropped_categories": ["IP Ownership Assignment", "Covenant Not To Sue", "Competitive Restriction Exception"],
+    "dropped_reason": "confirmed pipeline bugs and quality failures",
+    "negative_pool_eligible": 3037,
+    "negatives_used": 984,
+    "negatives_unused": 2053,
+    "unused_reason": "not selected by random.choice() when multiple same-anchor options existed; not discarded for cause",
+    "sources": {"anchors": "CUAD", "judicial_text": "Harvard COLD Cases (~8.36M opinions, streamed from HuggingFace)"}
+  },
+  "pipeline_verified_from_source": {
+    "build_dpo_pairs.py": {
+      "rejected_definition": "retrieved judicial raw_sentence window with total_score < 2 and d1_anchor_vagueness == 1",
+      "rejected_is_not": ["model-generated", "a perturbation of chosen"],
+      "selection_same_anchor": {"n": 969, "pct": 98.5},
+      "selection_same_category_diff_anchor": {"n": 15, "pct": 1.5},
+      "selection_method": "random.choice() over eligible pool"
+    },
+    "triplet_quality_scorer.py": {
+      "score_dimension_1": "signature (anchor) — anchor-only vagueness",
+      "score_dimension_2": "signature (sentence) — candidate-only judicial-content density",
+      "score_dimension_3": "signature (anchor, sentence) — anchor x candidate; checks candidate for terms from anchor's vagueness category (scope/knowledge/necessity/etc.)"
+    },
+    "encoder_scores": {"bi_encoder_score": "cuad_anchor vs raw_sentence", "cross_encoder_score": "cuad_anchor vs raw_sentence"},
+    "critical_finding": "No step in the pipeline ever compared chosen against rejected. Supervisory signal is cleared-threshold vs did-not-clear, NOT adjudicated judicial preference."
+  },
+  "experiments": [
+    {
+      "id": "E1", "name": "lexical baselines vs stored bi_encoder_score",
+      "metric": "pairwise ranking accuracy, chosen above rejected against anchor; ties count as loss",
+      "results": {
+        "tfidf": {"acc": 0.577, "ci95": [0.546, 0.608], "wins": 568, "ties": 0, "losses": 416, "n": 984},
+        "bm25": {"acc": 0.566, "ci95": [0.535, 0.597], "wins": 557, "ties": 0, "losses": 427, "n": 984},
+        "stored_bi_encoder": {"acc": 0.504, "ci95": [0.473, 0.535], "wins": 488, "ties": 0, "losses": 481, "n": 969, "skipped": 15}
+      },
+      "per_category": {
+        "Cap On Liability": {"n": 811, "tfidf": 0.577, "bm25": 0.557, "gemma": 0.490, "gemma_n": 806},
+        "Third Party Beneficiary": {"n": 95, "tfidf": 0.632, "bm25": 0.632, "gemma": 0.638, "gemma_n": 94},
+        "Non-Compete": {"n": 78, "tfidf": 0.513, "bm25": 0.577, "gemma": 0.478, "gemma_n": 69}
+      },
+      "interpretation": "Only two defensible statements: TF-IDF weakly beats chance on majority category; stored bi-encoder score does not discriminate. Minority categories underpowered (CI ±10-11)."
+    },
+    {
+      "id": "E2", "name": "fresh cosine recompute",
+      "results": {"mean_cos_anchor_chosen": 0.6371, "mean_cos_anchor_rejected": 0.6318, "mean_margin": 0.0053, "frac_chosen_closer": 0.5467, "ci95": [0.515, 0.578]},
+      "interpretation": "Rules out circularity. Had anchor-candidate cosine been the selection criterion this would return ~100%."
+    },
+    {
+      "id": "E3", "name": "cos(chosen, rejected) distribution",
+      "results": {"n": 984, "mean": 0.6042, "median": 0.6041, "std": 0.0540, "p10": 0.5366, "p90": 0.6665, "p25": 0.5700, "p75": 0.6385, "min": 0.4385, "max": 0.8476, "frac_above_0.85": 0.0, "frac_below_0.4": 0.0, "shape": "unimodal, bulk in [0.50,0.70)"}
+    },
+    {
+      "id": "E4", "name": "isotropy control (PIVOTAL)",
+      "setup": "500 random pairs of unrelated judicial windows, different anchors, different categories",
+      "results": {"n_pairs": 500, "mean": 0.0733, "median": 0.0702, "min": 0.0170, "max": 0.2320},
+      "interpretation": "Near-isotropic. Dynamic range ~0.07-0.85. Refutes anisotropy hypothesis; whitening cancelled as unnecessary. Simultaneously STRENGTHENS main finding: chosen and rejected at 0.604 in this space are near-paraphrases."
+    },
+    {
+      "id": "E5", "name": "DPO implicit reward, held out",
+      "setup": "500 pairs from the 2053 unused eligible negatives; r(x,y)=beta*(logp_policy - logp_ref); SFT checkpoint as reference",
+      "results": {"raw_accuracy": 0.576, "raw_ci95": [0.532, 0.620], "length_normalized_accuracy": 0.584, "norm_ci95": [0.540, 0.628], "mean_gap": 0.003454, "median_gap": 0.001092, "pct_positive": 0.584},
+      "unexplored": "mean gap is 3x median — right-skewed. Half of held-out pairs have near-zero gap; aggregate carried by a minority tail. Model is indifferent on most pairs, decisive on a few."
+    }
+  ],
+  "headline_convergence_table": [
+    {"scorer": "raw embedding cosine", "acc": 0.547, "ci95": [0.515, 0.578], "training": "none"},
+    {"scorer": "Okapi BM25", "acc": 0.566, "ci95": [0.535, 0.597], "training": "none"},
+    {"scorer": "TF-IDF cosine", "acc": 0.577, "ci95": [0.546, 0.608], "training": "none"},
+    {"scorer": "DPO implicit reward (length-normalized, held out)", "acc": 0.584, "ci95": [0.540, 0.628], "training": "SFT + DPO on 984 pairs"}
+  ],
+  "training_setup": {
+    "primary_model": "Llama-3-8B-Instruct",
+    "ruled_out": [{"model": "Ministral-3-14B-Reasoning", "reason": "suspected overfitting"}],
+    "optional_addon": [{"model": "gpt-oss-20b", "issue": "loss spikes, likely fp32 precision"}],
+    "framework": "TRL (SFTTrainer, DPOConfig), Unsloth, LoRA/QLoRA",
+    "infrastructure": "Kaggle notebooks, GPU-limited",
+    "standing_rule": "trainer.save_model() and tokenizer.save_pretrained() must be the next lines after trainer.train(), followed by reload-and-verify (checkpoint loss incident)"
+  },
+  "writing_state": {
+    "sec1_introduction": {"status": "not started", "note": "write LAST; frame on originating question"},
+    "sec2_related_work": {"status": "not started", "must_position_against": ["SyLeR", "LegalDelta", "Med-PRM", "Math-Shepherd"]},
+    "sec3_method": {"status": "spine agreed, unwritten", "subsections": ["3.1 anchor selection", "3.2 judicial retrieval", "3.3 quality dimensions", "3.4 pair construction + honesty paragraph", "3.5 training + BT disclosure"]},
+    "sec4_audit": {"status": "data complete, unwritten"},
+    "sec5_analysis": {"status": "blocked on exercise sets A and B"},
+    "sec6_limitations": {"status": "outline exists"},
+    "sec7_future_work": {"status": "decided", "content": ["adversarial negatives", "entailment-based scoring"]}
+  },
+  "open_questions": [
+    {"id": 1, "q": "Can a human separate chosen from rejected?", "priority": "critical", "action": "Set A blind read", "risk": "determines which of two papers is being written"},
+    {"id": 2, "q": "What drives the decisive tail in implicit rewards?", "priority": "critical", "action": "Set B"},
+    {"id": 3, "q": "Is Bradley-Terry mis-specified for this data?", "priority": "high", "action": "Set E; cite Azar et al. 2023"},
+    {"id": 4, "q": "Does length bias explain the implicit-reward gap?", "priority": "high", "action": "falls out of Set B"},
+    {"id": 5, "q": "NLLP short vs JURIX", "priority": "high", "action": "decide before writing sec1"},
+    {"id": 6, "q": "Is 'implicature' the right term given legal drafting violates Gricean cooperation?", "priority": "medium", "action": "read Marmor before sec1"},
+    {"id": 7, "q": "Did Cap On Liability contribute any signal at all?", "priority": "medium", "action": "Set B question 4"},
+    {"id": 8, "q": "Would score-gap negative selection raise contrast?", "priority": "low", "action": "future work; requires retraining"},
+    {"id": 9, "q": "Do the three dropped categories generalise?", "priority": "low", "action": "optional out-of-domain probe"}
+  ],
+  "next_actions": [
+    {"order": 1, "action": "Run Set A blind read (20 stratified triplets)", "cost": "45 min", "blocks": "sec5"},
+    {"order": 2, "action": "Run Set B decisive-tail analysis", "cost": "1 hr", "blocks": "sec5"},
+    {"order": 3, "action": "Add cross_encoder_score as a fourth baseline row (scores already exist)", "cost": "<1 hr", "blocks": "nothing; cheapest high-value addition"},
+    {"order": 4, "action": "Read Rafailov 2023 Section 4 derivation", "cost": "1 hr", "blocks": "sec3.5"},
+    {"order": 5, "action": "Write sec3 against the agreed spine", "cost": "half day", "blocks": "everything downstream"}
+  ],
+  "risks": [
+    {"risk": "Reporting rewards/margins as evidence of success", "severity": "fatal", "mitigation": "appendix only, or omit"},
+    {"risk": "Generating on clauses present in SFT/DPO training data and calling it held-out", "severity": "high", "mitigation": "use unused CUAD clauses or the three dropped categories"},
+    {"risk": "Claiming JDAR is a PRM or avoids Bradley-Terry", "severity": "fatal", "mitigation": "framing settled; do not resurrect"},
+    {"risk": "Padding to 8 pages when evidence supports 4", "severity": "medium", "mitigation": "NLLP short paper"},
+    {"risk": "Describing the blind read as a human study", "severity": "medium", "mitigation": "it is a one-person non-rigorous proxy; label it as such"}
+  ],
+  "researcher_profile": {
+    "background": "CV/ML, transitioning to NLP; new to formal research",
+    "verified_behaviours": [
+      "reads source code rather than assuming standard recipes",
+      "independently identified the threshold-vs-preference limitation before being prompted",
+      "refuses AI-generated explanations as corroborating evidence",
+      "correctly rejected a proposed experiment on cost/benefit grounds"
+    ],
+    "preferences": [
+      "writes first then iterates; does not work from templates — give spines and per-section claims",
+      "wants pushback and rigor over validation",
+      "expects corrections integrated and prior framing removed, not hedged",
+      "confidence intervals on every number",
+      "no emojis, no flashy language, direct tone",
+      "Diverge/Add-on framing for scope decisions"
+    ],
+    "do_not_re_explain": ["DPO mechanics", "LoRA/QLoRA", "TRL APIs", "cosine similarity", "CUAD structure", "bi-encoder vs cross-encoder", "SFT"],
+    "outstanding_assigned_reading": "Rafailov et al. 2023 Section 4 derivation — assigned twice, still not done, now blocks sec3.5"
+  },
+  "unrelated_parallel_project": {
+    "name": "Hevea brasiliensis disease detection",
+    "note": "different supervisor, different track — do not conflate with JDAR"
+  }
+}

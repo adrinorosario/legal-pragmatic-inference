@@ -7,8 +7,23 @@ TOTAL_TARGET = PER_CATEGORY_LIMIT * len(CATEGORIES)  # 30
 
 
 def load_json(file_path):
-    with open(file_path, "r", encoding="utf-8") as file:
-        return json.load(file)
+    """Load either a standard JSON file (single array) or a JSONL file
+    (one JSON object per line, e.g. dpo_pairs_2.jsonl)."""
+    if file_path.endswith(".jsonl"):
+        data = []
+        with open(file_path, "r", encoding="utf-8") as file:
+            for line_num, line in enumerate(file, start=1):
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    data.append(json.loads(line))
+                except json.JSONDecodeError as e:
+                    print(f"Skipping malformed line {line_num}: {e}")
+        return data
+    else:
+        with open(file_path, "r", encoding="utf-8") as file:
+            return json.load(file)
 
 
 def generate_blind_reads(data):
@@ -35,7 +50,7 @@ def generate_blind_reads(data):
 
         blind_reads.append({
             "category": category,
-            "question": item["prompt"],
+            "question": item["prompt_anchor"],
             "answer": item["chosen"],
             "rejected": item["rejected"],
         })
@@ -66,7 +81,7 @@ def test_blind_read(blind_reads):
         correct_letter = "a" if correct_is_a else "b"
 
         print(f"\n--- Question {i}/{total} [{item['category']}] ---")
-        print(f"{question}\n")
+        print(f'"{question}"\n')
         print(f"Option A: {option_a}\n")
         print(f"Option B: {option_b}\n")
 
@@ -120,24 +135,62 @@ def print_summary(correct, wrong, results):
     print("=" * 40)
 
 
-def save_results(results, correct, wrong, out_path="blind_read_results.json"):
+def save_all_results(sessions, out_path="blind_read_results.json"):
+    """Save every session's results plus an overall summary to one JSON file."""
+    total_correct = sum(s["correct"] for s in sessions)
+    total_wrong = sum(s["wrong"] for s in sessions)
+    total = total_correct + total_wrong
+    overall_accuracy = (total_correct / total * 100) if total else 0
+
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump({
+            "num_sessions": len(sessions),
+            "overall": {
+                "correct": total_correct,
+                "wrong": total_wrong,
+                "accuracy": round(overall_accuracy, 1),
+            },
+            "sessions": sessions,
+        }, f, indent=2, ensure_ascii=False)
+    print(f"\nAll session results saved to {out_path}")
+
+
+def main(num_runs=3):
+    # file_path = input("Path to JSON data file: ").strip()
+    data = load_json("../dpo_training_env/datasets/dpo_pairs_2.jsonl")
+
+    sessions = []
+    for run_num in range(1, num_runs + 1):
+        print("\n" + "#" * 40)
+        print(f"   SESSION {run_num}/{num_runs}")
+        print("#" * 40)
+
+        blind_reads = generate_blind_reads(data)
+        correct, wrong, results = test_blind_read(blind_reads)
+        print_summary(correct, wrong, results)
+
+        sessions.append({
+            "session": run_num,
             "correct": correct,
             "wrong": wrong,
             "results": results,
-        }, f, indent=2, ensure_ascii=False)
-    print(f"\nResults saved to {out_path}")
+        })
 
+    # Overall summary across all sessions
+    total_correct = sum(s["correct"] for s in sessions)
+    total_wrong = sum(s["wrong"] for s in sessions)
+    total = total_correct + total_wrong
+    overall_accuracy = (total_correct / total * 100) if total else 0
 
-def main():
-    data = load_json("../dpo_training_env/datasets/dpo_dataset_revised.json")
+    print("\n" + "=" * 40)
+    print("        OVERALL (ALL SESSIONS)")
+    print("=" * 40)
+    print(f"Correct: {total_correct}/{total}")
+    print(f"Wrong:   {total_wrong}/{total}")
+    print(f"Accuracy: {overall_accuracy:.1f}%")
+    print("=" * 40)
 
-    blind_reads = generate_blind_reads(data)
-    correct, wrong, results = test_blind_read(blind_reads)
-
-    print_summary(correct, wrong, results)
-    save_results(results, correct, wrong)
+    save_all_results(sessions)
 
 
 if __name__ == "__main__":

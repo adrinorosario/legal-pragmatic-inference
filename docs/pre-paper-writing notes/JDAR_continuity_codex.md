@@ -41,6 +41,18 @@ Four independent scoring methods, held-out or unsupervised, converge on the same
 
 The full pipeline beats bag-of-words by 0.7 points, well inside both intervals. **Training on judicially-grounded preference pairs bought approximately what word counting gives for free.** The convergence — not any single number — is the argument. One method in the mid-50s is a failed experiment; four is a property of the data.
 
+**Held-out panel — all four scorers on the same held-out split.** The table above mixed splits: three scorers on the 984 *training* pairs, one (the DPO implicit reward) on 500 *held-out* pairs. To close that gap, TF-IDF, BM25, freshly-computed embedding-gemma-300m cosine, and the ms-marco-MiniLM-L6-v2 cross-encoder were all re-run on 500 pairs sampled (seed=42) from `datasets/jdar_triplet_extracted_on_cuad_and_cold_cases/dpo_dataset_construction/held_out_pairs.jsonl`. Script and outputs: [evals/held_out_baseline_eval.py](../../evals/held_out_baseline_eval.py), [evals/held_out_baseline_results.md](../../evals/held_out_baseline_results.md), [evals/held_out_baseline_results.json](../../evals/held_out_baseline_results.json).
+
+| Scorer | Held-out pairwise accuracy | 95% CI |
+|---|---|---|
+| Raw embedding cosine (freshly computed) | 53.2% | [48.8, 57.6] |
+| Cross-encoder (ms-marco-MiniLM-L6-v2) | 53.8% | [49.4, 58.2] |
+| Okapi BM25 | 58.0% | [53.7, 62.3] |
+| TF-IDF cosine | 60.0% | [55.7, 64.3] |
+| DPO implicit reward (length-normalised, held out) | 58.4% | [54.0, 62.8] |
+
+Same band, same convergence, now on data the model never trained on and the lexical scorers were never fit for selection. **Caveat, disclosed not buried:** this held-out panel and the DPO implicit-reward row are not drawn from the identical pool. The DPO number (Section 7, Experiment 5) came from 500 of the 2,053 unused eligible negatives from triplet construction. This new panel is sampled from `held_out_pairs.jsonl`, a much larger (235,567-row) and far more skewed held-out pool — the random 500-sample landed 492 Cap On Liability / 4 Third Party Beneficiary / 4 Non-Compete (98.4% Cap On Liability, vs. 82.4% in the 984-pair training set). The per-category breakdown in `held_out_baseline_results.md` is therefore not reliable for the two minority categories (n=4 each) and should not be read for anything beyond the overall row. The five numbers still converge to the same ~53–60% band, which is the point, but the minority-category comparison a reviewer would want is not available from this sample and would need category-stratified re-sampling to get.
+
 ### Intended venue
 
 Two live options, both established during this work:

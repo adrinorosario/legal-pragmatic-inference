@@ -64,48 +64,17 @@ def extract_config(adapter_directory: str, load_lora: bool = False) -> list:
         # else:
         #     print(f"training_args.bin not found in {target_path}. Skipping model config exteaction")
 
-        # args_bin_path = os.path.join(target_path, "training_args.bin")
-        # if os.path.exists(args_bin_path):
-        #     try:
-        #         # load using pytorch
-        #         model_config = torch.load(args_bin_path, map_location="cpu", weights_only=False) # set to false since trained using unsloth which is custom
-        #         # Handle conversion safely if it's already an object or a dictionary
-        #         adapter_config["model_config"] = model_config.to_dict() if hasattr(model_config, "to_dict") else dict(model_config)
-        #     except Exception as e:
-        #         print(f"Failed to parse training_args.bin in {target_path}: {e}")
-        # else:
-        #     print(f"training_args.bin not found in {target_path}. Skipping model config exteaction")
-
-        # Check for standard json args, falling back to trainer state JSON configurations
-        args_json_path = os.path.join(target_path, "args.json")
-        trainer_state_path = os.path.join(target_path, "trainer_state.json")
-        
-        config_loaded = False
-
-        # Strategy A: Use TRL's readable args.json if present
-        if os.path.exists(args_json_path):
+        args_bin_path = os.path.join(target_path, "training_args.bin")
+        if os.path.exists(args_bin_path):
             try:
-                with open(args_json_path, "r", encoding="utf-8") as f:
-                    adapter_config["model_config"] = json.load(f)
-                config_loaded = True
+                # load using pytorch
+                model_config = torch.load(args_bin_path, map_location="cpu", weights_only=False) # set to false since trained using unsloth which is custom
+                # Handle conversion safely if it's already an object or a dictionary
+                adapter_config["model_config"] = model_config.to_dict() if hasattr(model_config, "to_dict") else dict(model_config)
             except Exception as e:
-                print(f"Failed to parse args.json in {target_path}: {e}")
-
-        # Strategy B: Extract the argument dump recorded inside trainer_state.json
-        if not config_loaded and os.path.exists(trainer_state_path):
-            try:
-                with open(trainer_state_path, "r", encoding="utf-8") as f:
-                    state_data = json.load(f)
-                    # Unsloth/Transformers embeds the runtime args dictionary string or map inside the state file
-                    if "trial_params" in state_data:
-                        adapter_config["model_config"] = state_data["trial_params"]
-                        config_loaded = True
-            except Exception as e:
-                print(f"Failed to parse trainer_state.json in {target_path}: {e}")
-
-        if not config_loaded:
-            print(f"⚠️ No JSON-readable configuration sources found in {target_path}. Skipping model config extraction.")
-        
+                print(f"Failed to parse training_args.bin in {target_path}: {e}")
+        else:
+            print(f"training_args.bin not found in {target_path}. Skipping model config exteaction")        
 
         adapter_configs.append(adapter_config)
     
@@ -119,9 +88,9 @@ def main():
     # print("="*40)
     # print(dpo_configs)
 
-    with open("sft_models_configs.json", "w") as sftFile:
+    with open("sft_models_configs2.json", "w") as sftFile:
         json.dump(sft_configs, sftFile, indent=4, default=str)
-    with open("dpo_models_configs.json", "w") as dpoFile:
+    with open("dpo_models_configs2.json", "w") as dpoFile:
         json.dump(dpo_configs, dpoFile, indent=4, default=str)
 
 

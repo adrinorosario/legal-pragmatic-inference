@@ -5,8 +5,8 @@ from peft import PeftConfig
 from transformers import TrainingArguments
 from pathlib import Path
 
-SFT_ADAPTERS_DIR = "./sft_adapters"
-DPO_ADAPTERS_DIR = "./dpo_adapters"
+SFT_ADAPTERS_DIR = "../dpo_training_env/dpo_run_env/llama3_8b_post_dpo_metrics"
+DPO_ADAPTERS_DIR = "../dpo_training_env/dpo_run_env/llama3_8b_post_dpo_metrics"
 
 def extract_config(adapter_directory: str, load_lora: bool = False) -> list:
     dir_path = Path(adapter_directory)
@@ -88,9 +88,9 @@ def main():
     # print("="*40)
     # print(dpo_configs)
 
-    with open("sft_models_configs2.json", "w") as sftFile:
+    with open("base_sft_model_configs.json", "w") as sftFile:
         json.dump(sft_configs, sftFile, indent=4, default=str)
-    with open("dpo_models_configs2.json", "w") as dpoFile:
+    with open("base_dpo_model_configs.json", "w") as dpoFile:
         json.dump(dpo_configs, dpoFile, indent=4, default=str)
 
 

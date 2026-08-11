@@ -1,0 +1,20 @@
+[
+    {
+        "adapter_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/dpo_training_env/dpo_run_env/llama3_8b_post_dpo_metrics/jdar_dpo",
+        "resolved_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/dpo_training_env/dpo_run_env/llama3_8b_post_dpo_metrics/jdar_dpo/checkpoint-120",
+        "lora_config": null,
+        "model_config": null
+    },
+    {
+        "adapter_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/dpo_training_env/dpo_run_env/llama3_8b_post_dpo_metrics/jdar_dpo_adapter",
+        "resolved_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/dpo_training_env/dpo_run_env/llama3_8b_post_dpo_metrics/jdar_dpo_adapter",
+        "lora_config": null,
+        "model_config": null
+    },
+    {
+        "adapter_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/dpo_training_env/dpo_run_env/llama3_8b_post_dpo_metrics/figures",
+        "resolved_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/dpo_training_env/dpo_run_env/llama3_8b_post_dpo_metrics/figures",
+        "lora_config": null,
+        "model_config": null
+    }
+]

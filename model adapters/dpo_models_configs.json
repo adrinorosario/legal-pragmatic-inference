@@ -1,0 +1,20 @@
+[
+    {
+        "adapter_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/model adapters/dpo_adapters/llama_3_2_instruct_dpo_adapter_2",
+        "resolved_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/model adapters/dpo_adapters/llama_3_2_instruct_dpo_adapter_2",
+        "lora_config": null,
+        "model_config": null
+    },
+    {
+        "adapter_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/model adapters/dpo_adapters/qwen3_4b_instruct_dpo_adapter_2",
+        "resolved_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/model adapters/dpo_adapters/qwen3_4b_instruct_dpo_adapter_2",
+        "lora_config": null,
+        "model_config": null
+    },
+    {
+        "adapter_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/model adapters/dpo_adapters/ministral_jdar_dpo_adapter_2",
+        "resolved_path": "/Users/adrinorosario/Desktop/legal-pragmatic-inference/model adapters/dpo_adapters/ministral_jdar_dpo_adapter_2",
+        "lora_config": null,
+        "model_config": null
+    }
+]
